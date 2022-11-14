@@ -29,7 +29,7 @@ const Navbar = () => {
         <nav className='flex items-start justify-around text-white '>
 
             <div className='flex flex-col gap-y-4 mr-6'>
-                <img src={lang} alt="language"  />
+                <img src={lang} alt="language"  className='mb-6 w-[33px] h-[33px]'/>
                 <img src={facebook} alt="facebook"  />
                 <img src ={whatsapp} alt="whatsapp"  />
                 <img src={linkedin} alt="linkedin"    />

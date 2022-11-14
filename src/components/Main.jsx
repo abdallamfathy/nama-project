@@ -1,4 +1,5 @@
 import React from 'react'
+import { Products } from '.'
 import Navbar from './Navbar'
 import Slider from './Slider'
 
@@ -9,6 +10,7 @@ const Main = () => {
         <Navbar/>
     </div>
         <Slider/>
+        <Products/>
     </div>
   )
 }

@@ -10,9 +10,13 @@ const Slider = () => {
         
         <h1 className='text-white z-100 top-96 relative text-center  text-6xl font-bold'>
             خصم يبدأ من <span className='text-[#FF7315]'>%15</span> ويصل الى <span className='text-[#FF7315]'>%30</span></h1>
-    <Carousel className='-mt-32 -z-50'>
+    <Carousel 
+    leftControl=" "
+    rightControl=" "
+    
+    className='-mt-32 -z-50'>
       <div className="flex h-full items-center justify-center bg-gray-400 dark:bg-gray-700 dark:text-white">
-        <img src={img1} alt="asd" className='' />
+        <img src={img1} alt="asd" className='object-fit' />
       </div>
       <div className="flex h-full items-center justify-center bg-gray-400 dark:bg-gray-700 dark:text-white">
       <img src={img2} alt="asd" />
