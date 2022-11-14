@@ -10,7 +10,9 @@ const Main = () => {
         <Navbar/>
     </div>
         <Slider/>
+        <div className=''>
         <Products/>
+        </div>
     </div>
   )
 }
