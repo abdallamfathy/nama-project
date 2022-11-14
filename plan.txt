@@ -1,0 +1,20 @@
+    Monday
+[1] Make Project structure
+[2] Make main page (- Navbar
+                    - Slider
+                    - Social media icons)
+[3] Make Why us page
+
+
+    Tuesday
+[1] Products
+[2] Make about us page
+[3] Make contact page
+
+    Wednesday
+[1] Make footer
+[2] Basel edits
+
+    Thursday
+[1] Final edits
+[2] Make it live
