@@ -4,8 +4,10 @@ import Slider from './Slider'
 
 const Main = () => {
   return (
-    <div className='container mx-auto'>
+    <div>
+        <div className='container mx-auto '>
         <Navbar/>
+    </div>
         <Slider/>
     </div>
   )

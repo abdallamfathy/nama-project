@@ -26,20 +26,20 @@ const Navbar = () => {
     <>
     <div>
       <div className='h-5 mt-10 '>
-        <nav className='flex items-start justify-around'>
+        <nav className='flex items-start justify-around text-white '>
 
             <div className='flex flex-col gap-y-4 mr-6'>
-                <img src={lang} alt="language" className='text-black bg-black mb-12 ' />
-                <img src={facebook} alt="facebook" className='text-black bg-black' />
-                <img src ={whatsapp} alt="whatsapp" className='text-black bg-black' />
-                <img src={linkedin} alt="linkedin"   className='text-black bg-black' />
-                <img src={instagram} alt="instagram" className='text-black bg-black' />
-                <img src={twitter} alt="twitter" className='text-black bg-black' />
+                <img src={lang} alt="language"  />
+                <img src={facebook} alt="facebook"  />
+                <img src ={whatsapp} alt="whatsapp"  />
+                <img src={linkedin} alt="linkedin"    />
+                <img src={instagram} alt="instagram"  />
+                <img src={twitter} alt="twitter" />
             </div>
 
             <div className='hidden lg:flex lg:flex-1 lg:justify-start lg:gap-x-20'>
             {navigation.map((item) => (
-                <a key={item.name} href={item.href} className={`font-semibold text-gray-600 hover:text-[#FF7315] ${item.current && "text-[#FF7315] "} `}>
+                <a key={item.name} href={item.href} className={`font-semibold  hover:text-[#FF7315] ${item.current && "text-[#FF7315] "} `}>
                   {item.name}
                 </a>
               ))}
