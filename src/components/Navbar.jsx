@@ -37,7 +37,7 @@ const Navbar = () => {
                 <img src={twitter} alt="twitter" />
             </div>
 
-            <div className='hidden lg:flex lg:flex-1 lg:justify-start lg:gap-x-20'>
+            <div className='hidden lg:flex lg:flex-1 lg:justify-start lg:gap-x-5'>
             {navigation.map((item) => (
                 <a key={item.name} href={item.href} className={`font-semibold  hover:text-[#FF7315] ${item.current && "text-[#FF7315] "} `}>
                   {item.name}
