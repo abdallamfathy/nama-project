@@ -10,4 +10,6 @@ module.exports = {
   plugins: [
      require('flowbite/plugin')
     ],
+    
+    important: '#app',    
 }

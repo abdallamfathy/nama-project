@@ -44,7 +44,8 @@ const Navbar = () => {
                  spy={true}
                 active="active"
                 smooth={true}
-                duration={1000} className={`font-semibold text-2xl  hover:text-[#FF7315] ${item.current && "text-[#FF7315] "} `}>
+                duration={1000}
+                 className={`font-semibold text-2xl cursor-pointer  hover:text-[#FF7315] ${item.current && "text-[#FF7315] "} `}>
                   {item.name}
                 </Link>
               ))}

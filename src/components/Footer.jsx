@@ -7,9 +7,46 @@ import call from '../assets/call.png'
 const Footer = () => {
   return (
     <>
-      <div className='bg-[#3A3535] mt-6   grid  grid-cols-4 justify-end text-white '>
-          <div className='col-span-1'>
-            aboody
+       <div className='flex flex-row  col-span-3 bg-gray-500'>
+       <div className=' flex-col items-end flex '>
+          <h1 className='text-3xl font-bold   my-8'>خريطة الموقع</h1>
+            
+
+          </div>
+         <div>
+         <div className='flex justify-center mb-6'>
+        <h1 className='text-3xl font-bold'>اتصل بنا</h1>
+        </div>
+        <div className='flex justify-end w-96 relative left-36 '>
+        <div className='flex justify-end flex-col items-end gap-10'>
+          <p className='text-right'>الادارة : المدينة المنورة - شارع الملك عبد العزيز - مبنى الخمرى بلازا - الدور السابع - مكتب 13 <br /> المصنع : المنطقة الصناعية الجديدة  مدن شارع (63)</p>
+        <a href='#' className=' underline relative bottom-3'>Nama-sales@khomrigroup.com</a>
+        <p className='relative bottom-1'>0555301707 - 0500361234</p>
+        </div>
+        <div className='flex flex-col items-center justify-center ml-6'>
+          <div><img src={location} alt="location"/></div>
+          <div><img src={message} alt="message"/></div>
+          <div><img src={call} alt="call"/></div>
+        </div>
+        </div>
+         </div>
+          <div className=' mt-14 flex-col p-4  items-end flex'>
+            <img src={logo} alt="logo" className='mr-6' /> 
+            <p className='text-right text-[16px]  leading-9'>يعد مصنع نما طيبة للمنتجات األسمنتية من المصانع لوك ( ي الرائدة ف وتم تأسيسه يل عام 2016 بهيئة مدن الصناعية بالمدينة المنورة ، مستوي من الكفاءة والجوده لضمان يل اع حيث يمتلك خطوط انتاج ع يل توفرت احتياجات بالقدرة ع خروج منتج عاىل الجودة لتلبية احتياجات السوق طبقا للمواصفات القياسية ، حيث اننا نتمرت ن عمالئنا الكرام بالكميات المط المتفق عليه مع العميل
+          </p>
+          </div>
+       </div>
+    </>
+  )
+}
+
+export default Footer
+
+
+{/* <div className='bg-[#3A3535] mt-6   grid  grid-cols-4 justify-end text-white '>
+          <div className='col-span-1 flex-col items-end flex '>
+          <h1 className='text-3xl font-bold relative  my-8'>خريطة الموقع</h1>
+
           </div>
           <div className='col-span-1 columns-3 flex-col items-end flex w-96'>
             <h1 className='text-3xl font-bold relative right-6 my-8'>اتصل بنا</h1>
@@ -27,14 +64,9 @@ const Footer = () => {
               <img src={call} alt="call" className='relative left-2 col-span-1 ' />
             </div>
           </div>
-          <div className=' mt-14   flex-col p-4 col-span-2 items-end flex'>
+          <div className=' mt-14   flex-col p-4  col-span-2 items-end flex'>
             <img src={logo} alt="logo" className='mr-6' /> 
-            <p className='text-right p-6 pl-16 leading-9'>يعد مصنع نما طيبة للمنتجات األسمنتية من المصانع لوك ( ي الرائدة ف وتم تأسيسه يل عام 2016 بهيئة مدن الصناعية بالمدينة المنورة ، مستوي من الكفاءة والجوده لضمان يل اع حيث يمتلك خطوط انتاج ع يل توفرت احتياجات بالقدرة ع خروج منتج عاىل الجودة لتلبية احتياجات السوق طبقا للمواصفات القياسية ، حيث اننا نتمرت ن عمالئنا الكرام بالكميات المط المتفق عليه مع العميل
+            <p className='text-right text-[16px]    leading-9'>يعد مصنع نما طيبة للمنتجات األسمنتية من المصانع لوك ( ي الرائدة ف وتم تأسيسه يل عام 2016 بهيئة مدن الصناعية بالمدينة المنورة ، مستوي من الكفاءة والجوده لضمان يل اع حيث يمتلك خطوط انتاج ع يل توفرت احتياجات بالقدرة ع خروج منتج عاىل الجودة لتلبية احتياجات السوق طبقا للمواصفات القياسية ، حيث اننا نتمرت ن عمالئنا الكرام بالكميات المط المتفق عليه مع العميل
           </p>
           </div>
-      </div>
-    </>
-  )
-}
-
-export default Footer
+      </div> */}
