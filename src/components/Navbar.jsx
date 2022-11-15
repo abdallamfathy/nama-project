@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import {FaBars} from 'react-icons/fa'
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import { Dialog } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import logo from '../assets/logo.png'
@@ -10,15 +10,16 @@ import twitter from '../assets/twitter.png'
 import instagram from '../assets/instagram.png'
 import linkedin from '../assets/linkedin.png'
 import whatsapp from '../assets/whatsapp.png'
+import { Link } from 'react-scroll'
 
 const Navbar = () => {
 
   const navigation = [
-    { name: 'اتصل بنا', href: '/', current: false },
-    { name: 'من نحن', href: '/', current: false },
-    { name: 'أعمالنا', href: '/about', current: false },
-    { name: 'منتجاتنا', href: '/contact', current: false },
-    { name: 'الرئيسية', href: '/contact', current: true },
+    { name: 'اتصل بنا', href: 'contact', current: false },
+    { name: 'من نحن', href: 'about', current: false },
+    { name: 'أعمالنا', href: 'about', current: false },
+    { name: 'منتجاتنا', href: 'products', current: false },
+    { name: 'الرئيسية', href: '/', current: true },
     
   ]
 //   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -39,9 +40,13 @@ const Navbar = () => {
 
             <div className='hidden lg:flex lg:flex-1 lg:justify-start lg:gap-x-5 ml-10'>
             {navigation.map((item) => (
-                <a key={item.name} href={item.href} className={`font-semibold text-2xl  hover:text-[#FF7315] ${item.current && "text-[#FF7315] "} `}>
+                <Link key={item.name} to={item.href}
+                 spy={true}
+                active="active"
+                smooth={true}
+                duration={1000} className={`font-semibold text-2xl  hover:text-[#FF7315] ${item.current && "text-[#FF7315] "} `}>
                   {item.name}
-                </a>
+                </Link>
               ))}
           </div>
 

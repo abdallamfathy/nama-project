@@ -5,7 +5,7 @@ import call from '../assets/call.png'
 
 const Contact = () => {
   return (
-    <div className='my-20 container'>
+    <div className='Contact my-20 container' id="contact" >
           <div className='flex justify-center mb-14'>
         <h1 className='text-4xl font-bold'>اتصل بنا</h1>
         </div>
