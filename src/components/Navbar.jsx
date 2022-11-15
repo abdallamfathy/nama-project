@@ -25,10 +25,10 @@ const Navbar = () => {
   return (
     <>
     <div>
-      <div className='h-5 mt-10 '>
-        <nav className='flex items-start justify-around text-white '>
+      <div className='h-5 -10  '>
+        <nav className='flex items-start justify-around text-white m-10 '>
 
-            <div className='flex flex-col gap-y-4 mr-6 '>
+            <div className='flex flex-col gap-y-4 pl-7 '>
                 <img src={lang} alt="language"  className='mb-6 w-[33px] h-[33px]'/>
                 <img src={facebook} alt="facebook"  />
                 <img src ={whatsapp} alt="whatsapp"  />
@@ -37,9 +37,9 @@ const Navbar = () => {
                 <img src={twitter} alt="twitter" />
             </div>
 
-            <div className='hidden lg:flex lg:flex-1 lg:justify-start lg:gap-x-5'>
+            <div className='hidden lg:flex lg:flex-1 lg:justify-start lg:gap-x-5 ml-10'>
             {navigation.map((item) => (
-                <a key={item.name} href={item.href} className={`font-semibold  hover:text-[#FF7315] ${item.current && "text-[#FF7315] "} `}>
+                <a key={item.name} href={item.href} className={`font-semibold text-2xl  hover:text-[#FF7315] ${item.current && "text-[#FF7315] "} `}>
                   {item.name}
                 </a>
               ))}
@@ -51,7 +51,7 @@ const Navbar = () => {
                     <div class="flex absolute inset-y-0 right-0 items-center pr-6 pointer-events-none">
                         <svg aria-hidden="true" class="w-5 h-5 text-[#FF7315] " fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
                     </div>
-                    <input type="search" id="default-search" class="block p-4 pr-10 w-[310px] h-[50px] text- indent-48 text-sm text-gray-900 bg-gray-50 rounded-lg border " placeholder="...بحث" required=""/>
+                    <input type="search" id="default-search" class="block p-4 pr-10 w-[310px] h-[50px] text- indent-48 text-sm text-gray-900 bg-gray-50 rounded-lg border-gray-50 " placeholder="...بحث" required=""/>
                     
                 </div>
                 <label for="default-search" class="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-gray-300">Search</label>
