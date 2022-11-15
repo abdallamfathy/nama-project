@@ -1,5 +1,5 @@
 import React from 'react'
-import { Products } from '.'
+import { Products , Footer } from '.'
 import Navbar from './Navbar'
 import Slider from './Slider'
 
@@ -10,8 +10,9 @@ const Main = () => {
         <Navbar/>
     </div>
         <Slider/>
-        <div className=''>
+        <div >
         <Products/>
+        <Footer/>
         </div>
     </div>
   )
