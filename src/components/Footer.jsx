@@ -7,7 +7,7 @@ import call from '../assets/call.png'
 const Footer = () => {
   return (
     <>
-      <div className='bg-[#3A3535] container mx-auto  grid  grid-cols-4 justify-end text-white '>
+      <div className='bg-[#3A3535] mt-6   grid  grid-cols-4 justify-end text-white '>
           <div className='col-span-1'>
             aboody
           </div>
