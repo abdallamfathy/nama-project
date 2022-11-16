@@ -5,7 +5,6 @@ import Certificates from './Certificates'
 import Navbar from './Navbar'
 import Partners from './Partners'
 import Quality from './Quality'
-import Slide from './Slide'
 import Slider from './Slider'
 
 
@@ -14,14 +13,11 @@ const Main = () => {
     <div>
       <Navbar />
       <Slider />
-      <div className=''>
       <Products />
       <Certificates />
       <Quality />
       <Partners />
       <Contact />
-      <Slide />
-      </div>
       <Footer />
     </div>
   )
