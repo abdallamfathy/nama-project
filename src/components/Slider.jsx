@@ -1,4 +1,3 @@
-import { Carousel } from 'flowbite-react'
 import React from 'react'
 import SwiperCore, { Navigation, Pagination, Scrollbar, A11y , EffectFade, Autoplay } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
