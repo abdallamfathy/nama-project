@@ -14,8 +14,8 @@ import whatsapp from '../assets/whatsapp.png'
 
 const Footer = () => {
   return (
-    <>
-       <div className='bg-[#3A3535] mt-6  container mx-auto grid  grid-cols-5 justify-end text-white '>
+    <div className='bg-[#3A3535]'>
+       <div className=' mt-6  container mx-auto grid  grid-cols-5 justify-end text-white '>
           <div className='col-span-1 flex-col items-end flex '>
           <h1 className='text-3xl font-bold relative  my-8'>خريطة الموقع</h1>
               <div className='flex flex-col'>
@@ -57,7 +57,7 @@ const Footer = () => {
           </p>
           </div>
       </div> 
-    </>
+    </div>
   )
 }
 

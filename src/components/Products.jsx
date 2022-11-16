@@ -4,7 +4,7 @@ import brick1 from '../assets/brick1.png'
 const Products = () => {
   return (
     <div id='products'>
-        <div className='container'>
+        <div className='container mx-auto my-16'>
           
       <h1 className='text-4xl text-[#3A3535] font-bold text-center mb-6'>منتجاتنا</h1>
       <div className='flex flex-wrap flex-row justify-center gap-20 gap-x-24'>

@@ -15,7 +15,7 @@ const Slider = () => {
     rightControl=" "
     
     className='-mt-32 -z-50 '>
-      <div className="object-cover duration-1000 ease-in">
+      <div className="object-cover duration-1000 ease-in ">
         <img src={img1} alt="image" className='object-contain pt-14' />
       </div>
       <div className="">

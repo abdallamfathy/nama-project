@@ -2,6 +2,7 @@ import React from 'react'
 import { BrowserRouter, Route, Router, Routes } from 'react-router-dom'
 import { Products , Footer , Contact } from '.'
 import Navbar from './Navbar'
+import Partners from './Partners'
 import Slider from './Slider'
 
 
@@ -11,6 +12,7 @@ const Main = () => {
       <Navbar />
       <Slider />
       <Products />
+      <Partners />
       <Contact />
       <Footer />
     </div>
