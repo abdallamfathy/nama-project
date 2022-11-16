@@ -11,6 +11,9 @@ import instagram from '../assets/instagram.png'
 import linkedin from '../assets/linkedin.png'
 import whatsapp from '../assets/whatsapp.png'
 import { Link } from 'react-scroll'
+import facebooks from '../assets/facebook.png'
+import { FaFacebook , FaInstagram , FaTwitter , FaWhatsapp , FaLinkedin } from 'react-icons/fa'
+
 
 const Navbar = () => {
 
@@ -31,11 +34,17 @@ const Navbar = () => {
 
             <div className='flex flex-col gap-y-4 pl-7 '>
                 <img src={lang} alt="language"  className='mb-6 w-[33px] h-[33px]'/>
-                <img src={facebook} alt="facebook"  />
-                <img src ={whatsapp} alt="whatsapp"  />
+                <FaFacebook className='w-[33px] h-[33px]'/>
+                <FaInstagram className='w-[33px] h-[33px] '/>
+                <FaTwitter className='w-[33px] h-[33px]'/>
+                <FaWhatsapp className='w-[33px] h-[33px]'/>
+                <FaLinkedin className='w-[33px] h-[33px]'/>
+
+                {/* <img src={facebook} alt="facebook"  />
+                <img src ={facebooks} alt="whatsapp"  />
                 <img src={linkedin} alt="linkedin"    />
                 <img src={instagram} alt="instagram"  />
-                <img src={twitter} alt="twitter" />
+                <img src={twitter} alt="twitter" /> */}
             </div>
 
             <div className='hidden lg:flex lg:flex-1 lg:justify-start lg:gap-x-5 ml-10'>
