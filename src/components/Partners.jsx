@@ -7,7 +7,7 @@ const Partners = () => {
   return (
     <div className='container mx-auto'>
         <div className='flex justify-center my-8'>
-            <h1 className='text-4xl font-bold  relative right9'>شركاء النجاح</h1>
+            <h1 className='text-4xl font-bold  relative '>شركاء النجاح</h1>
         </div>
         <div className='flex justify-center '>
             <img src={cert3} alt="image" />
