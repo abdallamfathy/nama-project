@@ -5,7 +5,7 @@ import cert3 from '../assets/cert3.png'
 
 const Partners = () => {
   return (
-    <div className='container mx-auto'>
+    <div>
         <div className='flex justify-center my-8'>
             <h1 className='text-4xl font-bold  relative '>شركاء النجاح</h1>
         </div>

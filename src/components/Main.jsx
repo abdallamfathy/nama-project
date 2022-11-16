@@ -1,6 +1,7 @@
 import React from 'react'
 import { BrowserRouter, Route, Router, Routes } from 'react-router-dom'
 import { Products , Footer , Contact } from '.'
+import Certificates from './Certificates'
 import Navbar from './Navbar'
 import Partners from './Partners'
 import Quality from './Quality'
@@ -14,6 +15,7 @@ const Main = () => {
       <Slider />
       <div className='container mx-auto'>
       <Products />
+      <Certificates />
       <Quality />
       <Partners />
       <Contact />
