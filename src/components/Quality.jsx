@@ -7,7 +7,7 @@ import Button from './Button';
 
 const Quality = () => {
   return (
-    <>
+    <div className='my-28'>
         <div className='flex flex-col  justify-center container mx-auto'>
             <h1 className='text-4xl font-bold text-center mb-12'>الجودة</h1>
             <p className='text-2xl text-center '>يُنتج مصنع نما طيبة أنواع عديدة من البلك البركاني باستخدام مواد بوزلانية خالية من الشوائب يتم جلبها من الجبال البركانية التي تشتهر بها منطقة المدينة المنورة وتكون مواد خام على هيئة بودرة بركانية وحصى بركاني مقاس ( 3/8 in )
@@ -35,7 +35,7 @@ const Quality = () => {
       </Swiper>
       <Button text={"عرض المزيد"}/>
        </div>
-    </>
+    </div>
   )
 }   
 

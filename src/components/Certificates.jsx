@@ -6,7 +6,7 @@ import cert6 from '../assets/cert6.png'
 
 const Certificates = () => {
   return (
-    <div>
+    <div className='my-28'>
     <div className='flex justify-center my-8'>
         <h1 className='text-4xl font-bold  relative '>شهادات واعتمادات</h1>
     </div>

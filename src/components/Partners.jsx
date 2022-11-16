@@ -6,7 +6,7 @@ import Button from './Button'
 
 const Partners = () => {
   return (
-    <div>
+    <div className='my-28'>
         <div className='flex justify-center my-8'>
             <h1 className='text-4xl font-bold  relative '>شركاء النجاح</h1>
         </div>
