@@ -2,6 +2,7 @@ import React from 'react'
 import cert1 from '../assets/cert1.png'
 import cert2 from '../assets/cert2.png'
 import cert3 from '../assets/cert3.png'
+import Button from './Button'
 
 const Partners = () => {
   return (
@@ -14,6 +15,7 @@ const Partners = () => {
             <img src={cert2} alt="image" />
             <img src={cert1} alt="image" />
         </div>
+        <Button text={"عرض المزيد"}/>
     </div>
   )
 }

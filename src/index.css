@@ -37,3 +37,22 @@
     height: 100%;
     object-fit: cover;
   }
+/* .swiper-pagination-bullet{
+      background: white !important;
+      width: 1rem !important;
+      height: 1rem  !important;
+      border-radius: .5rem !important;
+      opacity: 1 !important;
+      position: relative;
+      right: 10px !important;
+  }
+  
+  .swiper-pagination-bullet-active {
+    background-color: #FF7315 !important;
+  } */
+  .swiper-pagination {
+    
+     left: 550px !important; 
+     bottom: 70px !important;
+    
+} 
