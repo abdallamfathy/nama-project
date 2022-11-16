@@ -28,7 +28,7 @@ const Navbar = () => {
 //   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   return (
     <>
-    <div>
+    <div className='relative  z-50'>
       <div className='h-5 -10  '>
         <nav className='flex items-start justify-around text-white m-10 '>
 

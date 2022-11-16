@@ -14,7 +14,7 @@ const Slider = () => {
   return (
     <div className="h-[103vh] -ml-1">
         
-        <h1 className='text-white z-100 top-[420px] relative text-center  text-6xl font-bold'>
+        <h1 className='text-white z-50 top-[420px] relative text-center  text-6xl font-bold'>
             خصم يبدأ من <span className='text-[#FF7315]'>%15</span> ويصل الى <span className='text-[#FF7315]'>%30</span></h1>
             <Swiper modules={[Navigation , Pagination , Scrollbar , A11y , EffectFade , Autoplay ]}
         pagination={{ dynamicBullets: false,clickable: true,background: 'red' 
@@ -22,7 +22,7 @@ const Slider = () => {
         effect={'fade'}
         speed={2500}
         autoplay={{   delay: 1500 , disableOnInteraction: false }}
-        className="mySwiper -mt-32 -z-50" 
+        className="mySwiper -mt-32 " 
         
         style={{
             "--swiper-pagination-color": "#FF7315",
@@ -34,13 +34,13 @@ const Slider = () => {
         >
             <SwiperSlide>
                 <div className=''></div>
-                <img src={img1} alt="image" className='blur-sms  saturate-50 contrast-100 ' />
+                <img src={img1} alt="image" className=' brightness-50' />
             </SwiperSlide>
             <SwiperSlide>
-                <img src={img2} alt="image" className='blur-sms  saturate-50 contrast-100 ' />
+                <img src={img2} alt="image" className='brightness-50 ' />
             </SwiperSlide>
             <SwiperSlide>
-                <img src={img3} alt="image" className='blur-sms  saturate-50 contrast-100 ' />
+                <img src={img3} alt="image" className='brightness-50 ' />
             </SwiperSlide>
         </Swiper>
   </div>
