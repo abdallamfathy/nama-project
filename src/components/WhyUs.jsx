@@ -1,0 +1,79 @@
+import React from 'react'
+import SwiperCore, {  Scrollbar, A11y , EffectFade, Autoplay } from 'swiper';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import "swiper/css";
+import "swiper/css/effect-fade";
+import "../index.css"
+import img1 from '../assets/img1.png'
+import img2 from '../assets/img2.png'
+import img3 from '../assets/img3.png'
+import Button from './Button';
+
+
+const WhyUs = () => {
+  return (
+    <div className='container mx-auto my-28'>
+        <div className='flex justify-center mb-24'>
+        <h1 className='font-bold text-4xl text-[#3A3535]'>لماذا نحن</h1>
+      </div>
+        <Swiper modules={[  A11y , EffectFade , Autoplay ]}
+        
+        // effect={'fade'}
+        speed={2500}
+        // autoplay={{  delay: 1500 ,  disableOnInteraction: false }}
+        className="mySwiper " 
+        >
+            <SwiperSlide >
+                <div className='flex flex-row gap-x-20'>
+                <div className='flex'>
+                        <span className='w-[289px] h-[183px] bg-[#3A3535] rounded-xl'>متوفر بجميع الأشكال</span>
+                </div>
+                  <div className='flex flex-col justify-center items-end w-96'>
+                     <h1 className='text-[34px] font-semibold text-[#FF7315] text-right'>خصائص بركانى نما طيبة</h1>
+                     <p className='text-right -mb-10'>بلك نما طيبة المعزول هو مثالى للبناء من جميع النواحى فهو فعال من حيث التكلفة وسهولة الاستخدام ويوفر خلفية مثالية لقبول أعمال اللياثة ( بلوك - انتر لوك ) حيث يمتلك حطوط انتاج على أعلى مستوى من الكفائة والجودة لضمان خروج منتج عالى الجودة لتلبية احتياجات عملائنا الكرام بالكمية المطلوبة طبقا للجدول الزمنى المتفق عليه مع العميل ويقع مصنع نما طيبة للمنحات الاسمنتية بموقع متميز لضمان تغطية أكبر لجميع عملائنا ونسعى لفتح فروع أخرى لتلبية احتياجات عملائنا بباقى مناطق المملكة </p>
+                  </div>
+                </div>
+            </SwiperSlide>
+            <SwiperSlide>
+            <div className='flex flex-row gap-x-20'>
+                <img src={img3} alt="image" className='w-[520px] h-[420px] rounded-xl brightness-50' />
+                  <div className='flex flex-col justify-center items-end w-96'>
+                     <h1 className='text-[34px] font-semibold text-[#FF7315] text-right'>قيمنا</h1>
+                     <p className='text-right -mb-10'>رضا عملائنا , الجودة الفائقة الاحترافية, المصداقية والأمانة, الشفافية والوضوح, الابتكار والابداع, تطوير مهارات الكادر الفنى والادارى بالمصنع</p>
+                     <Button className="mt-0" text='اقرأ المزيد'  />
+                  </div>
+                </div>
+            </SwiperSlide>
+            <SwiperSlide>
+            <div className='flex flex-row gap-x-20'>
+                <img src={img3} alt="image" className='w-[520px] h-[420px] rounded-xl brightness-50' />
+                  <div className='flex flex-col justify-center items-end w-96'>
+                     <h1 className='text-[34px] font-semibold text-[#FF7315] text-right'>أهدافنا</h1>
+                     <p className='text-right -mb-10'>ايجاد بيئة عمل متكاملة, نستثمر من خلالها أعلى الكفائات والخبرات البشرية, لمواكبة احتياجات ومتطلبات السوق السعودى والعربى بشكل عام. مع مسيرة ااتطوير والتنمية التى تشهدها المملكة بكافة مناحى الحياة والمجنمع ومصممون على التميز فى كل مجالات أعمالنا وفق فلسفة تنتهج الجودة المتكاملة باستخدام ما نملكه من قدرات فنية وموارد بشرية والاستعانة بأحدث ما توصلت اليه التكنولوجيا الحديثة من برامج.</p>
+                     <Button className="mt-0" text='اقرأ المزيد'  />
+                  </div>
+                </div>
+            </SwiperSlide>
+            <SwiperSlide>
+            <div className='flex flex-row gap-x-20'>
+                <img src={img3} alt="image" className='w-[520px] h-[420px] rounded-xl brightness-50' />
+                  <div className='flex flex-col justify-center items-end w-96'>
+                     <h1 className='text-[34px] font-semibold text-[#FF7315] text-right'>سياستنا الخاصة</h1>
+                     <p className='text-right text-xl font-bold'>رضا عملائنا</p>
+                     <p className='text-right'>المعيار الوحيد المعتمد لدينا هو رضا العملاء</p>
+
+                     <p className='text-right text-xl font-bold'>التنمية</p>
+                     <p className='text-right'>نسعى الى خلق بيئة عمل متجددة داخل المصنع ونهدف الى التحسين المستمر للمصنع وللموظفين</p>
+                     <p className='text-right text-xl font-bold'>تحسين نطم الادارة </p>
+                     <p className='text-right -mb-10'>الالتزام والمحافظة على العمل وفقا للايزو 9001-2008 ونلتزم بالتطوير المستمر من خلال تحليل ملاحظات العملاء والمراجعة.</p>
+
+                     <Button className="mt-0" text='اقرأ المزيد'  />
+                  </div>
+                </div>
+            </SwiperSlide>
+        </Swiper>
+    </div>
+  )
+}
+
+export default WhyUs

@@ -7,6 +7,7 @@ import Partners from './Partners'
 import Quality from './Quality'
 import Slider from './Slider'
 import About from './About'
+import WhyUs from './WhyUs'
 
 
 const Main = () => {
@@ -15,6 +16,7 @@ const Main = () => {
       <Navbar />
       <Slider />
       <Products />
+      {/* <WhyUs  /> */}
       <About />
       <Certificates />
       <Quality />
