@@ -1,5 +1,6 @@
 import React from 'react'
 import brick1 from '../assets/brick1.png'
+import Button from './Button'
 
 const Products = () => {
   return (
@@ -217,9 +218,7 @@ const Products = () => {
 </div>
 </div>
 </div> 
-     <div className='flex justify-center'>
-     <button className='text-lg text-[#FF7315] bg-[#232020] rounded-xl w-[122px] h-[51px] text-center mt-20 '>عرض المزيد</button>
-     </div>
+     <Button text={"عرض المزيد"}/>
         </div>
     </div>
   )
