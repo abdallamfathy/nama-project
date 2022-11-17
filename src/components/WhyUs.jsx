@@ -4,9 +4,8 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import "swiper/css";
 import "swiper/css/effect-fade";
 import "../index.css"
-import img1 from '../assets/img1.png'
-import img2 from '../assets/img2.png'
 import img3 from '../assets/img3.png'
+import cert1 from '../assets/cert1.png'
 import Button from './Button';
 
 
@@ -24,53 +23,47 @@ const WhyUs = () => {
         className="mySwiper " 
         >
             <SwiperSlide >
-                <div className='flex flex-row gap-x-20'>
-                <div className='flex'>
-                        <span className='w-[289px] h-[183px] bg-[#3A3535] rounded-xl'>متوفر بجميع الأشكال</span>
-                </div>
-                  <div className='flex flex-col justify-center items-end w-96'>
-                     <h1 className='text-[34px] font-semibold text-[#FF7315] text-right'>خصائص بركانى نما طيبة</h1>
-                     <p className='text-right -mb-10'>بلك نما طيبة المعزول هو مثالى للبناء من جميع النواحى فهو فعال من حيث التكلفة وسهولة الاستخدام ويوفر خلفية مثالية لقبول أعمال اللياثة ( بلوك - انتر لوك ) حيث يمتلك حطوط انتاج على أعلى مستوى من الكفائة والجودة لضمان خروج منتج عالى الجودة لتلبية احتياجات عملائنا الكرام بالكمية المطلوبة طبقا للجدول الزمنى المتفق عليه مع العميل ويقع مصنع نما طيبة للمنحات الاسمنتية بموقع متميز لضمان تغطية أكبر لجميع عملائنا ونسعى لفتح فروع أخرى لتلبية احتياجات عملائنا بباقى مناطق المملكة </p>
+                      
+                        <span className='relative top-16 left-[50px] text-center  p-4 text-white bg-[#3A3535] rounded-3xl'>مقاوم للملوحة والرطوبة</span>
+                        <span className='relative -top-8 right-8 text-center flex items-center p-5 justify-center text-white bg-[#3A3535] rounded-3xl'>متوفر بجميع الأشكال</span>
+                        <span className='relative top-4 text-center p-8 justify-center text-white bg-[#3A3535] rounded-3xl'>خشونة السطح</span>
+                        <span className='relative top-[130px] right-56 text-center p-5 text-white bg-[#3A3535] 
+                        rounded-3xl'>عازل طبيعى للحرارة والصوت</span>
+                        <span className='relative right-[700px] top-44 text-center  p-4  text-white bg-[#3A3535] rounded-3xl'>مقاوم للتصدع والتشقيق</span>
+                  <div className='flex flex-col justify-cente  relative right-72  text-right w-64'>
+                     <h1 className='text-[34px] font-semibold text-[#FF7315] '>خصائص بركانى نما طيبة</h1>
+                     <p className=' -mb-10'>بلك نما طيبة المعزول هو مثالى للبناء من جميع النواحى فهو فعال من حيث التكلفة وسهولة الاستخدام ويوفر خلفية مثالية لقبول أعمال اللياثة</p>
                   </div>
-                </div>
             </SwiperSlide>
-            <SwiperSlide>
-            <div className='flex flex-row gap-x-20'>
-                <img src={img3} alt="image" className='w-[520px] h-[420px] rounded-xl brightness-50' />
-                  <div className='flex flex-col justify-center items-end w-96'>
-                     <h1 className='text-[34px] font-semibold text-[#FF7315] text-right'>قيمنا</h1>
-                     <p className='text-right -mb-10'>رضا عملائنا , الجودة الفائقة الاحترافية, المصداقية والأمانة, الشفافية والوضوح, الابتكار والابداع, تطوير مهارات الكادر الفنى والادارى بالمصنع</p>
-                     <Button className="mt-0" text='اقرأ المزيد'  />
-                  </div>
-                </div>
-            </SwiperSlide>
-            <SwiperSlide>
-            <div className='flex flex-row gap-x-20'>
-                <img src={img3} alt="image" className='w-[520px] h-[420px] rounded-xl brightness-50' />
-                  <div className='flex flex-col justify-center items-end w-96'>
-                     <h1 className='text-[34px] font-semibold text-[#FF7315] text-right'>أهدافنا</h1>
-                     <p className='text-right -mb-10'>ايجاد بيئة عمل متكاملة, نستثمر من خلالها أعلى الكفائات والخبرات البشرية, لمواكبة احتياجات ومتطلبات السوق السعودى والعربى بشكل عام. مع مسيرة ااتطوير والتنمية التى تشهدها المملكة بكافة مناحى الحياة والمجنمع ومصممون على التميز فى كل مجالات أعمالنا وفق فلسفة تنتهج الجودة المتكاملة باستخدام ما نملكه من قدرات فنية وموارد بشرية والاستعانة بأحدث ما توصلت اليه التكنولوجيا الحديثة من برامج.</p>
-                     <Button className="mt-0" text='اقرأ المزيد'  />
-                  </div>
-                </div>
-            </SwiperSlide>
-            <SwiperSlide>
-            <div className='flex flex-row gap-x-20'>
-                <img src={img3} alt="image" className='w-[520px] h-[420px] rounded-xl brightness-50' />
-                  <div className='flex flex-col justify-center items-end w-96'>
-                     <h1 className='text-[34px] font-semibold text-[#FF7315] text-right'>سياستنا الخاصة</h1>
-                     <p className='text-right text-xl font-bold'>رضا عملائنا</p>
-                     <p className='text-right'>المعيار الوحيد المعتمد لدينا هو رضا العملاء</p>
+            <SwiperSlide >
+                      
+                <div className='flex flex-row justify-center items-center gap-4'>
+                      <img src={cert1} alt="image" className='h-[400px] object-contain'/>
+                      <span className=' relative bottom-28 text-center  p1  w-72 text-white bg-[#3A3535] rounded-3xl'>
+                      
+                      <h1 className='text-xl font-semibold'>خفيف الوزن</h1>  
+                      <p className='font-light text-md mt-2 leading-6 px-2 pb-3 w-52'>يعتبر أخف وزن بكثير من البلك الأسمنتى والبلك الطينى الحامل من نفس المقاس</p>
+                      </span>
+                      <span className=' relative top-20 right-56 text-center  p-1  w-72 text-white bg-[#3A3535] rounded-3xl'>
+                      
+                      <h1 className='text-xl font-semibold'>القوة والمتانة</h1>  
+                      <p className='font-light text-md mt-2 leading-6 px-2 pb-3 w-48'>نتيجة ارتفاع قوة الضغط المستخدمة فى التصنيع فان مقاومته للضغط عالية جدا</p>
+                      </span>
+                      <span className=' relative right-44 text-center  p-2  w-72 text-white bg-[#3A3535] rounded-3xl'>
+                      
+                      <h1 className='text-xl font-semibold'>يقبل تركيب المسامير </h1>  
+                      <p className='font-light text-md mt-2 leading-6 w-44'>يتحمل البلك البركانى عملية تركيب المسامير فى الجدران بكفائة عالية خاصة عند تركيب المفصلات للأبواب والمسامير ولتثبيت الرخام والحجر</p>
+                      </span>
+                      <span className='relative right-36 bottom-20  text-center  p-2  w-72 text-white bg-[#3A3535] rounded-3xl'>
+                      
+                      <h1 className='text-xl font-semibold'>سهولة التلييس </h1>  
+                      <p className='font-light text-md mt-2 leading-6 w-44 px-2'>يمتاز البك البركانى بسطحه الخشن وهذا يساعد على تماسك اللياسة مع توفير أو الغاء عملية الطرطشة كما أن طبقة اللياسة تصبح أقل سماكة مما يوفر فى الأسمنت</p>
+                      </span>
+                      
 
-                     <p className='text-right text-xl font-bold'>التنمية</p>
-                     <p className='text-right'>نسعى الى خلق بيئة عمل متجددة داخل المصنع ونهدف الى التحسين المستمر للمصنع وللموظفين</p>
-                     <p className='text-right text-xl font-bold'>تحسين نطم الادارة </p>
-                     <p className='text-right -mb-10'>الالتزام والمحافظة على العمل وفقا للايزو 9001-2008 ونلتزم بالتطوير المستمر من خلال تحليل ملاحظات العملاء والمراجعة.</p>
-
-                     <Button className="mt-0" text='اقرأ المزيد'  />
-                  </div>
                 </div>
-            </SwiperSlide>
+          </SwiperSlide>
+
         </Swiper>
     </div>
   )

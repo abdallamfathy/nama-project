@@ -16,7 +16,7 @@ const Main = () => {
       <Navbar />
       <Slider />
       <Products />
-      {/* <WhyUs  /> */}
+      <WhyUs  />
       <About />
       <Certificates />
       <Quality />
