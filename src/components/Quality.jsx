@@ -33,7 +33,7 @@ const Quality = () => {
         <SwiperSlide><img src={quality} alt="image" className='w-[351px] h-[497px] shadow-xl my-2 mb-4'/></SwiperSlide>
         <SwiperSlide><img src={quality} alt="image" className='w-[351px] h-[497px] shadow-xl my-2 mb-4'/></SwiperSlide>
       </Swiper>
-      <Button text={"عرض المزيد"}/>
+      <Button text={"عرض المزيد"} href={"/quality"}/>
        </div>
     </div>
   )

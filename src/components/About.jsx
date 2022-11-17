@@ -65,7 +65,7 @@ const About = () => {
                      <p className='text-right text-xl font-bold'>تحسين نطم الادارة </p>
                      <p className='text-right -mb-10'>الالتزام والمحافظة على العمل وفقا للايزو 9001-2008 ونلتزم بالتطوير المستمر من خلال تحليل ملاحظات العملاء والمراجعة.</p>
 
-                     <Button className="mt-0" text='اقرأ المزيد'  />
+                     <Button className="mt-0" text='اقرأ المزيد' href={"/about"}  />
                   </div>
                 </div>
             </SwiperSlide>

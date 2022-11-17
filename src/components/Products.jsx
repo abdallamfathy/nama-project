@@ -182,7 +182,7 @@ const Products = () => {
 
 
 </div> 
-     <Button text={"عرض المزيد"}/>
+     <Button text={"عرض المزيد"} href={"/products"}/>
         </div>
     </div>
   )
