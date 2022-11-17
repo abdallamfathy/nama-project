@@ -11,7 +11,7 @@ import img3 from '../assets/img3.png'
 
 const Slider = () => {
   return (
-    <div className="h-[103vh] w-screen -ml-1">
+    <div className="h-[103vh]  -ml-1">
         
         <h1 className='text-white z-50 top-[420px] relative text-center  text-6xl font-bold'>
             خصم يبدأ من <span className='text-[#FF7315]'>%15</span> ويصل الى <span className='text-[#FF7315]'>%30</span></h1>
@@ -32,18 +32,13 @@ const Slider = () => {
              }}
         >
             <SwiperSlide>
-                <div className='mt-36'>
-                <img src={img1} alt="image" className=' brightness-50 object-contain' /></div>
+                <img src={img1} alt="image" className=' brightness-50  object-cover' />
             </SwiperSlide>
             <SwiperSlide>
-              <div className="mt-36 ">
-                <img src={img2} alt="image" className='brightness-50 ' />
-                </div>
+                <img src={img2} alt="image" className='brightness-50  object-cover ' />
             </SwiperSlide>
             <SwiperSlide>
-              <div className="mt-">
-                <img src={img3} alt="image" className='brightness-50 ' />
-                </div>
+                <img src={img3} alt="image" className='brightness-50 object-cover  ' />
             </SwiperSlide>
         </Swiper>
   </div>
