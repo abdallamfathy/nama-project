@@ -1,11 +1,12 @@
 import React from 'react'
-import SwiperCore, {  Scrollbar, A11y , EffectFade, Autoplay } from 'swiper';
+import SwiperCore, {  Scrollbar, A11y , EffectFade, Autoplay , Pagination} from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import "swiper/css";
 import "swiper/css/effect-fade";
 import "../index.css"
 import img3 from '../assets/img3.png'
 import cert1 from '../assets/cert1.png'
+import cert3 from '../assets/cert3.png'
 import Button from './Button';
 
 
@@ -15,12 +16,19 @@ const WhyUs = () => {
         <div className='flex justify-center mb-24'>
         <h1 className='font-bold text-4xl text-[#3A3535]'>لماذا نحن</h1>
       </div>
-        <Swiper modules={[  A11y , EffectFade , Autoplay ]}
-        
-        // effect={'fade'}
-        speed={2500}
-        // autoplay={{  delay: 1500 ,  disableOnInteraction: false }}
+        <Swiper modules={[  A11y , EffectFade , Autoplay , Pagination]}
+        pagination={{ clickable: true }}
+        effect={'fade'}
+        speed={1000}
+        autoplay={{  delay: 1500 ,  disableOnInteraction: false }}
         className="mySwiper " 
+        style={{
+          "--swiper-pagination-color": "#FF7315",
+          "--swiper-pagination-bullet-inactive-color": "",
+          "--swiper-pagination-bullet-inactive-opacity": "1",
+          "--swiper-pagination-bullet-size": "10px",
+          
+           }}
         >
             <SwiperSlide >
                       
@@ -58,6 +66,30 @@ const WhyUs = () => {
                       
                       <h1 className='text-xl font-semibold'>سهولة التلييس </h1>  
                       <p className='font-light text-md mt-2 leading-6 w-44 px-2'>يمتاز البك البركانى بسطحه الخشن وهذا يساعد على تماسك اللياسة مع توفير أو الغاء عملية الطرطشة كما أن طبقة اللياسة تصبح أقل سماكة مما يوفر فى الأسمنت</p>
+                      </span>
+                      
+
+                </div>
+          </SwiperSlide>
+          <SwiperSlide >
+                      
+                <div className='flex flex-row justify-center items-center gap-4'>
+                      <img src={cert3} alt="image" className='h-[400px] object-contain'/>
+                   
+                      <span className=' relative top-20 right-40 text-center  p-1  w-72 text-white bg-[#3A3535] rounded-3xl'>
+                      
+                      <h1 className='text-xl font-semibold'>مقاوم للحريق</h1>  
+                      <p className='font-light text-md mt-2 leading-6 px-2 pb-3 w-48'>يعتبر من أفضل أنواع البلك على الاطلاق فى مقاومة النار واللهب المباشر حيث أن المادة الأولية هى مادة خاملة غير قابلة للاحتراق</p>
+                      </span>
+                      <span className=' relative right-40 bottom-20 text-center  p-2  w-72 text-white bg-[#3A3535] rounded-3xl'>
+                      
+                      <h1 className='text-xl font-semibold'>مقاوم للملوحة</h1>  
+                      <p className='font-light text-md mt-2 leading-6 w-44'>يصنع البلك من مادة البوزلان التى نسنخدم كمادة أولية فى صناعة الأسمن الوزلانى المقاوم للملوحة مما يقلل من عملية التاكل</p>
+                      </span>
+                      <span className='relative right-36 bottom-  text-center  p-2  w-72 text-white bg-[#3A3535] rounded-3xl'>
+                      
+                      <h1 className='text-xl font-semibold'>سهولة التمديدات </h1>  
+                      <p className='font-light text-md mt-2 leading-6 w-44 px-2'>يمكن قص البلك البركانى بدون أن ينكسر وتجرى التمديدات على الفجوة الخارجية مع المحتفظة على قوة البلك وعزله الحرارى</p>
                       </span>
                       
 
