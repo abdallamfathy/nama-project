@@ -1,21 +1,17 @@
 import React, { useState } from 'react'
-import {FaBars} from 'react-icons/fa'
 // import { Link } from 'react-router-dom';
 import { Dialog } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import logo from '../assets/logo.png'
 import lang from '../assets/lang.png'
-import facebook from '../assets/facebook.png'
-import twitter from '../assets/twitter.png'
-import instagram from '../assets/instagram.png'
-import linkedin from '../assets/linkedin.png'
-import whatsapp from '../assets/whatsapp.png'
 import { Link } from 'react-scroll'
-import facebooks from '../assets/facebook.png'
-import { FaFacebook , FaInstagram , FaTwitter , FaWhatsapp , FaLinkedin } from 'react-icons/fa'
+import { FaFacebook , FaInstagram , FaTwitter , FaWhatsapp , FaLinkedin , FaGlobe} from 'react-icons/fa'
+import { useParams } from 'react-router-dom'
 
 
-const Navbar = () => {
+const Navbar = ({textColor , socialDisplay}) => {
+
+  const params = useParams();
 
   const navigation = [
     { name: 'اتصل بنا', href: 'contact', current: false },
@@ -28,18 +24,19 @@ const Navbar = () => {
 //   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   return (
     <>
-    <div className='relative  z-50'>
+    <div className='relative  z-50 '>
       <div className='h-5 -10  '>
-        <nav className='flex items-start justify-around text-white m-10 '>
-
+        <nav className={`flex items-start justify-around ${textColor} m-10` }>
             <div className='flex flex-col gap-y-4 pl-7 '>
-                <img src={lang} alt="language"  className='mb-6 w-[33px] h-[33px]'/>
+                {/* <img src={lang} alt="language"  className='mb-6 w-[33px] h-[33px]'/> */}
+                <FaGlobe className='mb-6 w-[33px] h-[33px]'/>
+                <div className={`gap-y-4 flex flex-col ${socialDisplay}` }>
                 <FaFacebook className='w-[33px] h-[33px]'/>
                 <FaInstagram className='w-[33px] h-[33px] '/>
                 <FaTwitter className='w-[33px] h-[33px]'/>
                 <FaWhatsapp className='w-[33px] h-[33px]'/>
                 <FaLinkedin className='w-[33px] h-[33px]'/>
-
+                </div>
                 {/* <img src={facebook} alt="facebook"  />
                 <img src ={facebooks} alt="whatsapp"  />
                 <img src={linkedin} alt="linkedin"    />
