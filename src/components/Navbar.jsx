@@ -44,14 +44,14 @@ const Navbar = ({textColor , socialDisplay}) => {
                 <img src={twitter} alt="twitter" /> */}
             </div>
 
-            <div className='hidden lg:flex lg:flex-1 lg:justify-start lg:gap-x-5 ml-10'>
+            <div className='hidden lg:flex lg:flex-1 lg:justify-start lg:gap-x-4 ml-20'>
             {navigation.map((item) => (
                 <NavLink key={item.name} to={item.href}
                 //  spy={true}
                 // active="active"
                 // smooth={true}
                 // duration={1000}
-                 className={`font-semibold text-2xl cursor-pointer  hover:text-[#FF7315] activeClassName="active"  `}>
+                 className={`font-semibold text-xl cursor-pointer  hover:text-[#FF7315] activeClassName="active"  `}>
                   {item.name}
                 </NavLink>
               ))}

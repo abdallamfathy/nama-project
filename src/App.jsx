@@ -5,6 +5,7 @@ import PartnersPage from './pages/PartnersPage'
 import AboutPage from './pages/AboutPage'
 import ProductsPage from './pages/ProductsPage'
 import { Route, BrowserRouter as Router, Routes } from 'react-router-dom'
+import QualityPage from './pages/QualityPage'
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
       <Route  path="/partners"  element={<PartnersPage/>} />
       <Route  path="/about"  element={<AboutPage/>} />
       <Route  path="/products"  element={<ProductsPage/>} />
+      <Route  path="/quality"  element={<QualityPage/>} />
       </Routes>
       </Router>
     </div>

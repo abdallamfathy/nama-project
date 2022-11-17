@@ -32,14 +32,18 @@ const Slider = () => {
              }}
         >
             <SwiperSlide>
-                <div className=''></div>
-                <img src={img1} alt="image" className=' brightness-50' />
+                <div className='mt-36'>
+                <img src={img1} alt="image" className=' brightness-50 object-contain' /></div>
             </SwiperSlide>
             <SwiperSlide>
+              <div className="mt-36 ">
                 <img src={img2} alt="image" className='brightness-50 ' />
+                </div>
             </SwiperSlide>
             <SwiperSlide>
+              <div className="mt-">
                 <img src={img3} alt="image" className='brightness-50 ' />
+                </div>
             </SwiperSlide>
         </Swiper>
   </div>
