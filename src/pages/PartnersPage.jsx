@@ -1,6 +1,6 @@
 import React from 'react'
 import { FaLessThan } from 'react-icons/fa'
-import { Navbar } from '../components'
+import { Footer, Navbar } from '../components'
 import cert1 from '../assets/cert1.png'
 import cert2 from '../assets/cert2.png'
 import cert3 from '../assets/cert3.png'
@@ -30,6 +30,8 @@ const PartnersPage = () => {
 
                     </div>
                 </div>
+                <Footer />
+
             </>
   )
 }

@@ -16,7 +16,6 @@ function App() {
       <Route  path="/about"  element={<AboutPage/>} />
       </Routes>
       </Router>
-      <Footer />
     </div>
   )
 }

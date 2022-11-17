@@ -1,6 +1,16 @@
 import React from 'react'
 import { FaLessThan } from 'react-icons/fa'
-import { Navbar } from '../components'
+import { Footer, Navbar } from '../components'
+import cert1 from '../assets/cert1.png'
+import cert2 from '../assets/cert2.png'
+import cert3 from '../assets/cert3.png'
+import cert4 from '../assets/cert4.png'
+import cert5 from '../assets/cert5.png'
+import cert6 from '../assets/cert6.png'
+import cert7 from '../assets/cert7.png'
+import cert8 from '../assets/cert8.png'
+import cert9 from '../assets/cert9.png'
+
 
 const AboutPage = () => {
   return (
@@ -48,8 +58,22 @@ const AboutPage = () => {
                         </p></div>
                         </div>
                     </div>
-                    
+                    <div className='flex flex-row flex-wrap justify- gap-6 '>
+                     <img src={cert1} alt="image" />
+                     <img src={cert2} alt="image" />
+                     <img src={cert3} alt="image" />
+                     <img src={cert4} alt="image" />
+                     <img src={cert5} alt="image" />
+                     <img src={cert6} alt="image" />
+                     <img src={cert7} alt="image" />
+                     <img src={cert8} alt="image" />
+                     <img src={cert9} alt="image" />
+
+
+                    </div>
                 </div>
+                <Footer />
+
             </>  )
 }
 
