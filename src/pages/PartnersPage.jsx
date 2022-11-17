@@ -14,6 +14,9 @@ const PartnersPage = () => {
                     <span className='font-extralight'><FaLessThan/></span>
                     <h1 className='text-2xl text-[#3A3535]'>الرئيسية</h1>
                     </div>
+                    <div className='flex flex-row gap-6'>
+                        <img src={} alt="" />
+                    </div>
                 </div>
             </>
   )
