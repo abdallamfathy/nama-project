@@ -15,9 +15,9 @@ const Navbar = ({textColor , socialDisplay}) => {
 
   const navigation = [
     { name: 'شركاء النجاح', href: '/partners', current: false },
-    { name: 'الجودة', href: 'about', current: false },
-    { name: 'أعمالنا', href: 'about', current: false },
-    { name: 'منتجاتنا', href: 'products', current: false },
+    { name: 'الجودة', href: '/quality', current: false },
+    { name: 'من نحن', href: '/about', current: false },
+    { name: 'منتجاتنا', href: '/products', current: false },
     { name: 'الرئيسية', href: '/', current: true },
     
   ]
