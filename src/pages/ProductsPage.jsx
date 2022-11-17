@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { FaLessThan } from 'react-icons/fa'
 import { Footer, Navbar } from '../components'
 import brick1 from '../assets/brick1.png'
@@ -15,6 +15,9 @@ import brick11 from '../assets/brick11.png'
 import brick12 from '../assets/brick12.png'
 
 const ProductsPage = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <>
     <Navbar textColor="text-[#3A3535] border-b border-[#ff731573]" socialDisplay="hidden"/>

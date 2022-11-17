@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import SwiperCore, {  Scrollbar, A11y , EffectFade, Autoplay } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import "swiper/css";
@@ -10,6 +10,7 @@ import img3 from '../assets/img3.png'
 import Button from './Button';
 
 const About = () => {
+  
   return (
     <div className='container mx-auto my-28'>
       <div className='flex justify-center mb-24'>
@@ -38,7 +39,7 @@ const About = () => {
                   <div className='flex flex-col justify-center items-end w-96'>
                      <h1 className='text-[34px] font-semibold text-[#FF7315] text-right'>قيمنا</h1>
                      <p className='text-right -mb-10'>رضا عملائنا , الجودة الفائقة الاحترافية, المصداقية والأمانة, الشفافية والوضوح, الابتكار والابداع, تطوير مهارات الكادر الفنى والادارى بالمصنع</p>
-                     <Button className="mt-0" text='اقرأ المزيد'  />
+                     <Button className="mt-0" text='اقرأ المزيد' href={"/about"} />
                   </div>
                 </div>
             </SwiperSlide>
@@ -48,7 +49,7 @@ const About = () => {
                   <div className='flex flex-col justify-center items-end w-96'>
                      <h1 className='text-[34px] font-semibold text-[#FF7315] text-right'>أهدافنا</h1>
                      <p className='text-right -mb-10'>ايجاد بيئة عمل متكاملة, نستثمر من خلالها أعلى الكفائات والخبرات البشرية, لمواكبة احتياجات ومتطلبات السوق السعودى والعربى بشكل عام. مع مسيرة ااتطوير والتنمية التى تشهدها المملكة بكافة مناحى الحياة والمجنمع ومصممون على التميز فى كل مجالات أعمالنا وفق فلسفة تنتهج الجودة المتكاملة باستخدام ما نملكه من قدرات فنية وموارد بشرية والاستعانة بأحدث ما توصلت اليه التكنولوجيا الحديثة من برامج.</p>
-                     <Button className="mt-0" text='اقرأ المزيد'  />
+                     <Button className="mt-0" text='اقرأ المزيد' href={"/about"} />
                   </div>
                 </div>
             </SwiperSlide>

@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { FaLessThan } from 'react-icons/fa'
 import { Footer, Navbar } from '../components'
 import cert1 from '../assets/cert1.png'
@@ -10,6 +10,9 @@ import cert6 from '../assets/cert6.png'
 
 
 const PartnersPage = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   return (
             <>
