@@ -15,7 +15,7 @@ const Products = () => {
 </a>
 <div className="text-right text-[#3A3535] text-[24px] h-[108px] w-[250px] relative top-14 ">
   <p>النوع :3 فتحات</p>
-  <p class=" ">
+  <p >
     المقاس : 20 × 20 × 40
   </p>
   <p>لون الشريحة : بدون</p>
@@ -28,7 +28,7 @@ const Products = () => {
 </a>
 <div className="text-right text-[#3A3535] text-[24px] h-[108px] w-[250px] relative top-14 ">
   <p>النوع :3 فتحات</p>
-  <p class=" ">
+  <p >
     المقاس : 20 × 20 × 40
   </p>
   <p>لون الشريحة : بدون</p>
@@ -41,7 +41,7 @@ const Products = () => {
 </a>
 <div className="text-right text-[#3A3535] text-[24px] h-[108px] w-[250px] relative top-14 ">
   <p>النوع :3 فتحات</p>
-  <p class=" ">
+  <p >
     المقاس : 20 × 20 × 40
   </p>
   <p>لون الشريحة : بدون</p>
@@ -54,7 +54,7 @@ const Products = () => {
 </a>
 <div className="text-right text-[#3A3535] text-[24px] h-[108px] w-[250px] relative top-14 ">
   <p>النوع :3 فتحات</p>
-  <p class=" ">
+  <p >
     المقاس : 20 × 20 × 40
   </p>
   <p>لون الشريحة : بدون</p>
@@ -67,7 +67,7 @@ const Products = () => {
 </a>
 <div className="text-right text-[#3A3535] text-[24px] h-[108px] w-[250px] relative top-14 ">
   <p>النوع :3 فتحات</p>
-  <p class=" ">
+  <p >
     المقاس : 20 × 20 × 40
   </p>
   <p>لون الشريحة : بدون</p>
@@ -80,7 +80,7 @@ const Products = () => {
 </a>
 <div className="text-right text-[#3A3535] text-[24px] h-[108px] w-[250px] relative top-14 ">
   <p>النوع :3 فتحات</p>
-  <p class=" ">
+  <p >
     المقاس : 20 × 20 × 40
   </p>
   <p>لون الشريحة : بدون</p>
@@ -93,7 +93,7 @@ const Products = () => {
 </a>
 <div className="text-right text-[#3A3535] text-[24px] h-[108px] w-[250px] relative top-14 ">
   <p>النوع :3 فتحات</p>
-  <p class=" ">
+  <p >
     المقاس : 20 × 20 × 40
   </p>
   <p>لون الشريحة : بدون</p>
@@ -106,7 +106,7 @@ const Products = () => {
 </a>
 <div className="text-right text-[#3A3535] text-[24px] h-[108px] w-[250px] relative top-14 ">
   <p>النوع :3 فتحات</p>
-  <p class=" ">
+  <p >
     المقاس : 20 × 20 × 40
   </p>
   <p>لون الشريحة : بدون</p>
@@ -119,7 +119,7 @@ const Products = () => {
 </a>
 <div className="text-right text-[#3A3535] text-[24px] h-[108px] w-[250px] relative top-14 ">
   <p>النوع :3 فتحات</p>
-  <p class=" ">
+  <p >
     المقاس : 20 × 20 × 40
   </p>
   <p>لون الشريحة : بدون</p>
@@ -132,7 +132,7 @@ const Products = () => {
 </a>
 <div className="text-right text-[#3A3535] text-[24px] h-[108px] w-[250px] relative top-14 ">
   <p>النوع :3 فتحات</p>
-  <p class=" ">
+  <p >
     المقاس : 20 × 20 × 40
   </p>
   <p>لون الشريحة : بدون</p>
@@ -145,7 +145,7 @@ const Products = () => {
 </a>
 <div className="text-right text-[#3A3535] text-[24px] h-[108px] w-[250px] relative top-14 ">
   <p>النوع :3 فتحات</p>
-  <p class=" ">
+  <p >
     المقاس : 20 × 20 × 40
   </p>
   <p>لون الشريحة : بدون</p>
@@ -158,7 +158,7 @@ const Products = () => {
 </a>
 <div className="text-right text-[#3A3535] text-[24px] h-[108px] w-[250px] relative top-14 ">
   <p>النوع :3 فتحات</p>
-  <p class=" ">
+  <p >
     المقاس : 20 × 20 × 40
   </p>
   <p>لون الشريحة : بدون</p>

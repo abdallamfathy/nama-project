@@ -1,11 +1,22 @@
 import './index.css'
-import  {Main}  from './components'
+import  {Main, Navbar}  from './components'
+import { Footer } from 'flowbite-react'
+import PartnersPage from './pages/PartnersPage'
+import { Route, BrowserRouter as Router, Routes } from 'react-router-dom'
 
 function App() {
 
   return (
     <div className="App" id='app'>
-      <Main />
+      <Navbar />
+      <Router>
+        <Routes>
+      <Route exact path="/"  element={<Main/>} />
+      <Route  path="/partners"  element={<PartnersPage/>} />
+      {/* < /> */}
+      </Routes>
+      </Router>
+      <Footer />
     </div>
   )
 }

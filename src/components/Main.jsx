@@ -13,7 +13,6 @@ import WhyUs from './WhyUs'
 const Main = () => {
   return (
     <div>
-      <Navbar />
       <Slider />
       <Products />
       <WhyUs  />
