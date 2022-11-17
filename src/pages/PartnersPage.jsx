@@ -13,7 +13,7 @@ const PartnersPage = () => {
 
   return (
             <>
-              <Navbar textColor="text-[#3A3535]" socialDisplay="hidden"/>
+              <Navbar textColor="text-[#3A3535] border-b border-[#ff731573]" socialDisplay="hidden"/>
                 <div className='container mx-auto'>
                     <div className='flex justify-end my-20 items-baseline gap-4'>
                         

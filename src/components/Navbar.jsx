@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-// import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import { Dialog } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import logo from '../assets/logo.png'
@@ -14,8 +14,8 @@ const Navbar = ({textColor , socialDisplay}) => {
   const params = useParams();
 
   const navigation = [
-    { name: 'اتصل بنا', href: 'contact', current: false },
-    { name: 'من نحن', href: 'about', current: false },
+    { name: 'شركاء النجاح', href: '/partners', current: false },
+    { name: 'الجودة', href: 'about', current: false },
     { name: 'أعمالنا', href: 'about', current: false },
     { name: 'منتجاتنا', href: 'products', current: false },
     { name: 'الرئيسية', href: '/', current: true },
@@ -26,7 +26,7 @@ const Navbar = ({textColor , socialDisplay}) => {
     <>
     <div className='relative  z-50 '>
       <div className='h-5 -10  '>
-        <nav className={`flex items-start justify-around ${textColor} m-10` }>
+        <nav className={`flex items-start justify-around ${textColor} px-10 my-10 ` }>
             <div className='flex flex-col gap-y-4 pl-7 '>
                 {/* <img src={lang} alt="language"  className='mb-6 w-[33px] h-[33px]'/> */}
                 <FaGlobe className='mb-6 w-[33px] h-[33px]'/>
@@ -46,14 +46,14 @@ const Navbar = ({textColor , socialDisplay}) => {
 
             <div className='hidden lg:flex lg:flex-1 lg:justify-start lg:gap-x-5 ml-10'>
             {navigation.map((item) => (
-                <Link key={item.name} to={item.href}
-                 spy={true}
-                active="active"
-                smooth={true}
-                duration={1000}
-                 className={`font-semibold text-2xl cursor-pointer  hover:text-[#FF7315] ${item.current && "text-[#FF7315] "} `}>
+                <NavLink key={item.name} to={item.href}
+                //  spy={true}
+                // active="active"
+                // smooth={true}
+                // duration={1000}
+                 className={`font-semibold text-2xl cursor-pointer  hover:text-[#FF7315] activeClassName="active"  `}>
                   {item.name}
-                </Link>
+                </NavLink>
               ))}
           </div>
 
