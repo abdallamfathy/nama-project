@@ -31,11 +31,11 @@ const Navbar = ({textColor , socialDisplay}) => {
                 {/* <img src={lang} alt="language"  className='mb-6 w-[33px] h-[33px]'/> */}
                 <FaGlobe className='mb-6 w-[33px] h-[33px]'/>
                 <div className={`gap-y-4 flex flex-col ${socialDisplay}` }>
-                <FaFacebook className='w-[33px] h-[33px]'/>
-                <FaInstagram className='w-[33px] h-[33px] '/>
-                <FaTwitter className='w-[33px] h-[33px]'/>
-                <FaWhatsapp className='w-[33px] h-[33px]'/>
-                <FaLinkedin className='w-[33px] h-[33px]'/>
+                 <a href="https://www.facebook.com/"><FaFacebook className='w-[33px] h-[33px]'/></a>
+                  <a href="https://www.instagram.com/"><FaInstagram className='w-[33px] h-[33px]'/></a>
+                  <a href="https://www.twitter.com/"><FaTwitter className='w-[33px] h-[33px]'/></a>
+                  <a href="https://www.whatsapp.com/"><FaWhatsapp className='w-[33px] h-[33px]'/></a>
+                  <a href="https://www.linkedin.com/"><FaLinkedin className='w-[33px] h-[33px]'/></a>
                 </div>
                 {/* <img src={facebook} alt="facebook"  />
                 <img src ={facebooks} alt="whatsapp"  />

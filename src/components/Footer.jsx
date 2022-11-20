@@ -27,11 +27,11 @@ const Footer = () => {
                   <Link to="/quality" className='underline'>الجودة</Link>
                 </div>
                 <div className='flex justify-end gap-3'>
-                  <img src={facebook} alt="facebook" />
-                  <img src={twitter} alt="twitter" />
-                  <img src={instagram} alt="instagram" />
-                  <img src={linkedin} alt="linkedin" />
-                  <img src={whatsapp} alt="whatsapp" />
+                 <a href="https://www.facebook.com/"> <img src={facebook} alt="facebook" /></a>
+                  <a href="https://www.twitter.com/"> <img src={twitter} alt="twitter" /></a>
+                  <a href="https://www.instagram.com/"> <img src={instagram} alt="instagram" /></a>
+                  <a href="https://www.linkedin.com/"> <img src={linkedin} alt="linkedin" /></a>
+                  <a href="https://www.whatsapp.com/"> <img src={whatsapp} alt="whatsapp" /></a>
                 </div>
               </div>
           </div>
