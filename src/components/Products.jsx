@@ -60,7 +60,7 @@ const Products = () => {
 
         <h1 className='text-4xl text-[#3A3535] font-bold text-center mb-6'>منتجاتنا</h1>
         <div className='flex flex-wrap flex-row justify-center gap-20 gap-x-24'>
-          <div   onClick={()=> {closeModal,setShowModal(true)}}  className=" flex flex-col justify-center items-center w-[305px] h-[342px] relative group bg-white rounded-lg border border-gray-50 shadow-lg  dark:bg-gray-800 dark:border-gray-700">
+          <div   onClick={()=> {closeModal,setShowModal(true)}}  className=" flex flex-col cursor-pointer justify-center items-center w-[305px] h-[342px] relative group bg-white rounded-lg border border-gray-50 shadow-lg  dark:bg-gray-800 dark:border-gray-700">
             
               <img  className="-my-10 transition duration-[2000]  delay-300 hover:transition-all ease-out hover:left-20 absolute left-24 top-12  hover:w-44  w-36 h-36 hover:h-44   " src={brick1} alt="Ado" />
             
@@ -74,7 +74,7 @@ const Products = () => {
             </div>
           </div>
 
-          <div   className=" flex flex-col justify-center items-center w-[305px] h-[342px] relative group bg-white rounded-lg border border-gray-50 shadow-lg  dark:bg-gray-800 dark:border-gray-700">
+          <div onClick={()=> {closeModal,setShowModal(true)}}  className=" flex flex-col cursor-pointer justify-center items-center w-[305px] h-[342px] relative group bg-white rounded-lg border border-gray-50 shadow-lg  dark:bg-gray-800 dark:border-gray-700">
               <img className="-my-10 transition duration-[2000]  delay-300 hover:transition-all ease-out hover:left-20 absolute left-24 top-12  hover:w-44  w-36 h-36 hover:h-44   " src={brick2} alt="asd" />
             <div className="text-right text-[#3A3535] text-[24px] h-[108px] w-[250px] relative top-14 ">
               <p>النوع :3 فتحات</p>
@@ -85,7 +85,7 @@ const Products = () => {
             </div>
           </div>
 
-          <div className=" flex flex-col justify-center items-center w-[305px] h-[342px] relative group bg-white rounded-lg border border-gray-50 shadow-lg  dark:bg-gray-800 dark:border-gray-700">
+          <div onClick={()=> {closeModal,setShowModal(true)}} className=" flex flex-col cursor-pointer justify-center items-center w-[305px] h-[342px] relative group bg-white rounded-lg border border-gray-50 shadow-lg  dark:bg-gray-800 dark:border-gray-700">
               <img className="-my-10 transition duration-[2000]  delay-300 hover:transition-all ease-out hover:left-20 absolute left-24 top-12  hover:w-44  w-36 h-36 hover:h-44   " src={brick4} alt="asd" />
             <div className="text-right text-[#3A3535] text-[24px] h-[108px] w-[250px] relative top-14 ">
               <p>النوع :3 فتحات</p>
@@ -96,7 +96,7 @@ const Products = () => {
             </div>
           </div>
 
-          <div className=" flex flex-col justify-center items-center w-[305px] h-[342px] relative group bg-white rounded-lg border border-gray-50 shadow-lg  dark:bg-gray-800 dark:border-gray-700">
+          <div onClick={()=> {closeModal,setShowModal(true)}} className=" flex flex-col cursor-pointer justify-center items-center w-[305px] h-[342px] relative group bg-white rounded-lg border border-gray-50 shadow-lg  dark:bg-gray-800 dark:border-gray-700">
               <img className="-my-10 transition duration-[2000]  delay-300 hover:transition-all ease-out hover:left-20 absolute left-24 top-12  hover:w-44  w-36 h-36 hover:h-44   " src={brick5} alt="asd" />
             <div className="text-right text-[#3A3535] text-[24px] h-[108px] w-[250px] relative top-14 ">
               <p>النوع :3 فتحات</p>
@@ -107,7 +107,7 @@ const Products = () => {
             </div>
           </div>
 
-          <div className=" flex flex-col justify-center items-center w-[305px] h-[342px] relative group bg-white rounded-lg border border-gray-50 shadow-lg  dark:bg-gray-800 dark:border-gray-700">
+          <div onClick={()=> {closeModal,setShowModal(true)}} className=" flex flex-col cursor-pointer justify-center items-center w-[305px] h-[342px] relative group bg-white rounded-lg border border-gray-50 shadow-lg  dark:bg-gray-800 dark:border-gray-700">
               <img className="-my-10 transition duration-[2000]  delay-300 hover:transition-all ease-out hover:left-20 absolute left-24 top-12  hover:w-44  w-36 h-36 hover:h-44   " src={brick6} alt="asd" />
             <div className="text-right text-[#3A3535] text-[24px] h-[108px] w-[250px] relative top-14 ">
               <p>النوع :3 فتحات</p>
@@ -118,7 +118,7 @@ const Products = () => {
             </div>
           </div>
 
-          <div className=" flex flex-col justify-center items-center w-[305px] h-[342px] relative group bg-white rounded-lg border border-gray-50 shadow-lg  dark:bg-gray-800 dark:border-gray-700">
+          <div onClick={()=> {closeModal,setShowModal(true)}} className=" flex flex-col cursor-pointer justify-center items-center w-[305px] h-[342px] relative group bg-white rounded-lg border border-gray-50 shadow-lg  dark:bg-gray-800 dark:border-gray-700">
               <img className="-my-10 transition duration-[2000]  delay-300 hover:transition-all ease-out hover:left-20 absolute left-24 top-12  hover:w-44  w-36 h-36 hover:h-44   " src={brick7} alt="asd" />
             <div className="text-right text-[#3A3535] text-[24px] h-[108px] w-[250px] relative top-14 ">
               <p>النوع :3 فتحات</p>
@@ -129,7 +129,7 @@ const Products = () => {
             </div>
           </div>
 
-          <div className=" flex flex-col justify-center items-center w-[305px] h-[342px] relative group bg-white rounded-lg border border-gray-50 shadow-lg  dark:bg-gray-800 dark:border-gray-700">
+          <div onClick={()=> {closeModal,setShowModal(true)}} className=" flex flex-col cursor-pointer justify-center items-center w-[305px] h-[342px] relative group bg-white rounded-lg border border-gray-50 shadow-lg  dark:bg-gray-800 dark:border-gray-700">
               <img className="-my-10 transition duration-[2000]  delay-300 hover:transition-all ease-out hover:left-20 absolute left-24 top-12  hover:w-44  w-36 h-36 hover:h-44   " src={brick8} alt="asd" />
             <div className="text-right text-[#3A3535] text-[24px] h-[108px] w-[250px] relative top-14 ">
               <p>النوع :3 فتحات</p>
@@ -140,7 +140,7 @@ const Products = () => {
             </div>
           </div>
 
-          <div className=" flex flex-col justify-center items-center w-[305px] h-[342px] relative group bg-white rounded-lg border border-gray-50 shadow-lg  dark:bg-gray-800 dark:border-gray-700">
+          <div onClick={()=> {closeModal,setShowModal(true)}} className=" flex flex-col cursor-pointer justify-center items-center w-[305px] h-[342px] relative group bg-white rounded-lg border border-gray-50 shadow-lg  dark:bg-gray-800 dark:border-gray-700">
               <img className="-my-10 transition duration-[2000]  delay-300 hover:transition-all ease-out hover:left-20 absolute left-24 top-12  hover:w-44  w-36 h-36 hover:h-44   " src={brick9} alt="asd" />
             <div className="text-right text-[#3A3535] text-[24px] h-[108px] w-[250px] relative top-14 ">
               <p>النوع :3 فتحات</p>
@@ -151,7 +151,7 @@ const Products = () => {
             </div>
           </div>
 
-          <div className=" flex flex-col justify-center items-center w-[305px] h-[342px] relative group bg-white rounded-lg border border-gray-50 shadow-lg  dark:bg-gray-800 dark:border-gray-700">
+          <div onClick={()=> {closeModal,setShowModal(true)}} className=" flex flex-col cursor-pointer justify-center items-center w-[305px] h-[342px] relative group bg-white rounded-lg border border-gray-50 shadow-lg  dark:bg-gray-800 dark:border-gray-700">
               <img className="-my-10 transition duration-[2000]  delay-300 hover:transition-all ease-out hover:left-20 absolute left-24 top-12  hover:w-44  w-36 h-36 hover:h-44   " src={brick10} alt="asd" />
             <div className="text-right text-[#3A3535] text-[24px] h-[108px] w-[250px] relative top-14 ">
               <p>النوع :3 فتحات</p>
@@ -162,7 +162,7 @@ const Products = () => {
             </div>
           </div>
 
-          <div className=" flex flex-col justify-center items-center w-[305px] h-[342px] relative group bg-white rounded-lg border border-gray-50 shadow-lg  dark:bg-gray-800 dark:border-gray-700">
+          <div onClick={()=> {closeModal,setShowModal(true)}} className=" flex flex-col cursor-pointer justify-center items-center w-[305px] h-[342px] relative group bg-white rounded-lg border border-gray-50 shadow-lg  dark:bg-gray-800 dark:border-gray-700">
               <img className="-my-10 transition duration-[2000]  delay-300 hover:transition-all ease-out hover:left-20 absolute left-24 top-12  hover:w-44  w-36 h-36 hover:h-44   " src={brick11} alt="asd" />
             <div className="text-right text-[#3A3535] text-[24px] h-[108px] w-[250px] relative top-14 ">
               <p>النوع :3 فتحات</p>
@@ -173,7 +173,7 @@ const Products = () => {
             </div>
           </div>
 
-          <div className=" flex flex-col justify-center items-center w-[305px] h-[342px] relative group bg-white rounded-lg border border-gray-50 shadow-lg  dark:bg-gray-800 dark:border-gray-700">
+          <div onClick={()=> {closeModal,setShowModal(true)}} className=" flex flex-col cursor-pointer justify-center items-center w-[305px] h-[342px] relative group bg-white rounded-lg border border-gray-50 shadow-lg  dark:bg-gray-800 dark:border-gray-700">
               <img className="-my-10 transition duration-[2000]  delay-300 hover:transition-all ease-out hover:left-20 absolute left-24 top-12  hover:w-44  w-36 h-36 hover:h-44   " src={brick11} alt="asd" />
             <div className="text-right text-[#3A3535] text-[24px] h-[108px] w-[250px] relative top-14 ">
               <p>النوع :3 فتحات</p>
@@ -184,7 +184,7 @@ const Products = () => {
             </div>
           </div>
 
-          <div className=" flex flex-col justify-center items-center w-[305px] h-[342px] relative group bg-white rounded-lg border border-gray-50 shadow-lg  dark:bg-gray-800 dark:border-gray-700">
+          <div onClick={()=> {closeModal,setShowModal(true)}} className=" flex flex-col cursor-pointer justify-center items-center w-[305px] h-[342px] relative group bg-white rounded-lg border border-gray-50 shadow-lg  dark:bg-gray-800 dark:border-gray-700">
               <img className="-my-10 transition duration-[2000]  delay-300 hover:transition-all ease-out hover:left-20 absolute left-24 top-12  hover:w-44  w-36 h-36 hover:h-44   " src={brick12} alt="asd" />
             <div className="text-right text-[#3A3535] text-[24px] h-[108px] w-[250px] relative top-14 ">
               <p>النوع :3 فتحات</p>
