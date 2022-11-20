@@ -24,7 +24,7 @@ const AboutPage = () => {
                 <div className='container mx-auto'>
                     <div className='flex justify-end my-20 items-baseline gap-4'>
                         
-                    <h1 className='text-3xl text-[#FF7315]'>من محن</h1>
+                    <h1 className='text-3xl font-bold text-[#FF7315]'>من نحن</h1>
                     <span ><FaLessThan/></span>
                     <h1 className='text-2xl text-[#3A3535]'>الرئيسية</h1>
                     </div>
