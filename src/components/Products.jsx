@@ -56,8 +56,8 @@ const Products = () => {
   return (
     <div id='products my-28' ref={modalRef}>
       
+      {showModal && (<Modal/> )}
       <div className='container mx-auto '>
-
         <h1 className='text-4xl text-[#3A3535] font-bold text-center mb-6'>منتجاتنا</h1>
         <div className='flex flex-wrap flex-row justify-center gap-20 gap-x-24'>
           <div   onClick={()=> {closeModal,setShowModal(true)}}  className=" flex flex-col cursor-pointer justify-center items-center w-[305px] h-[342px] relative group bg-white rounded-lg border border-gray-50 shadow-lg  dark:bg-gray-800 dark:border-gray-700">
@@ -199,7 +199,7 @@ const Products = () => {
 
 
         </div>
-      {showModal && (<Modal/> )}
+      
         <Buttons text={"عرض المزيد"} href={"/products"} />
         
       </div>
