@@ -3,12 +3,12 @@ import logo from '../assets/logo.png'
 import location from '../assets/location.png'
 import message from '../assets/message.png'
 import call from '../assets/call.png'
-import { Link } from 'react-scroll'
 import facebook from '../assets/facebook.png'
 import twitter from '../assets/twitter.png'
 import instagram from '../assets/instagram.png'
 import linkedin from '../assets/linkedin.png'
 import whatsapp from '../assets/whatsapp.png'
+import { Link } from 'react-router-dom'
 
 
 
@@ -20,11 +20,11 @@ const Footer = () => {
           <h1 className='text-3xl font-bold relative  my-8'>خريطة الموقع</h1>
               <div className='flex flex-col'>
                 <div className='flex gap-6 flex-wrap justify-end mb-8'>
-                  <Link to="/" className='underline'>من نحن</Link>
-                  <Link to="/" className='underline'>منتجاتنا</Link>
+                  <Link to="/about" className='underline'>من نحن</Link>
+                  <Link to="/products" className='underline'>منتجاتنا</Link>
                   <Link to="/" className='underline'>الرئيسية</Link>
-                  <Link to="/" className='underline'>شركاء النجاح</Link>
-                  <Link to="/" className='underline'>الجودة</Link>
+                  <Link to="/partners" className='underline'>شركاء النجاح</Link>
+                  <Link to="/quality" className='underline'>الجودة</Link>
                 </div>
                 <div className='flex justify-end gap-3'>
                   <img src={facebook} alt="facebook" />
