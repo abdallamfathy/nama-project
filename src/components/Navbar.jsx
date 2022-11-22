@@ -23,6 +23,14 @@ const Navbar = ({textColor , socialDisplay}) => {
   ]
   const [searchTerm , setSearchTerm] = useState('');
   const [search , setSearch] = useState(false);
+  useEffect(() => {
+    if(searchTerm.length > 0){
+      setSearch(true);  
+    }else{
+      setSearch(false);
+    }
+  }, [searchTerm])
+  
 
   return (
     <>
@@ -61,16 +69,19 @@ const Navbar = ({textColor , socialDisplay}) => {
 
           <div className='flex flex-row  -mt-2 outline-none outline-0'>
             <form className='mr-4'>   
-                <div class="relative">
-                    <div class="flex absolute inset-y-0 right-0 items-center pr-6 pointer-events-none">
-                        <svg aria-hidden="true" class="w-5 h-5 text-[#FF7315] " fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
+                <div className="">
+                    <div className="flex relative  inset-y-0 left-[280px] top-4 items-center pr-6 pointer-events-none">
+                        <svg aria-hidden="true" className="w-5 h-5 text-[#FF7315] " fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
+                    {search && <div><h1 className='text-black relative right-72 font-semibold'>x</h1></div>}
                     </div>
-                    <input  type="search" id="default-search"  className={`block p-4 pr-10 focus:outline-dashed  w-[310px] h-[50px] text-right indent-48 text-sm text-gray-900 bg-gray-50 rounded-lg border-[#ff73155e] 
+                    <input  type="search" id="default-search"  className={`block p-4 pr-10 focus:outline-dashed  w-[310px] h-[50px] text-right -mt-5 indent-48 text-sm text-gray-900 bg-white b rounded-lg border-[#ff73155e] 
                     focus:border-[#FF7315] focus:ring-2 focus:ring-[#FF7315] focus:ring-opacity-50
-                    `} placeholder="...بحث" required="" onChange={(e) => {setSearchTerm(e.target.value)}}/>
+                    z-50`} placeholder="...بحث" required="" onChange={(e) => {setSearchTerm(e.target.value) , setSearch(true)}}/>
+                    
                     <label htmlFor="default-search" className="mb-2 text-sm font-medium focus:outline-0 text-gray-900 sr-only dark:text-gray-300">    asd      
 </label>
-                    {search && navigation.filter((val) => {
+                    
+            {search && navigation.filter((val) => {
                         if(searchTerm === "") {
                             return val.name
                             } else if (val.name.toLowerCase().includes(searchTerm.toLowerCase())) { 
@@ -78,10 +89,10 @@ const Navbar = ({textColor , socialDisplay}) => {
                                 }
                                   }).map((val , key) => { 
                                     return (
-                                        <div className="flex flex-col items-center justify-center w-full h-full z- bg-white text-black" key={key}> 
-                                            <NavLink to={val.href} className="flex flex-col items-center justify-center w-full h-full">
-                                                <div className="flex flex-col items-center justify-center w-full h-full"> 
-                                                    <h1 className="text-xl font-bold text-center text-gray-900">{val.name}</h1>
+                                        <div className="flex flex-col items-center justify-end w-full h-full  bg-white text-black -mt-[5px] -z-10 ring-[#FF7315] ring-2 ring-opacity-20 border-[#FF7315] border-x-0 " key={key}> 
+                                            <NavLink to={val.href} className="flex flex-col items-center justify-center w-full h-full ">
+                                                <div className="flex flex-col items-end justify-end w-full h-full  p-2 bg-white rounded-b-3xl"> 
+                                                    <h1 className="text-lg font-semibold text-center text-gray-900">{val.name}</h1>
                                                 </div>
                                             </NavLink>
                                         </div>
@@ -91,8 +102,8 @@ const Navbar = ({textColor , socialDisplay}) => {
             </form>
 
           </div>
-            <img src={logo} alt="asd" />
           
+            <img src={logo} alt="asd" className='-mt-3' />
         </nav>
 
       </div>
