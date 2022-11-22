@@ -70,13 +70,13 @@ const Navbar = ({textColor , socialDisplay}) => {
           <div className='flex flex-row  -mt-2 outline-none outline-0'>
             <form className='mr-4'>   
                 <div className="">
-                    <div className="flex relative  inset-y-0 left-[280px] top-4 items-center pr-6 pointer-events-none">
+                    <div className="flex relative  inset-y-0 left-[280px] top-4 items-center pr-6 ">
                         <svg aria-hidden="true" className="w-5 h-5 text-[#FF7315] " fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
-                    {search && <div><h1 className='text-black relative right-72 font-semibold'>x</h1></div>}
+                    {search && <div className='z-50 cursor-pointer' onClick={() => {setSearchTerm("")}}><h1 className='text-black relative right-72 font-semibold'>x</h1></div>}
                     </div>
                     <input  type="search" id="default-search"  className={`block p-4 pr-10 focus:outline-dashed  w-[310px] h-[50px] text-right -mt-5 indent-48 text-sm text-gray-900 bg-white b rounded-lg border-[#ff73155e] 
                     focus:border-[#FF7315] focus:ring-2 focus:ring-[#FF7315] focus:ring-opacity-50
-                    z-50`} placeholder="...بحث" required="" onChange={(e) => {setSearchTerm(e.target.value) , setSearch(true)}}/>
+                    z-50`} value={searchTerm} placeholder="...بحث" required="" onChange={(e) => {setSearchTerm(e.target.value) , setSearch(true)}}/>
                     
                     <label htmlFor="default-search" className="mb-2 text-sm font-medium focus:outline-0 text-gray-900 sr-only dark:text-gray-300">    asd      
 </label>
