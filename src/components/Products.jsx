@@ -43,7 +43,6 @@ const Products = () => {
    const closeModal = (e) => {
     if (modalRef.current !== e.target) {
           setShowModal(false);
-          console.log(modalRef.current);
         } 
    };
    // make modal close when click outside model
