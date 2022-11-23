@@ -37,11 +37,13 @@ const Products = () => {
   }, [keyPress]);
 
 
-    const modalRef = React.useRef();
+    const modalRefs = React.useRef();
 
     // make closeModal function to close model
    const closeModal = (e) => {
-    if (modalRef.current !== e.target) {
+    if ( e.target === modalRefs.current)   {
+      console.log("I clicked");
+      console.error(e);
           setShowModal(false);
         } 
    };
@@ -53,9 +55,9 @@ const Products = () => {
 
   
   return (
-    <div id='products my-28' ref={modalRef}>
+    <div id='products my-28'>
       
-      {showModal && (<Modal/> )}
+      {showModal && (<Modal /> )}
       <div className='container mx-auto '>
         <h1 className='text-4xl text-[#3A3535] font-bold text-center mb-6'>منتجاتنا</h1>
         <div className='flex flex-wrap flex-row justify-center gap-20 gap-x-24'>
