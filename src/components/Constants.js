@@ -33,7 +33,7 @@ export const products   = [
         name: 'النوع : حرف U',
         size : 'المقاس : 20 × 20 × 20',
         color : 'لون الشريحة : بدون',
-        image : brick3 ,
+        image : brick6 ,
         type : 'normal',
 
     },
@@ -79,7 +79,7 @@ export const products   = [
     },
     {
         id: 9,
-        name: 'النوع :7 فتحات',
+        name: 'النوع :3 فتحات',
         size : 'المقاس : 20 × 30 × 40',
         color : 'لون الشريحة : أبيض',
         image : brick9 ,
