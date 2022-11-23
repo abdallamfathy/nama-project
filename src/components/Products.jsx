@@ -11,12 +11,13 @@ import brick9 from '../assets/brick9.png'
 import brick10 from '../assets/brick10.png'
 import brick11 from '../assets/brick11.png'
 import brick12 from '../assets/brick12.png'
-
-
 import Buttons from './Button'
 import Modal from './Modal'
+import { products } from './Constants'
 
 const Products = () => {
+
+  
   
   const [showModal, setShowModal] = React.useState(false);
   
@@ -42,7 +43,6 @@ const Products = () => {
     // make closeModal function to close model
    const closeModal = (e) => {
     if ( e.target === modalRefs.current)   {
-      
           setShowModal(false);
         } 
    };
