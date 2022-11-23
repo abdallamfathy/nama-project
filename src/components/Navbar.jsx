@@ -7,7 +7,7 @@ import lang from '../assets/lang.png'
 import { Link } from 'react-scroll'
 import { FaFacebook , FaInstagram , FaTwitter , FaWhatsapp , FaLinkedin , FaGlobe} from 'react-icons/fa'
 import { useParams } from 'react-router-dom'
-import { products } from './Constants';
+import { productDetails, products } from './Constants';
 
 
 const Navbar = ({textColor , socialDisplay}) => {
@@ -82,7 +82,7 @@ const Navbar = ({textColor , socialDisplay}) => {
                     <label htmlFor="default-search" className="mb-2 text-sm font-medium focus:outline-0 text-gray-900 sr-only dark:text-gray-300">    asd      
 </label>
                     
-            {search && products.filter((val) => {
+            {search && productDetails.filter((val) => {
                         if(searchTerm === "") {
                             return val.name
                             } else if (val.name.toLowerCase().includes(searchTerm.toLowerCase())) { 
@@ -91,7 +91,7 @@ const Navbar = ({textColor , socialDisplay}) => {
                                   }).map((val , key) => { 
                                     return (
                                         <div className="flex flex-col items-center justify-end w-full h-full  bg-white text-black -mt-[5px] -z-10 ring-[#FF7315] ring-2 ring-opacity-20 border-[#FF7315] border-x-0 " key={key}> 
-                                            <NavLink to={val.href} className="flex flex-col items-center justify-center w-full h-full ">
+                                            <NavLink to={val.type} className="flex flex-col items-center justify-center w-full h-full ">
                                                 <div className="flex flex-col items-end justify-end w-full h-full  p-2 bg-white rounded-b-3xl"> 
                                                     <h1 className="text-lg font-semibold text-center text-gray-900">{val.name}</h1>
                                                 </div>
