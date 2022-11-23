@@ -76,3 +76,71 @@ export const products   = [
         image : brick9 ,
     }
 ];
+
+export const productDetails = [
+    {
+        id: 1,
+        name: 'بلك بركانى خفيف 3 فتحات ',
+        image : brick1 ,
+    },
+    {
+        id: 2,
+        name: 'بلك  بركانى معزول شريحة أبيض 7 فتحات',
+        image : brick4 ,
+    },
+    {
+        id: 3,
+        name: 'بلك  بركانى معزول مشرشر (مضلع)  أزرق',
+        image : brick10 ,
+    },
+    {
+        id: 4,
+        name: 'بلك بركانى خفيف 3 فتحات',
+        image : brick2 ,
+    },
+    {
+        id: 5,
+        name: 'بلك  بركانى معزول شريحة أزرق 7 فتحات',
+        image : brick12 ,
+    },
+    {
+        id: 6,
+        name: 'بلك  بركانى خفيف 3 فتحات',
+        image : brick3 ,
+    },
+    {
+        id: 7,
+        name: 'بلك  بركانى خفيف تمديدات حرف U',
+        image : brick6 ,
+    },
+    {
+        id: 8,
+        name: 'بلك  بركانى معزول شريحة أبيض 7 فتحات',
+        image : brick5 ,
+    },
+    {
+        id: 9,
+        name: 'بلك  بركانى معزول شريحة أزرق 5 فتحات',
+        image : brick11 ,
+    },
+    {
+        id: 10,
+        name: 'بلك  بركانى معزول شريحة أبيض 3 فتحات',
+        image : brick7 ,
+    },
+    {
+        id: 11,
+        name: 'بلك  بركانى معزول مشرشر (مضلع)  أبيض',
+        image : brick9 ,
+    },
+    {
+        id: 12,
+        name: 'بلك  بركانى معزول شريحة أزرق 7 فتحات',
+        image : brick12 ,
+    },
+    {
+        id: 13,
+        name: 'بلك  بركانى معزول شريحة أبيض 7 فتحات',
+        image : brick3 ,
+    },
+]
