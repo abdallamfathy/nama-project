@@ -7,6 +7,7 @@ import lang from '../assets/lang.png'
 import { Link } from 'react-scroll'
 import { FaFacebook , FaInstagram , FaTwitter , FaWhatsapp , FaLinkedin , FaGlobe} from 'react-icons/fa'
 import { useParams } from 'react-router-dom'
+import { products } from './Constants';
 
 
 const Navbar = ({textColor , socialDisplay}) => {
@@ -81,7 +82,7 @@ const Navbar = ({textColor , socialDisplay}) => {
                     <label htmlFor="default-search" className="mb-2 text-sm font-medium focus:outline-0 text-gray-900 sr-only dark:text-gray-300">    asd      
 </label>
                     
-            {search && navigation.filter((val) => {
+            {search && products.filter((val) => {
                         if(searchTerm === "") {
                             return val.name
                             } else if (val.name.toLowerCase().includes(searchTerm.toLowerCase())) { 
