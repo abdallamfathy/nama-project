@@ -39,7 +39,7 @@ export const products   = [
     },
     {
         id: 4,
-        name: 'النوع : 3 فتحات',
+        name: 'النوع : 7 فتحات',
         size : 'المقاس : 20 × 20 × 40',
         color : 'لون الشريحة : أبيض',
         image : brick4 ,
@@ -58,7 +58,7 @@ export const products   = [
         name: 'النوع : 7 فتحات',
         size : 'المقاس : 20 × 25 × 40',
         color : 'لون الشريحة : أزرق',
-        image : brick6 ,
+        image : brick7 ,
         type : 'blue',
     },
     {
@@ -66,7 +66,7 @@ export const products   = [
         name: 'النوع : شريحة مشرشر',
         size : 'المقاس : 20 × 20 × 40',
         color : 'لون الشريحة : أزرق',
-        image : brick7 ,
+        image : brick10 ,
         type : 'blue',
     },
     {
