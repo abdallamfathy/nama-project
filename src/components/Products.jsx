@@ -17,7 +17,10 @@ import { products } from './Constants'
 
 const Products = () => {
 
-  
+  const name = products.map((product) => product.name)
+  const size = products.map((product) => product.size)
+  const color = products.map((product) => product.color)
+  console.log(name , size , color);  
   
   const [showModal, setShowModal] = React.useState(false);
   
@@ -79,12 +82,28 @@ const Products = () => {
           </div>
           <div className="opacity-60 fixed inset-0 z-40 bg-black overflow-hidden"></div>
         </>)}
+
+
       <div className='container mx-auto '>
         <h1 className='text-4xl text-[#3A3535] font-bold text-center mb-6'>منتجاتنا</h1>
         <div className='flex flex-wrap flex-row justify-center gap-20 gap-x-24'>
+        {products.map((product) => (
+            <div   onClick={()=> {closeModal,setShowModal(true)}}  className=" flex flex-row cursor-pointer justify-center items-center w-[305px] h-[342px] relative group bg-white rounded-lg border border-gray-50 shadow-lg  dark:bg-gray-800 dark:border-gray-700">
+            <img  className="-my-10 transition duration-[2000]  delay-300 hover:transition-all ease-out hover:left-20 absolute left-24 top-12  hover:w-44  w-36 h-36 hover:h-44" src={product.image} alt="productImage" />
+            <div  className="text-right text-[#3A3535] text-[24px] h-[108px] w-[250px] relative top-14 ">
+              <p>{product.name}</p>
+              <p >
+                {product.size}
+              </p>
+              <p>{product.color}</p>
+            </div>
+          </div>
+        ))}
+        </div>
+        {/* <div className='flex flex-wrap flex-row justify-center gap-20 gap-x-24'>
           <div   onClick={()=> {closeModal,setShowModal(true)}}  className=" flex flex-col cursor-pointer justify-center items-center w-[305px] h-[342px] relative group bg-white rounded-lg border border-gray-50 shadow-lg  dark:bg-gray-800 dark:border-gray-700">
             
-              <img  className="-my-10 transition duration-[2000]  delay-300 hover:transition-all ease-out hover:left-20 absolute left-24 top-12  hover:w-44  w-36 h-36 hover:h-44   " src={brick1} alt="Ado" />
+              <img  className="-my-10 transition duration-[2000]  delay-300 hover:transition-all ease-out hover:left-20 absolute left-24 top-12  hover:w-44  w-36 h-36 hover:h-44" src={brick1} alt="Ado" />
             
            
             <div  className="text-right text-[#3A3535] text-[24px] h-[108px] w-[250px] relative top-14 ">
@@ -220,7 +239,7 @@ const Products = () => {
 
 
 
-        </div>
+        </div> */}
       
         <Buttons text={"عرض المزيد"} href={"/products"} />
         
