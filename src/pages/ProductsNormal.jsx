@@ -79,7 +79,7 @@ const ProductsNormal = () => {
 
       <div className='container mx-auto pb-28'>
           <div className='flex justify-end my-20 items-baseline gap-4'>
-          <h1 className='text-3xl font-bold text-[#FF7315]'>شريحة بيضاء</h1>
+          <h1 className='text-3xl font-bold text-[#FF7315]'>بدون شريحة </h1>
           <span ><FaLessThan/></span>
           <h1 className='text-2xl text-black'>منتجاتنا</h1>
           <span ><FaLessThan/></span>
@@ -88,7 +88,7 @@ const ProductsNormal = () => {
           <div className='flex flex-wrap flex-row justify-center gap-20 gap-x-24'>
          
                     {products.filter((val) => {
-                      if(val. type === "normal") {
+                      if(val.type === "normal") {
                           return val
                           }
                             }).map((product , key) => {
