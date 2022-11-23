@@ -18,6 +18,7 @@ export const products   = [
         size : 'المقاس : 10 × 20 × 40',
         color : 'لون الشريحة : بدون',
         image : brick1 ,
+        type : 'normal'
     },
     {
         id: 2,
@@ -25,6 +26,7 @@ export const products   = [
         size : 'المقاس : 15 × 20 × 40',
         color : 'لون الشريحة : بدون',
         image : brick2 ,
+        type : 'normal',
     },
     {
         id: 3,
@@ -32,6 +34,8 @@ export const products   = [
         size : 'المقاس : 20 × 20 × 20',
         color : 'لون الشريحة : بدون',
         image : brick3 ,
+        type : 'normal',
+
     },
     {
         id: 4,
@@ -39,6 +43,7 @@ export const products   = [
         size : 'المقاس : 20 × 20 × 40',
         color : 'لون الشريحة : أبيض',
         image : brick4 ,
+        type : 'white',
     },
     {
         id: 5,
@@ -46,6 +51,7 @@ export const products   = [
         size : 'المقاس : 20 × 20 × 40',
         color : 'لون الشريحة : أبيض',
         image : brick5 ,
+        type : 'white',
     },
     {
         id: 6,
@@ -53,6 +59,7 @@ export const products   = [
         size : 'المقاس : 20 × 25 × 40',
         color : 'لون الشريحة : أزرق',
         image : brick6 ,
+        type : 'blue',
     },
     {
         id: 7,
@@ -60,6 +67,7 @@ export const products   = [
         size : 'المقاس : 20 × 20 × 40',
         color : 'لون الشريحة : أزرق',
         image : brick7 ,
+        type : 'blue',
     },
     {
         id: 8,
@@ -67,6 +75,7 @@ export const products   = [
         size : 'المقاس : 20 × 20 × 40',
         color : 'لون الشريحة : أبيض',
         image : brick8 ,
+        type : 'white',
     },
     {
         id: 9,
@@ -74,6 +83,7 @@ export const products   = [
         size : 'المقاس : 20 × 30 × 40',
         color : 'لون الشريحة : أبيض',
         image : brick9 ,
+        type : 'white',
     }
 ];
 
@@ -158,6 +168,6 @@ export const productDetails = [
         id: 13,
         name: 'بلك  بركانى معزول شريحة أبيض 7 فتحات',
         href: '/products/white',
-        image : brick3 ,
+        image : brick7 ,
     },
 ]
