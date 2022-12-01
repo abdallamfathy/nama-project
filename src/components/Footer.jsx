@@ -9,6 +9,7 @@ import instagram from "../assets/instagram.png";
 import linkedin from "../assets/linkedin.png";
 import whatsapp from "../assets/whatsapp.png";
 import { Link } from "react-router-dom";
+import { FaSnapchat } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -35,11 +36,11 @@ const Footer = () => {
               </Link>
             </div>
             <div className="flex justify-end gap-3">
-              <a href="https://www.facebook.com/">
+              <a href="https://www.facebook.com/profile.php?id=100086364507234">
                 {" "}
                 <img src={facebook} alt="facebook" />
               </a>
-              <a href="https://www.twitter.com/">
+              <a href="https://twitter.com/NamaTaiba">
                 {" "}
                 <img src={twitter} alt="twitter" />
               </a>
@@ -47,13 +48,10 @@ const Footer = () => {
                 {" "}
                 <img src={instagram} alt="instagram" />
               </a>
-              <a href="https://www.linkedin.com/">
+
+              <a href="https://www.snapchat.com/add/nama_taiba?share_id=EdYdd_Y10Pc&locale=en-US">
                 {" "}
-                <img src={linkedin} alt="linkedin" />
-              </a>
-              <a href="https://www.whatsapp.com/">
-                {" "}
-                <img src={whatsapp} alt="whatsapp" />
+                <FaSnapchat  className="w-[33px] h-[33px]" />
               </a>
             </div>
           </div>

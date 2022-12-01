@@ -8,6 +8,7 @@ import {
   FaWhatsapp,
   FaLinkedin,
   FaGlobe,
+  FaSnapchat,
 } from "react-icons/fa";
 import { useParams } from "react-router-dom";
 import { productDetails, products } from "./Constants";
@@ -43,20 +44,17 @@ const Navbar = ({ textColor, socialDisplay }) => {
               {/* <img src={lang} alt="language"  className='mb-6 w-[33px] h-[33px]'/> */}
               <FaGlobe className="mb-6 w-[33px] h-[33px]" />
               <div className={`gap-y-4 flex flex-col ${socialDisplay}`}>
-                <a href="https://www.facebook.com/">
+                <a href="https://www.facebook.com/profile.php?id=100086364507234">
                   <FaFacebook className="w-[33px] h-[33px]" />
                 </a>
                 <a href="https://www.instagram.com/nama_taiba/">
                   <FaInstagram className="w-[33px] h-[33px]" />
                 </a>
-                <a href="https://www.twitter.com/">
+                <a href="https://twitter.com/NamaTaiba">
                   <FaTwitter className="w-[33px] h-[33px]" />
                 </a>
-                <a href="https://www.whatsapp.com/">
-                  <FaWhatsapp className="w-[33px] h-[33px]" />
-                </a>
-                <a href="https://www.linkedin.com/">
-                  <FaLinkedin className="w-[33px] h-[33px]" />
+                <a href="https://www.snapchat.com/add/nama_taiba?share_id=EdYdd_Y10Pc&locale=en-US">
+                  <FaSnapchat  className="w-[33px] h-[33px]" />
                 </a>
               </div>
             </div>
