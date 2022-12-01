@@ -46,7 +46,7 @@ const Navbar = ({ textColor, socialDisplay }) => {
                 <a href="https://www.facebook.com/">
                   <FaFacebook className="w-[33px] h-[33px]" />
                 </a>
-                <a href="https://www.instagram.com/">
+                <a href="https://www.instagram.com/nama_taiba/">
                   <FaInstagram className="w-[33px] h-[33px]" />
                 </a>
                 <a href="https://www.twitter.com/">

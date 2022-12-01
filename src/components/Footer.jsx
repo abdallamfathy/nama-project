@@ -43,7 +43,7 @@ const Footer = () => {
                 {" "}
                 <img src={twitter} alt="twitter" />
               </a>
-              <a href="https://www.instagram.com/">
+              <a href="https://www.instagram.com/nama_taiba/">
                 {" "}
                 <img src={instagram} alt="instagram" />
               </a>
