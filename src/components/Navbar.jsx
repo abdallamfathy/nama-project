@@ -5,8 +5,6 @@ import {
   FaFacebook,
   FaInstagram,
   FaTwitter,
-  FaWhatsapp,
-  FaLinkedin,
   FaGlobe,
   FaSnapchat,
 } from "react-icons/fa";
@@ -122,7 +120,6 @@ const Navbar = ({ textColor, socialDisplay }) => {
                     className="mb-2 text-sm font-medium focus:outline-0 text-gray-900 sr-only dark:text-gray-300"
                   >
                     {" "}
-                    asd
                   </label>
 
                   {search &&

@@ -1,6 +1,5 @@
 import './index.css'
-import  {Main, Navbar}  from './components'
-import { Footer } from 'flowbite-react'
+import  {Main}  from './components'
 import PartnersPage from './pages/PartnersPage'
 import AboutPage from './pages/AboutPage'
 import ProductsPage from './pages/ProductsPage'
