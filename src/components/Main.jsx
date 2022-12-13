@@ -7,6 +7,7 @@ import Quality from "./Quality";
 import Slider from "./Slider";
 import About from "./About";
 import WhyUs from "./WhyUs";
+import Chat from "./Chat";
 
 const Main = () => {
   return (
@@ -20,6 +21,7 @@ const Main = () => {
       <Quality />
       <Partners />
       <Contact />
+      <Chat/>
       <Footer />
     </div>
   );
