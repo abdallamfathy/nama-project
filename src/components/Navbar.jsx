@@ -21,7 +21,7 @@ const Navbar = ({ textColor, socialDisplay }) => {
     { name: "الجودة", href: "/quality", current: false },
     { name: "من نحن", href: "/about", current: false },
     { name: "منتجاتنا", href: "/products", current: false },
-    // { name: "الرئيسية", href: "/", current: true },
+    { name: "الرئيسية", href: "/", current: true },
   ];
   const [searchTerm, setSearchTerm] = useState("");
   const [search, setSearch] = useState(false);
@@ -41,7 +41,7 @@ const Navbar = ({ textColor, socialDisplay }) => {
 
   return (
     <div className="mt-16 z-50">
-      <div className="fixed bg-[#5C5757]  w-full -mt-16 bg-opacity-70  z-50 ">
+      <div className="fixed    bg-black  w-full -mt-16  z-50 bg-opacity-60 ">
           <nav
             className={` text-white px-6 flex justify-center items-center gap-6 `}
           >
