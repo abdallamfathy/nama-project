@@ -21,7 +21,6 @@ const Main = () => {
       <Quality />
       <Partners />
       <Contact />
-      <Chat/>
       <Footer />
     </div>
   );
