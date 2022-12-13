@@ -21,7 +21,7 @@ const Navbar = ({ textColor, socialDisplay }) => {
     { name: "الجودة", href: "/quality", current: false },
     { name: "من نحن", href: "/about", current: false },
     { name: "منتجاتنا", href: "/products", current: false },
-    { name: "الرئيسية", href: "/", current: true },
+    // { name: "الرئيسية", href: "/", current: true },
   ];
   const [searchTerm, setSearchTerm] = useState("");
   const [search, setSearch] = useState(false);

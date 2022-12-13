@@ -19,7 +19,7 @@ const Chat = () => {
             </div>
             <div className='flex '>
               <button className='bg-gray-200  w-[50px] h-[50px] rounded-full  mr-3 flex justify-center items-center'><img src={send} alt="" /></button>
-               <button className='bg-gray-200 rounded-3xl h-12 relative '><input type="text" className='bg-transparent  border-transparent' /></button>
+               <button className='bg-gray-200 rounded-3xl h-12 relative '><input type="text" className='bg-transparent  border-transparent focus:outline-none focus:border-0' /></button>
             </div>
 
         </div>
