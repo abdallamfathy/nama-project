@@ -1,13 +1,13 @@
-import "./index.css";
-import { Main, Navbar } from "./components";
-import PartnersPage from "./pages/PartnersPage";
-import AboutPage from "./pages/AboutPage";
-import ProductsPage from "./pages/ProductsPage";
-import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
-import QualityPage from "./pages/QualityPage";
-import ProductsWhite from "./pages/ProductsWhite";
-import ProductsNormal from "./pages/ProductsNormal";
-import ProductsBlue from "./pages/ProductsBlue";
+import './index.css'
+import  {Main}  from './components'
+import PartnersPage from './pages/PartnersPage'
+import AboutPage from './pages/AboutPage'
+import ProductsPage from './pages/ProductsPage'
+import { Route, BrowserRouter as Router, Routes } from 'react-router-dom'
+import QualityPage from './pages/QualityPage'
+import ProductsWhite from './pages/ProductsWhite'
+import ProductsNormal from './pages/ProductsNormal'
+import ProductsBlue from './pages/ProductsBlue'
 
 function App() {
   return (
