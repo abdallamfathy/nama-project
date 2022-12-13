@@ -40,7 +40,7 @@ const Navbar = ({ textColor, socialDisplay }) => {
   }, [searchTerm]);
 
   return (
-    <div className="mt-16">
+    <div className="mt-16 z-50">
       <div className="fixed bg-[#5C5757]  w-full -mt-16 bg-opacity-70  z-50 ">
           <nav
             className={` text-white px-6 flex justify-center items-center gap-6 `}
