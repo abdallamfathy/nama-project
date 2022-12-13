@@ -10,6 +10,7 @@ import {
 } from "react-icons/fa";
 import { useParams } from "react-router-dom";
 import { productDetails, products } from "./Constants";
+import chat from "../assets/chat.png";
 
 const Navbar = ({ textColor, socialDisplay }) => {
   const params = useParams();
@@ -32,15 +33,15 @@ const Navbar = ({ textColor, socialDisplay }) => {
   }, [searchTerm]);
 
   return (
-    <>
-      <div className="fixed bg-[#5C5757]  w-full   z-50 ">
+    <div className="mt-16">
+      <div className="fixed bg-[#5C5757]  w-full -mt-16 bg-opacity-70  z-50 ">
           <nav
-            className={` ${textColor} p-6 flex justify-center items-center gap-6 `}
+            className={` text-white px-6 flex justify-center items-center gap-6 `}
           >
             
 
             <div className="flex  justify-center items-center">
-      <div className="flex flex-col  w-10 relative right-60 h-0 -top-3 z-10 ">
+      <div className="flex flex-col  w-10 relative right-60 h-2 -top-3 z-10 ">
               <div className={`gap-y-8 flex flex-col ${socialDisplay}`}>
               <FaGlobe className="mb-24 w-[33px] h-[33px]" />
                 <a href="https://www.facebook.com/profile.php?id=100086364507234">
@@ -55,6 +56,11 @@ const Navbar = ({ textColor, socialDisplay }) => {
                 <a href="https://www.snapchat.com/add/nama_taiba?share_id=EdYdd_Y10Pc&locale=en-US">
                   <FaSnapchat  className="w-[33px] h-[33px]" />
                 </a>
+                <div className="bg-gray-700 p-2 rounded-xl relative top-36  ">
+                <a href="#" >
+                  <img src={chat} alt="chatImage" />
+                </a>
+                </div>
               </div>
             </div>
               
@@ -74,7 +80,7 @@ const Navbar = ({ textColor, socialDisplay }) => {
             </div>
           </nav>
         </div>
-    </>
+    </div>
   );
 };
 
