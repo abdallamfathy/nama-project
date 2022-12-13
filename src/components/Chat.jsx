@@ -4,8 +4,8 @@ import person from '../assets/person.png'
 import send from '../assets/send.png'
 const Chat = () => {
   return (
-    <div className='ml-60'>
-        <div className='w-[313px] h-[438px] flex  flex-col justify-center items-center shadow-2xl gap-y-8 rounded-2xl'>
+    <div className=' left-52 top-24   z-50'>
+        <div className='w-[313px] h-[438px] bg-white flex  flex-col justify-center items-center shadow-2xl gap-y-8 rounded-2xl'>
             <div className='flex flex-col justify-center items-center text-black p-4 px-10 '>
                 <img src={chat1} alt="chat image" className='text-black mb-4'/>
                 <p className='text-right'>مرحبا بك فى مساعدك الشخصى من نما طيبة للبلك البركانى ! متحاين معك من 9 صباحا الى 5 مساء.</p>

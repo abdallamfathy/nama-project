@@ -11,6 +11,7 @@ import {
 import { useParams } from "react-router-dom";
 import { productDetails, products } from "./Constants";
 import chat from "../assets/chat.png";
+import Chat from "./Chat";
 
 const Navbar = ({ textColor, socialDisplay }) => {
   const params = useParams();
@@ -24,6 +25,12 @@ const Navbar = ({ textColor, socialDisplay }) => {
   ];
   const [searchTerm, setSearchTerm] = useState("");
   const [search, setSearch] = useState(false);
+  const [show, setShow] = useState(false);
+
+  const toggle = () => {
+    setShow(!show);
+  };
+
   useEffect(() => {
     if (searchTerm.length > 0) {
       setSearch(true);
@@ -56,8 +63,8 @@ const Navbar = ({ textColor, socialDisplay }) => {
                 <a href="https://www.snapchat.com/add/nama_taiba?share_id=EdYdd_Y10Pc&locale=en-US">
                   <FaSnapchat  className="w-[33px] h-[33px]" />
                 </a>
-                <div className="bg-gray-700 p-2 rounded-xl relative top-36  ">
-                <a href="#" >
+                <div className="bg-gray-700 p-2 rounded-xl relative  top-24">
+                <a href="#" onClick={() => toggle()} >
                   <img src={chat} alt="chatImage" />
                 </a>
                 </div>
@@ -80,6 +87,7 @@ const Navbar = ({ textColor, socialDisplay }) => {
             </div>
           </nav>
         </div>
+        {  show && <div className="fixed left-36 top-24 z-50 bg-white rounded-2xl"><Chat/></div>} 
     </div>
   );
 };
