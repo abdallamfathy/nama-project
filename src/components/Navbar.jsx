@@ -41,14 +41,7 @@ const Navbar = ({ textColor, socialDisplay }) => {
 
   return (
     <div className="mt-16 z-50">
-      <div className="fixed    bg-black  w-full -mt-16  z-50 bg-opacity-60 ">
-          <nav
-            className={` text-white px-6 flex justify-center items-center gap-6 `}
-          >
-            
-
-            <div className="flex  justify-center items-center">
-      <div className="flex flex-col  w-10 relative right-60 h-2 -top-3 z-10 ">
+      <div className="flex flex-col text-white w-10 relative left-12   h-1 -top-9 z-50 ">
               <div className={`gap-y-8 flex flex-col ${socialDisplay}`}>
               <FaGlobe className="mb-24 w-[33px] h-[33px]" />
                 <a href="https://www.facebook.com/profile.php?id=100086364507234">
@@ -63,13 +56,20 @@ const Navbar = ({ textColor, socialDisplay }) => {
                 <a href="https://www.snapchat.com/add/nama_taiba?share_id=EdYdd_Y10Pc&locale=en-US">
                   <FaSnapchat  className="w-[33px] h-[33px]" />
                 </a>
-                <div className="bg-gray-700 p-2 rounded-xl relative  top-24">
+                <div className="bg-gray-700 p-2 rounded-xl fixed w-10  left-12 top-[500px]">
                 <a href="#" onClick={() => toggle()} >
                   <img src={chat} alt="chatImage" />
                 </a>
                 </div>
               </div>
             </div>
+      <div className="fixed bg-black  w-full -mt-[68px]  z-40 bg-opacity-60 ">
+          <nav
+            className={` text-white px-6 flex justify-center items-center gap-6  `}
+          >
+            
+
+            <div className="flex  justify-center items-center">
               
             <div className="hidden lg:flex  gap-x-9 ">
               {navigation.map((item) => (
