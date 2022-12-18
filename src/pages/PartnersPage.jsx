@@ -19,7 +19,7 @@ const PartnersPage = () => {
         socialDisplay="hidden"
       />
       <div className="container mx-auto">
-        <div className="flex justify-end my-20 items-baseline gap-4">
+        <div className="flex justify-end py-20 items-baseline gap-4">
           <h1 className="text-3xl font-bold text-[#FF7315]">شركاء النجاح</h1>
           <span>
             <FaLessThan />

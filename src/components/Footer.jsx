@@ -13,7 +13,7 @@ import { FaSnapchat } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <div className="bg-[#3A3535]">
+    <div className="bg-[#222222]">
       <div className=" mt-6  container mx-auto grid  grid-cols-5 justify-end text-white ">
         <div className="col-span-1 flex-col items-end flex ">
           <h1 className="text-3xl font-bold relative  my-8">خريطة الموقع</h1>
@@ -89,8 +89,8 @@ const Footer = () => {
             />
           </div>
         </div>
-        <div className=" mt-14   flex-col p-4  col-span-2 items-end flex">
-          <img src={logo} alt="logo" className="mr-6" />
+        <div className=" mt-8   flex-col p-4  col-span-2 items-end flex">
+          <img src={logo} alt="logo" className="mr-6 mb-8" />
           <p className="text-right text-[16px]    leading-9">
             يعد مصنع نما طيبة للمنتجات األسمنتية من المصانع الرائدة فى مجال
             البلكات الأسمنتية وتم تأسيسه عام 2016 بهيئة مدن الصناعية بالمدينة

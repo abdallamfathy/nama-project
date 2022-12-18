@@ -19,7 +19,7 @@ import img3 from "../assets/img3.png";
 const Slider = () => {
   return (
     <div className="h-[103vh]  -ml-1">
-      <h1 className="text-white z-50 top-[420px] relative text-center  text-6xl font-bold">
+      <h1 className="text-white z-40 top-[420px] relative text-center  text-6xl font-bold">
         خصم يبدأ من <span className="text-[#FF7315]">%15</span> ويصل الى{" "}
         <span className="text-[#FF7315]">%30</span>
       </h1>
