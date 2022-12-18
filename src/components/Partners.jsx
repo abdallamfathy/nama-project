@@ -13,7 +13,7 @@ const Partners = () => {
       <div className="flex justify-center ">
         <img src={cert3} alt="image" />
         <img src={cert2} alt="image" />
-        <img src={cert1} alt="image" />
+        {/* <img src={cert1} alt="image" /> */}
       </div>
       <Button text={"عرض المزيد"} href={"/partners"} />
     </div>
