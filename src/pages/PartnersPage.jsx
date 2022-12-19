@@ -18,7 +18,7 @@ const PartnersPage = () => {
         textColor="text-[#3A3535] border-b border-[#ff731573]"
         socialDisplay="hidden"
       />
-      <div className="container mx-auto">
+      <div className="mx-20">
         <div className="flex justify-end py-20 items-baseline gap-4">
           <h1 className="text-3xl font-bold text-[#FF7315]">شركاء النجاح</h1>
           <span>
@@ -26,7 +26,7 @@ const PartnersPage = () => {
           </span>
           <h1 className="text-2xl text-[#3A3535]">الرئيسية</h1>
         </div>
-        <div className="flex flex-row flex-wrap justify- gap-6 ">
+        <div className="flex flex-row flex-wrap justify-center ">
           <img src={cert1} alt="image" />
           <img src={cert2} alt="image" />
           <img src={cert3} alt="image" />
