@@ -42,7 +42,8 @@ const Products = () => {
   }, [setShowModal]);
 
   return (
-    <div id="products my-28">
+    <div id="products">
+      
       {showModal && (
         <>
           <div
@@ -81,8 +82,8 @@ const Products = () => {
         </>
       )}
 
-      <div className="container mx-auto ">
-        <h1 className="text-4xl text-[#3A3535] font-bold text-center mb-6">
+      <div className="container mx-auto my-20 ">
+        <h1 className="text-4xl text-[#3A3535] font-bold text-center mb-10">
           منتجاتنا
         </h1>
         <div className="flex flex-wrap flex-row justify-center gap-20 gap-x-24">

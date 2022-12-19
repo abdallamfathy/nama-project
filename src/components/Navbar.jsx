@@ -65,13 +65,13 @@ const Navbar = ({ textColor, socialDisplay }) => {
             </div>
       <div className="fixed bg-black  w-full -mt-[68px]  z-40 bg-opacity-60 ">
           <nav
-            className={` text-white px-6 flex justify-center items-center gap-6  `}
+            className={` text-white  flex justify-center items-center gap-6  `}
           >
             
 
             <div className="flex  justify-center items-center">
               
-            <div className="hidden lg:flex  gap-x-9 ">
+            <div className="hidden lg:flex  gap-x-10 ">
               {navigation.map((item) => (
                 <NavLink
                   key={item.name}
