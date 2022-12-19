@@ -40,7 +40,7 @@ const Slider = () => {
         effect={"fade"}
         speed={2500}
         autoplay={{ delay: 1500, disableOnInteraction: false }}
-        className="mySwiper -mt-28 "
+        className="mySwiper -mt-32 "
         style={{
           "--swiper-pagination-color": "#FF7315",
           "--swiper-pagination-bullet-inactive-color": "#fff",
