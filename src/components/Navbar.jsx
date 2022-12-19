@@ -56,7 +56,7 @@ const Navbar = ({ textColor, socialDisplay }) => {
                 <a href="https://www.snapchat.com/add/nama_taiba?share_id=EdYdd_Y10Pc&locale=en-US">
                   <FaSnapchat  className="w-[25px] h-[25px] 2xl:w-[33px] 2xl:h-[33px]" />
                 </a>
-                <div className="bg-gray-700 p-2 rounded-xl fixed w-10 h-10  left-12 top-[500px]">
+                <div className="bg-gray-700 p-2 rounded-xl fixed w-10 h-10  left-[90px] top-[500px]">
                 <button onClick={() => toggle()} >
                   <img src={chat} alt="chatImage" />
                 </button>
