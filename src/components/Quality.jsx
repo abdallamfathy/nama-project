@@ -14,70 +14,70 @@ const Quality = () => {
 
         </p>
       </div>
-      <div className=" my-32">
+      <div className=" my-32 ">
         <Swiper
           modules={[Navigation, Pagination, Scrollbar, A11y]}
           slidesPerView={3.5}
           scrollbar={{ draggable: true }}
           className="mySwiper"
         >
-          <SwiperSlide>
+          <SwiperSlide className="mx-16">
             <img
               src={quality}
               alt="image"
               className="w-[351px] h-[497px] shadow-xl my-2 mb-4"
             />
           </SwiperSlide>
-          <SwiperSlide>
+          <SwiperSlide className="mx-16">
             <img
               src={quality}
               alt="image"
               className="w-[351px] h-[497px] shadow-xl my-2 mb-4"
             />
           </SwiperSlide>
-          <SwiperSlide>
+          <SwiperSlide className="mx-16">
             <img
               src={quality}
               alt="image"
               className="w-[351px] h-[497px] shadow-xl my-2 mb-4"
             />
           </SwiperSlide>
-          <SwiperSlide>
+          <SwiperSlide className="mx-16">
             <img
               src={quality}
               alt="image"
               className="w-[351px] h-[497px] shadow-xl my-2 mb-4"
             />
           </SwiperSlide>
-          <SwiperSlide>
+          <SwiperSlide className="mx-16">
             <img
               src={quality}
               alt="image"
               className="w-[351px] h-[497px] shadow-xl my-2 mb-4"
             />
           </SwiperSlide>
-          <SwiperSlide>
+          <SwiperSlide className="mx-16">
             <img
               src={quality}
               alt="image"
               className="w-[351px] h-[497px] shadow-xl my-2 mb-4"
             />
           </SwiperSlide>
-          <SwiperSlide>
+          <SwiperSlide className="mx-16">
             <img
               src={quality}
               alt="image"
               className="w-[351px] h-[497px] shadow-xl my-2 mb-4"
             />
           </SwiperSlide>
-          <SwiperSlide>
+          <SwiperSlide className="mx-16">
             <img
               src={quality}
               alt="image"
               className="w-[351px] h-[497px] shadow-xl my-2 mb-4"
             />
           </SwiperSlide>
-          <SwiperSlide>
+          <SwiperSlide className="mx-16">
             <img
               src={quality}
               alt="image"
