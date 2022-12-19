@@ -95,11 +95,11 @@ const Products = () => {
               className=" flex flex-row cursor-pointer justify-center items-center 2xl:w-[305px] 2xl:h-[342px] w-[270px] h-[310px] relative group bg-white rounded-lg border border-gray-50 shadow-lg  dark:bg-gray-800 dark:border-gray-700"
             >
               <img
-                className="-my-10 transition duration-[2000]  delay-300 hover:transition-all ease-out hover:left-20 absolute left-24 top-12  hover:w-44  w-36 h-36 hover:h-44"
+                className="-my-10 transition duration-[2000]  delay-300 hover:transition-all ease-out 2xl:hover:left-20 hover:left-16 absolute 2xl:left-24 left-20 2xl:top-12 top-10  hover:w-44  w-36 h-36 hover:h-44"
                 src={product.image}
                 alt="productImage"
               />
-              <div className="text-right text-[#3A3535] 2xl:text-[24px] text-xl h-[108px] w-[250px] relative right-4 top-14 ">
+              <div className="text-right text-[#3A3535] 2xl:text-[24px] text-xl h-[108px] w-[250px] relative 2xl:right-0 right-4 top-14 ">
                 <p>{product.name}</p>
                 <p>{product.size}</p>
                 <p>{product.color}</p>
