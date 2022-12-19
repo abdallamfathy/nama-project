@@ -6,9 +6,9 @@ import Button from "./Button";
 
 const Partners = () => {
   return (
-    <div className="my-28 ">
+    <div className="my-20 mx-20 ">
       <div className="flex justify-center my-8">
-        <h1 className="text-4xl font-bold  relative ">شركاء النجاح</h1>
+        <h1 className="2xl:text-4xl text-3xl font-bold  relative ">شركاء النجاح</h1>
       </div>
       <div className="flex justify-center ">
         <img src={cert3} alt="image" />
