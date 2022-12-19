@@ -26,7 +26,7 @@ const AboutPage = () => {
         textColor="text-[#3A3535] border-b border-[#ff731573]"
         socialDisplay="hidden"
       />
-      <div className="container mx-auto">
+      <div className="mx-20">
         <div className="flex justify-end py-20 items-baseline gap-4">
           <h1 className="text-3xl font-bold text-[#FF7315]">من نحن</h1>
           <span>
@@ -83,7 +83,7 @@ const AboutPage = () => {
             </div>
           </div>
         </div>
-        <div className="flex flex-row flex-wrap justify- gap-6 mt-24 ">
+        <div className="flex flex-row flex-wrap justify-center mt-24 ">
           <img src={cert4} alt="image" />
           <img src={cert5} alt="image" />
           <img src={cert6} alt="image" />
