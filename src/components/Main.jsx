@@ -14,8 +14,8 @@ const Main = () => {
     <div>
       <Navbar textColor="text-white" />
       <Slider />
-      <Products />
       <WhyUs />
+      <Products />
       <About />
       <Certificates />
       <Quality />

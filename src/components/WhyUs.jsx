@@ -17,7 +17,9 @@ import Button from "./Button";
 
 const WhyUs = () => {
   return (
-    <div className="mx-20 my-20">
+    <div className="border-2 border-[#FF7315]">
+
+    <div className=" mx-20 my-20">
       <div className="flex justify-center mb-10">
         <h1 className="font-bold 2xl:text-4xl text-3xl text-[#3A3535]">لماذا نحن</h1>
       </div>
@@ -47,8 +49,8 @@ const WhyUs = () => {
           </span>
           <span
             className="relative top-[130px] right-56 text-center p-5 text-white bg-[#3A3535] 
-                        rounded-3xl"
-          >
+            rounded-3xl"
+            >
             عازل طبيعى للحرارة والصوت
           </span>
           <span className="relative right-[700px] top-44 text-center  p-4  text-white bg-[#3A3535] rounded-3xl">
@@ -129,6 +131,7 @@ const WhyUs = () => {
         </SwiperSlide>
       </Swiper>
     </div>
+            </div>
   );
 };
 
