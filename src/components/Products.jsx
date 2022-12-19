@@ -86,7 +86,7 @@ const Products = () => {
         <h1 className="text-4xl text-[#3A3535] font-bold text-center mb-10">
           منتجاتنا
         </h1>
-        <div className="flex flex-wrap flex-row justify-center gap-20 2xl:gap-x-24 gap-x-4">
+        <div className="flex flex-wrap flex-row justify-center gap-20 2xl:gap-x-24 gap-x-14">
           {products.map((product) => (
             <div
               onClick={() => {
