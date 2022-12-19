@@ -18,8 +18,8 @@ const Chat = () => {
               </div>
             </div>
             <div className='flex '>
-              <button className='bg-gray-200 2xl:w-[50px] 2xl:h-[50px] w-[30px] h-[30px]   rounded-full  mr-3 flex justify-center items-center'><img src={send} alt="" className='w-4 h-4'/></button>
-               <button className='bg-gray-200 rounded-3xl h-9 2xl:h-12 w-44   relative bottom-1'><input type="text" className='bg-transparent  border-transparent focus:outline-none focus:border-0 ' /></button>
+              <button className='bg-gray-200 2xl:w-[50px] 2xl:h-[50px] w-[35px] h-[35px]   rounded-full  mr-3 flex justify-center items-center'><img src={send} alt="" className='w-4 h-4'/></button>
+               <button className='bg-gray-200 rounded-3xl h-10 2xl:h-12 w-52   relative bottom-1'><input type="text" className='bg-transparent  border-transparent focus:outline-none focus:border-0 ' /></button>
             </div>
 
         </div>
