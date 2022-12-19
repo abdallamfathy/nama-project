@@ -13,12 +13,12 @@ import energylogo from "../assets/energy-logo.png"
 
 const Certificates = () => {
   return (
-    <div className="my-28">
+    <div className="2xl:my-28 my-20 container mx-auto">
       <div className="flex flex-col items-center justify-center my-8">
-        <h1 className="text-4xl font-bold  relative mb-10">شهادات واعتمادات</h1>
+        <h1 className="2xl:text-4xl text-3xl font-bold  relative 2xl:mb-10">شهادات واعتمادات</h1>
       </div>
-        <p className="text-right mb-10 mr-60 text-xl ">مصنع نما طيبة حاصل على جميع الشهادات والاعتمادات من الجهات السعودية المختصة.</p>
-      <div className="flex justify-center flex-wrap gap-44 ">
+        <p className="text-right mb-10 mr-60 2xl:text-xl text-lg ">مصنع نما طيبة حاصل على جميع الشهادات والاعتمادات من الجهات السعودية المختصة.</p>
+      <div className="flex justify-center flex-wrap 2xl:gap-44 gap-6 mx-10 ">
         <img src={inlogo} alt="image" />
         <img src={hrlogo} alt="image" />
         <img src={exlogo} alt="image" />
