@@ -18,7 +18,7 @@ const Certificates = () => {
         <h1 className="2xl:text-4xl text-3xl font-bold  relative 2xl:mb-10">شهادات واعتمادات</h1>
       </div>
         <p className="text-right mb-10 2xl:mr-60 2xl:text-xl text-lg ">مصنع نما طيبة حاصل على جميع الشهادات والاعتمادات من الجهات السعودية المختصة.</p>
-      <div className="flex justify-center flex-wrap 2xl:gap-44 gap-60  ">
+      <div className="flex justify-center flex-wrap 2xl:gap-44 gap-x-36 xl:gap-44  ">
         <img src={inlogo} alt="image" className="w-52 h-44" />
         <img src={hrlogo} alt="image"  className="w-52 h-44" />
         <img src={exlogo} alt="image" className="w-52 h-44" />
