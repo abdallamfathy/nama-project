@@ -41,20 +41,20 @@ const Navbar = ({ textColor, socialDisplay }) => {
 
   return (
     <div className="mt-16 z-50">
-      <div className="flex flex-col text-white w-10 relative left-12   h-1 -top-9 z-50 ">
+      <div className="flex flex-col text-white 2xl:w-10 w-10 relative 2xl:left-12 left-24   h-1 -top-9 z-50 ">
               <div className={`gap-y-8 flex flex-col ${socialDisplay}`}>
-              <FaGlobe className="mb-24 w-[33px] h-[33px]" />
+              <FaGlobe className="mb-24 w-[25px] h-[25px] 2xl:w-[33px] 2xl:h-[33px]" />
                 <a href="https://www.facebook.com/profile.php?id=100086364507234">
-                  <FaFacebook className="w-[33px] h-[33px]" />
+                  <FaFacebook className="w-[25px] h-[25px] 2xl:w-[33px] 2xl:h-[33px]" />
                 </a>
                 <a href="https://www.instagram.com/nama_taiba/">
-                  <FaInstagram className="w-[33px] h-[33px]" />
+                  <FaInstagram className="w-[25px] h-[25px] 2xl:w-[33px] 2xl:h-[33px]" />
                 </a>
                 <a href="https://twitter.com/NamaTaiba">
-                  <FaTwitter className="w-[33px] h-[33px]" />
+                  <FaTwitter className="w-[25px] h-[25px] 2xl:w-[33px] 2xl:h-[33px]" />
                 </a>
                 <a href="https://www.snapchat.com/add/nama_taiba?share_id=EdYdd_Y10Pc&locale=en-US">
-                  <FaSnapchat  className="w-[33px] h-[33px]" />
+                  <FaSnapchat  className="w-[25px] h-[25px] 2xl:w-[33px] 2xl:h-[33px]" />
                 </a>
                 <div className="bg-gray-700 p-2 rounded-xl fixed w-10 h-10  left-12 top-[500px]">
                 <button onClick={() => toggle()} >
@@ -76,14 +76,14 @@ const Navbar = ({ textColor, socialDisplay }) => {
                 <NavLink
                   key={item.name}
                   to={item.href}
-                  className={`font-medium text-xl cursor-pointer  hover:text-[#FF7315] activeClassName="active"  `}
+                  className={`font-medium  text-md 2xl:text-lg cursor-pointer  hover:text-[#FF7315] activeClassName="active"  `}
                 >
                   {item.name}
                 </NavLink>
               ))}
             </div>
 
-            <div><img src={logo} alt="asd" className="relative left-36" /></div>
+            <div><img src={logo} alt="asd" className="relative 2xl:left-44 left-60 " /></div>
             </div>
           </nav>
         </div>
