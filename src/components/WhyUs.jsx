@@ -17,7 +17,7 @@ import Button from "./Button";
 
 const WhyUs = () => {
   return (
-    <div className="container mx-auto my-20">
+    <div className="mx-20 my-20">
       <div className="flex justify-center mb-10">
         <h1 className="font-bold 2xl:text-4xl text-3xl text-[#3A3535]">لماذا نحن</h1>
       </div>

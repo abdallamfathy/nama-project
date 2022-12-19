@@ -82,7 +82,7 @@ const Products = () => {
         </>
       )}
 
-      <div className="container mx-auto my-20 ">
+      <div className="mx-20 my-20 ">
         <h1 className="text-4xl text-[#3A3535] font-bold text-center mb-10">
           منتجاتنا
         </h1>
