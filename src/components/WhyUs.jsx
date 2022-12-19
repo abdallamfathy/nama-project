@@ -17,9 +17,9 @@ import Button from "./Button";
 
 const WhyUs = () => {
   return (
-    <div className="container mx-auto my-28">
-      <div className="flex justify-center mb-24">
-        <h1 className="font-bold text-4xl text-[#3A3535]">لماذا نحن</h1>
+    <div className="container mx-auto my-20">
+      <div className="flex justify-center mb-10">
+        <h1 className="font-bold 2xl:text-4xl text-3xl text-[#3A3535]">لماذا نحن</h1>
       </div>
       <Swiper
         modules={[A11y, EffectFade, Autoplay, Pagination]}
