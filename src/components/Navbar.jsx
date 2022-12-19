@@ -87,7 +87,7 @@ const Navbar = ({ textColor, socialDisplay }) => {
             </div>
           </nav>
         </div>
-        {  show && <div className="fixed left-40 top-24 z-50 bg-white rounded-2xl"><Chat/></div>} 
+        {  show && <div className="fixed left-24 top-24 z-50 bg-white rounded-2xl"><Chat/></div>} 
     </div>
   );
 };
