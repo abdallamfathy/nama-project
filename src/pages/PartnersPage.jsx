@@ -27,11 +27,11 @@ const PartnersPage = () => {
           <h1 className="text-2xl text-[#3A3535]">الرئيسية</h1>
         </div>
         <div className="flex flex-row flex-wrap justify-center ">
-          <img src={cert1} alt="image" />
-          <img src={cert2} alt="image" />
-          <img src={cert3} alt="image" />
-          <img src={cert4} alt="image" />
-          <img src={cert5} alt="image" />
+          <img src={cert1} alt="image" className="w-80" />
+          <img src={cert2} alt="image"  className="w-80"/>
+          <img src={cert3} alt="image"  className="w-80"/>
+          <img src={cert4} alt="image"  className="w-80"/>
+          <img src={cert5} alt="image"  className="w-80"/>
         </div>
       </div>
       <Footer />
