@@ -79,6 +79,10 @@ const AboutPage = () => {
             </div>
           </div>
         </div>
+        <div className="flex flex-col items-center justify-center my-9">
+        <h1 className="2xl:text-4xl text-3xl font-bold  relative 2xl:mb-10 mt-14">شهادات واعتمادات</h1>
+      </div>
+        <p className="text-right mb-10 2xl:mr-60 2xl:text-xl text-lg ">مصنع نما طيبة حاصل على جميع الشهادات والاعتمادات من الجهات السعودية المختصة</p>
         <div className="flex justify-center flex-wrap 2xl:gap-44 gap-x-36 gap-20  mt-24 ">
         <img src={inlogo} alt="image" className="w-52 h-44" />
         <img src={hrlogo} alt="image"  className="w-52 h-44" />
