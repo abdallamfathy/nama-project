@@ -1,18 +1,14 @@
 import React, { useEffect } from "react";
 import { FaLessThan } from "react-icons/fa";
 import { Footer, Navbar } from "../components";
-import cert1 from "../assets/cert1.png";
-import cert2 from "../assets/cert2.png";
-import cert3 from "../assets/cert3.png";
-import cert4 from "../assets/cert4.png";
-import cert5 from "../assets/cert5.png";
-import cert6 from "../assets/cert6.png";
-import cert7 from "../assets/cert7.png";
-import cert8 from "../assets/cert8.png";
-import cert9 from "../assets/cert9.png";
-import cert10 from "../assets/cert10.png";
-import cert11 from "../assets/cert11.png";
-import cert12 from "../assets/cert12.png";
+import exlogo from "../assets/ex-logo.png";
+import inlogo from  "../assets/in-logo.png";
+import hrlogo from "../assets/hr-logo.png"
+import justicelogo from "../assets/justice-logo.png"
+import citylogo from "../assets/cities-logo.png"
+import houselogo from "../assets/house-logo.png"
+import tradelogo from "../assets/trade-logo.png"
+import energylogo from "../assets/energy-logo.png"
 
 
 const AboutPage = () => {
@@ -83,17 +79,17 @@ const AboutPage = () => {
             </div>
           </div>
         </div>
-        <div className="flex flex-row flex-wrap justify-center mt-24 ">
-          <img src={cert4} alt="image" />
-          <img src={cert5} alt="image" />
-          <img src={cert6} alt="image" />
-          <img src={cert7} alt="image" />
-          <img src={cert8} alt="image" />
-          <img src={cert9} alt="image" />
-          <img src={cert10} alt="image" />
-          <img src={cert11} alt="image" />
-          <img src={cert12} alt="image" />
-        </div>
+        <div className="flex justify-center flex-wrap 2xl:gap-44 gap-x-36 gap-20  mt-24 ">
+        <img src={inlogo} alt="image" className="w-52 h-44" />
+        <img src={hrlogo} alt="image"  className="w-52 h-44" />
+        <img src={exlogo} alt="image" className="w-52 h-44" />
+        <img src={justicelogo} alt="image" className="w-52 h-44"/>
+        <img src={houselogo} alt="image"  className="w-52 h-44"/>
+        <img src={tradelogo} alt="image"  className="w-52 h-44"/>
+        <img src={energylogo} alt="image"  className="w-52 h-44"/>
+        <img src={citylogo} alt="image"  className="w-52 h-44"/>
+
+      </div>
       </div>
       <Footer />
     </>
