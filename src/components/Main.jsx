@@ -3,7 +3,7 @@ import { Products, Footer, Contact } from ".";
 import Certificates from "./Certificates";
 import Navbar from "./Navbar";
 import Partners from "./Partners";
-import Quality from "./Quality";
+import Quality from "./Quality";f
 import Slider from "./Slider";
 import About from "./About";
 import WhyUs from "./WhyUs";
