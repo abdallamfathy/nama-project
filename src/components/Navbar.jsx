@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import logo from "../assets/logo.png";
 import {
   FaFacebook,
@@ -13,6 +13,7 @@ import { productDetails, products } from "./Constants";
 import chat from "../assets/chat.png";
 import Chat from "./Chat";
 import downar from "../assets/downar.png";
+import whatsapp from "../assets/whatsapp.png";
 
 const Navbar = ({ textColor, socialDisplay }) => {
   const params = useParams();
@@ -42,8 +43,8 @@ const Navbar = ({ textColor, socialDisplay }) => {
 
   return (
     <div className="mt-16 z-50">
-      <div className="flex flex-col text-white 2xl:w-10 w-10 relative 2xl:left-12 left-24   h-1 -top-9 z-50 ">
-                <div className="fixed left-16 top-9 "><img src={downar} alt="downar" /></div>
+      <div className="flex flex-col text-white 2xl:w-10 w-10 relative 2xl:left-12 left-24   h-1 -top-5 z-50 ">
+                <div className="fixed left-16 top-14 "><img src={downar} alt="downar" /></div>
                 <FaGlobe className="w-[25px] h-[25px] 2xl:w-[33px] 2xl:h-[33px] fixed " />
               <div className={`gap-y-8 flex flex-col ${socialDisplay} relative top-28`}>
                 <a href="https://www.facebook.com/profile.php?id=100086364507234">
@@ -58,7 +59,15 @@ const Navbar = ({ textColor, socialDisplay }) => {
                 <a href="https://www.snapchat.com/add/nama_taiba?share_id=EdYdd_Y10Pc&locale=en-US">
                   <FaSnapchat  className="w-[25px] h-[25px] 2xl:w-[33px] 2xl:h-[33px]" />
                 </a>
-                <div className="bg-gray-700 p-2 rounded-xl fixed w-10 h-10  left-[90px] top-[455px]">
+                <div className="bg-gray- p-2 rounded-xl fixed w-56 h-52  left-[90px] top-[430px]">
+                <Link to=""  >
+                  <img src={whatsapp} alt="chatImage" className="w-16" />
+                </Link>
+                {/* <button onClick={() => toggle()} >
+                  <img src={chat} alt="chatImage" />
+                </button> */}
+                </div>
+                <div className="bg-[#5D5959] p-1 pt-3 px-2  rounded-2xl fixed w-12 h-12  right-[90px] top-[455px]">
                 <button onClick={() => toggle()} >
                   <img src={chat} alt="chatImage" />
                 </button>
