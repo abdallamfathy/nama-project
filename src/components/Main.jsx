@@ -15,9 +15,9 @@ const Main = () => {
       <Navbar textColor="text-white" />
       <Slider />
       <WhyUs />
-      {/* <Products /> */}
       <About />
       <Certificates />
+      <Products />
       <Quality />
       <Partners />
       <Contact />

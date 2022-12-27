@@ -2,6 +2,8 @@ import React, { useEffect, useState } from "react";
 import brick1 from "../assets/brick1.png";
 import Buttons from "./Button";
 import { products } from "./Constants";
+import pdf from "../assets/file/nama.pdf";
+
 
 const Products = () => {
   const name = products.map((product) => product.name);
@@ -44,16 +46,14 @@ const Products = () => {
   return (
     <div id="products">
       
-      {showModal && (
+      {/* {showModal && (
         <>
           <div
             className="justify-center items-center flex overflow-x-hidden overflow-y-hidden cursor-pointer  fixed inset-0 z-50 outline-none focus:outline-none overflow-hidden "
             ref={modalRefs}
           >
             <div className="relative w-auto my-6 mx-auto max-w-3xl">
-              {/*content*/}
               <div className=" border-0 rounded-[60px] shadow-black shadow-2xl relative  flex flex-col w-full bg-white outline-none focus:outline-none">
-                {/*header*/}
                 <div className="flex flex-col  justify-center  items-center w-[590px] h-[550px] ">
                   <img
                     className="w-[530px] h-[351px] relative top-  "
@@ -80,13 +80,13 @@ const Products = () => {
           </div>
           <div className="opacity-60 fixed inset-0 z-40 bg-black overflow-hidden"></div>
         </>
-      )}
+      )} */}
 
       <div className="mx-20 my-20 ">
-        <h1 className="text-4xl text-[#3A3535] font-bold text-center mb-10">
+        <h1 className="text-4xl text-[#3A3535] font-bold text-center mb-96">
           منتجاتنا
         </h1>
-        <div className="flex flex-wrap flex-row justify-center gap-20 2xl:gap-x-24 gap-x-[58px]">
+        {/* <div className="flex flex-wrap flex-row justify-center gap-20 2xl:gap-x-24 gap-x-[58px]">
           {products.map((product) => (
             <div
               onClick={() => {
@@ -106,9 +106,17 @@ const Products = () => {
               </div>
             </div>
           ))}
-        </div>
+        </div> */}
 
-        <Buttons text={"عرض المزيد"} href={"/products"} />
+        {/* <Buttons text={"عرض المزيد"} href={"/products"} /> */}
+
+        <div className="flex-col items-center justify-center text-center top-96">
+        <a href={pdf} download="nama.pdf" className="text-[#FF7315] text-center  2xl:text-3xl text-2xl  ">
+      تحميل ملف نما طيبة
+      </a>
+      <hr className=" border-t z-40  border-[#FF7135] relative left-[470px] w-40 mt-1" />
+
+        </div>
       </div>
     </div>
   );
