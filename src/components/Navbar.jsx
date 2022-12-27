@@ -47,16 +47,16 @@ const Navbar = ({ textColor, socialDisplay }) => {
                 <div className="fixed left-16 top-14 "><img src={downar} alt="downar" /></div>
                 <FaGlobe className="w-[25px] h-[25px] 2xl:w-[33px] 2xl:h-[33px] fixed " />
               <div className={`gap-y-8 flex flex-col ${socialDisplay} relative top-28`}>
-                <a href="https://www.facebook.com/profile.php?id=100086364507234">
+                <a href="https://www.facebook.com/profile.php?id=100086364507234" target="_blank">
                   <FaFacebook className="w-[25px] h-[25px] 2xl:w-[33px] 2xl:h-[33px]" />
                 </a>
-                <a href="https://www.instagram.com/nama_taiba/">
+                <a href="https://www.instagram.com/nama_taiba/" target="_blank">
                   <FaInstagram className="w-[25px] h-[25px] 2xl:w-[33px] 2xl:h-[33px]" />
                 </a>
-                <a href="https://twitter.com/NamaTaiba">
+                <a href="https://twitter.com/NamaTaiba" target="_blank">
                   <FaTwitter className="w-[25px] h-[25px] 2xl:w-[33px] 2xl:h-[33px]" />
                 </a>
-                <a href="https://www.snapchat.com/add/nama_taiba?share_id=EdYdd_Y10Pc&locale=en-US">
+                <a href="https://www.snapchat.com/add/nama_taiba?share_id=EdYdd_Y10Pc&locale=en-US" target="_blank">
                   <FaSnapchat  className="w-[25px] h-[25px] 2xl:w-[33px] 2xl:h-[33px]" />
                 </a>
                 <div className="bg-gray- p-2 rounded-xl fixed w-56 h-52  left-[90px] top-[430px]">
@@ -84,14 +84,14 @@ const Navbar = ({ textColor, socialDisplay }) => {
                 <NavLink
                   key={item.name}
                   to={item.href}
-                  className={`font-medium  text-md 2xl:text-lg cursor-pointer  hover:text-[#FF7315] activeClassName="active"  `}
+                  className={`font-medium  text-sm 2xl:text-md cursor-pointer  hover:text-[#FF7315] activeClassName="active"  `}
                 >
                   {item.name}
                 </NavLink>
               ))}
             </div>
 
-            <div><img src={logo} alt="asd" className="relative 2xl:left-44 left-60 " /></div>
+            <div><img src={logo} alt="asd" className="relative 2xl:left-44 left-60 w-36 " /></div>
             </div>
           </nav>
         </div>
