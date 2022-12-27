@@ -63,15 +63,12 @@ const Navbar = ({ textColor, socialDisplay }) => {
                 <Link to=""  >
                   <img src={whatsapp} alt="chatImage" className="w-16" />
                 </Link>
-                {/* <button onClick={() => toggle()} >
-                  <img src={chat} alt="chatImage" />
-                </button> */}
                 </div>
-                <div className="bg-[#5D5959] p-1 pt-3 px-2  rounded-2xl fixed w-12 h-12  right-[90px] top-[455px]">
+                {/* <div className="bg-[#5D5959] p-1 pt-3 px-2  rounded-2xl fixed w-12 h-12  right-[90px] top-[455px]">
                 <button onClick={() => toggle()} >
                   <img src={chat} alt="chatImage" />
                 </button>
-                </div>
+                </div> */}
               </div>
             </div>
       <div className="fixed bg-black  w-full -mt-[68px]  z-40 bg-opacity-60 ">
