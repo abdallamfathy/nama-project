@@ -11,7 +11,7 @@ import Chat from "./Chat";
 
 const Main = () => {
   return (
-    <div className="mx-56">
+    <div>
       <Navbar textColor="text-white" />
       <Slider />
       <WhyUs />
