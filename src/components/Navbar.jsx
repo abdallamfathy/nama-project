@@ -43,10 +43,10 @@ const Navbar = ({ textColor, socialDisplay }) => {
 
   return (
     <div className="mt-16 z-50">
-      <div className="flex flex-col text-white 2xl:w-10 w-10 relative 2xl:left-12 left-24   h-1 -top-5 z-50 ">
-                <div className="fixed left-16 top-14 "><img src={downar} alt="downar" /></div>
+      <div className="flex flex-col text-white 2xl:w-10 w-10 relative 2xl:left-12 left-24   h-1 -top-10 z-50 ">
+                <div className="fixed left-16 top-8 "><img src={downar} alt="downar" /></div>
                 <FaGlobe className="w-[25px] h-[25px] 2xl:w-[33px] 2xl:h-[33px] fixed " />
-              <div className={`gap-y-8 flex flex-col ${socialDisplay} relative top-28`}>
+              <div className={`gap-y-8 flex flex-col ${socialDisplay} relative top-24`}>
                 <a href="https://www.facebook.com/profile.php?id=100086364507234" target="_blank">
                   <FaFacebook className="w-[25px] h-[25px] 2xl:w-[33px] 2xl:h-[33px]" />
                 </a>
@@ -59,10 +59,10 @@ const Navbar = ({ textColor, socialDisplay }) => {
                 <a href="https://www.snapchat.com/add/nama_taiba?share_id=EdYdd_Y10Pc&locale=en-US" target="_blank">
                   <FaSnapchat  className="w-[25px] h-[25px] 2xl:w-[33px] 2xl:h-[33px]" />
                 </a>
-                <div className="bg-gray- p-2 rounded-xl fixed w-56 h-52  left-[90px] top-[430px]">
-                <Link to=""  >
-                  <img src={whatsapp} alt="chatImage" className="w-16" />
-                </Link>
+                <div className="bg-gray- p-2 rounded-xl fixed w-56 h-52  left-[90px] top-96">
+                <a href="https://wa.me/09660555301707" target="_blank" >
+                  <img src={whatsapp} alt="whatsapp" className="w-12" />
+                </a>
                 </div>
                 {/* <div className="bg-[#5D5959] p-1 pt-3 px-2  rounded-2xl fixed w-12 h-12  right-[90px] top-[455px]">
                 <button onClick={() => toggle()} >
@@ -79,7 +79,7 @@ const Navbar = ({ textColor, socialDisplay }) => {
 
             <div className="flex  justify-center items-center">
               
-            <div className="hidden lg:flex  gap-x-10 ">
+            <div className="hidden lg:flex  gap-x-10 ml-16">
               {navigation.map((item) => (
                 <NavLink
                   key={item.name}
@@ -91,7 +91,7 @@ const Navbar = ({ textColor, socialDisplay }) => {
               ))}
             </div>
 
-            <div><img src={logo} alt="asd" className="relative 2xl:left-44 left-60 w-36 " /></div>
+            <div><img src={logo} alt="asd" className="relative 2xl:left-44 left-56 w-40 " /></div>
             </div>
           </nav>
         </div>
