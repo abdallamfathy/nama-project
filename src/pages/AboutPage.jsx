@@ -1,13 +1,11 @@
 import React, { useEffect } from "react";
 import { FaLessThan } from "react-icons/fa";
 import { Footer, Navbar } from "../components";
-import exlogo from "../assets/ex-logo.png";
-import inlogo from  "../assets/in-logo.png";
-import hrlogo from "../assets/hr-logo.png"
-import justicelogo from "../assets/justice-logo.png"
+import envlogo from "../assets/env-logo.png";
+import hrlogo from  "../assets/hr-logo.png";
+import zakalogo from "../assets/zaka-logo.png"
 import citylogo from "../assets/cities-logo.png"
 import houselogo from "../assets/house-logo.png"
-import tradelogo from "../assets/trade-logo.png"
 import energylogo from "../assets/energy-logo.png"
 
 
@@ -84,14 +82,12 @@ const AboutPage = () => {
       </div>
         <p className="text-right mb-10 2xl:mr-60 2xl:text-xl text-lg ">مصنع نما طيبة حاصل على جميع الشهادات والاعتمادات من الجهات السعودية المختصة</p>
         <div className="flex justify-center flex-wrap 2xl:gap-44 gap-x-36 gap-20  mt-24 ">
-        <img src={inlogo} alt="image" className="w-52 h-44" />
-        <img src={hrlogo} alt="image"  className="w-52 h-44" />
-        <img src={exlogo} alt="image" className="w-52 h-44" />
-        <img src={justicelogo} alt="image" className="w-52 h-44"/>
-        <img src={houselogo} alt="image"  className="w-52 h-44"/>
-        <img src={tradelogo} alt="image"  className="w-52 h-44"/>
+        <img src={hrlogo} alt="image" className="w-52 h-44" />
+        <img src={zakalogo} alt="image"  className="w-52 h-44" />
         <img src={energylogo} alt="image"  className="w-52 h-44"/>
+        <img src={houselogo} alt="image"  className="w-52 h-44"/>
         <img src={citylogo} alt="image"  className="w-52 h-44"/>
+        <img src={envlogo} alt="image" className="w-52 h-44" />
 
       </div>
       </div>

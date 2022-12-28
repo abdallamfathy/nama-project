@@ -1,11 +1,8 @@
-import React from "react";
 import envlogo from "../assets/env-logo.png";
 import hrlogo from  "../assets/hr-logo.png";
 import zakalogo from "../assets/zaka-logo.png"
-import justicelogo from "../assets/justice-logo.png"
 import citylogo from "../assets/cities-logo.png"
 import houselogo from "../assets/house-logo.png"
-import tradelogo from "../assets/trade-logo.png"
 import energylogo from "../assets/energy-logo.png"
 
 
