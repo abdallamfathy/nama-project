@@ -1,6 +1,6 @@
 import React from 'react'
 import { Footer, Navbar } from '../Components'
-import arrowL from '../assets/images/arrowL.png'
+import arrowL from '../assets/arrowL.png'
 import ReactToPrint from 'react-to-print';
 
 const Checkout = () => {

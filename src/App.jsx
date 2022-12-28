@@ -8,6 +8,7 @@ import QualityPage from './pages/QualityPage'
 import ProductsWhite from './pages/ProductsWhite'
 import ProductsNormal from './pages/ProductsNormal'
 import ProductsBlue from './pages/ProductsBlue'
+import Checkout from './pages/Checkout'
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           <Route path="/products/white" element={<ProductsWhite />} />
           <Route path="/products/normal" element={<ProductsNormal />} />
           <Route path="/products/blue" element={<ProductsBlue />} />
+          <Route path="/checkout" element={<Checkout />} />
         </Routes>
       </Router>
     </div>
