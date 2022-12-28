@@ -1,11 +1,11 @@
 import React, { useEffect } from "react";
 import { FaLessThan } from "react-icons/fa";
 import { Footer, Navbar } from "../components";
-import cert1 from "../assets/cert1.png";
-import cert2 from "../assets/cert2.png";
-import cert3 from "../assets/cert3.png";
-import cert4 from "../assets/cert4.png";
-import cert5 from "../assets/cert5.png";
+import mohaidlogo from "../assets/mohaid-logo.png";
+import mezlogo from  "../assets/mez-logo.png";
+import typologo from "../assets/typo-logo.png"
+import arablogo from "../assets/arab-logo.png"
+import bonlogo from "../assets/bon-logo.png"
 
 const PartnersPage = () => {
   useEffect(() => {
@@ -27,11 +27,11 @@ const PartnersPage = () => {
           <h1 className="text-2xl text-[#3A3535]">الرئيسية</h1>
         </div>
         <div className="flex flex-row flex-wrap justify-center ">
-          <img src={cert1} alt="image" className="w-80" />
-          <img src={cert2} alt="image"  className="w-80"/>
-          <img src={cert3} alt="image"  className="w-80"/>
-          <img src={cert4} alt="image"  className="w-80"/>
-          <img src={cert5} alt="image"  className="w-80"/>
+        <img src={mohaidlogo} alt="image" className="w-44 h-40" />
+        <img src={mezlogo} alt="image"  className="w-48 h-40" />
+        <img src={typologo} alt="image"  className="w-44 h-40"/>
+        <img src={arablogo} alt="image"  className="w-44 h-40"/>
+        <img src={bonlogo} alt="image"  className="w-48 h-40"/>
         </div>
       </div>
       <Footer />
