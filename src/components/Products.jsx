@@ -1,8 +1,23 @@
 import React, { useEffect, useState } from "react";
-import brick1 from "../assets/brick1.png";
 import Buttons from "./Button";
 import { products } from "./Constants";
 import pdf from "../assets/file/nama.pdf";
+import code from "../assets/code.png"
+import gurante from "../assets/gurante.png"
+import {
+  Navigation,
+  Pagination,
+  Scrollbar,
+  A11y,
+  EffectFade,
+  Autoplay,
+} from "swiper";
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
+import "swiper/css/pagination";
+import "swiper/css/navigation";
+import "swiper/css/effect-fade";
+import "../index.css";
 
 
 const Products = () => {
@@ -83,38 +98,100 @@ const Products = () => {
       )} */}
 
       <div className="mx-20 my-20 ">
-        <h1 className="text-4xl text-[#3A3535] font-bold text-center mb-96">
+        <h1 className="text-4xl text-[#3A3535] font-bold text-center mb-10">
           منتجاتنا
         </h1>
-        {/* <div className="flex flex-wrap flex-row justify-center gap-20 2xl:gap-x-24 gap-x-[58px]">
+        <div className="flex flex-wrap flex-row justify-center gap-20 2xl:gap-x-24 gap-x-[58px]">
           {products.map((product) => (
             <div
               onClick={() => {
                 closeModal, setShowModal(true);
               }}
-              className=" flex flex-row cursor-pointer justify-center items-center 2xl:w-[305px] 2xl:h-[342px] w-[270px] h-[310px] relative group bg-white rounded-lg border border-gray-50 shadow-lg  dark:bg-gray-800 dark:border-gray-700"
+              className=" flex flex-col cursor-pointer justify-between items-center 2xl:w-[305px] 2xl:h-[342px] w-[270px] h-96 relative group  rounded-lg border border-gray-50 shadow-lg  "
             >
-              <img
-                className="-my-10 transition duration-[2000]  delay-300 hover:transition-all ease-out 2xl:hover:left-20 hover:left-16 absolute 2xl:left-24 left-20 2xl:top-12 top-10  hover:w-44  w-36 h-36 hover:h-44"
+        <div className=" w-full">
+          <div className="flex justify-between gap-[140px] absolute z-40">
+            <img src={gurante} alt="gurante" className="object-contain w-16"/>
+            <img src={code} alt="code" className="object-contain w-16"/>
+          </div>
+        <Swiper
+        modules={[
+          Navigation,
+          Pagination,
+          Scrollbar,
+          A11y,
+          EffectFade,
+          Autoplay,
+        ]}
+        pagination={{
+          dynamicBullets: false,
+          clickable: true,
+          background: "red",
+        }}
+        effect={"fade"}
+        navigation
+        // speed={2500}
+        // autoplay={{ delay: 1500, disableOnInteraction: false }}
+        
+      >
+        <SwiperSlide>
+        <div className=" h-64 w-full flex justify-center items-center  "> 
+        <img
+                className="transition duration-[2000]  delay-300 hover:transition-all ease-out 2xl:hover:left-20  absolute    hover:w-44  w-36 h-36 hover:h-44 object-contain"
                 src={product.image}
                 alt="productImage"
               />
-              <div className="text-right text-[#3A3535] 2xl:text-[24px] text-xl h-[108px] w-[250px] relative 2xl:right-0 right-4 top-14 ">
+        {/* <img
+                className="-my-10 transition duration-[2000]  delay-300 hover:transition-all ease-out 2xl:hover:left-20 hover:left-16 absolute 2xl:left-24 left-20 2xl:top-12 top-10  hover:w-44  w-36 h-36 hover:h-44"
+                src={product.image}
+                alt="productImage"
+              /> */}
+        </div>
+        </SwiperSlide>
+        <SwiperSlide>
+        <div className=" h-64 pt-1 w-full flex justify-center items-center  "> 
+        <img
+                className="-my-10 transition duration-[2000]  delay-300 hover:transition-all ease-out 2xl:hover:left-20  absolute 2xl:left-24  2xl:top-12   hover:w-44  w-36 h-36 hover:h-44  rotate-90 object-contain"
+                src={product.image}
+                alt="productImage"
+              />        
+        </div>
+        </SwiperSlide>
+        
+      </Swiper>
+        </div>
+        
+              <div className="bg-[#3A3535] text-xs px-2 py-1 -translate-x-[6.16rem]  text-left text-white ">
+                <h2>{product.code}</h2>
+              </div>
+              <div className="text-right text-white 2xl:text-[24px] text-sm h-32 w-full rounded-b-lg bg-[#3A3535] flex flex-col  gap-2 py-2  ">
+                <div className="flex justify-between mx-2">
+                <div className="flex font-bold  gap-2 ">
+                  <p>ر.س للحبة</p>
+                  <p>{product.price} </p>
+                  </div>
                 <p>{product.name}</p>
+                </div>
+                <div className="flex justify-between mx-2">
                 <p>{product.size}</p>
-                <p>{product.color}</p>
+                <p>{product.type}</p>
+                </div>
+                <div className="mx-2 flex flex-col justify-center items-center gap-2  mt-2 text-[10px] ">
+                  <h2 className="bg-[#FF7315] px-1">{product.use}</h2>
+                  <button className="bg-white rounded-md text-[#3A3535] px-1">أضف الى عربة التسوق</button>
+                </div>
               </div>
             </div>
           ))}
-        </div> */}
+        </div>
 
-        {/* <Buttons text={"عرض المزيد"} href={"/products"} /> */}
 
-        <div className="flex-col items-center justify-center text-center top-96">
+        <div className="flex-col items-center justify-center text-center  mt-20">
         <a href={pdf} download="nama.pdf" className="text-[#FF7315] text-center  2xl:text-3xl text-2xl  ">
       تحميل ملف نما طيبة
       </a>
       <hr className=" border-t z-40  border-[#FF7135] relative left-[470px] w-40 mt-1" />
+        <Buttons text={"عرض المزيد"} href={"/products"}/>
 
         </div>
       </div>
