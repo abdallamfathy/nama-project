@@ -91,7 +91,7 @@ const Navbar = ({ textColor, socialDisplay }) => {
               ))}
             </div>
 
-            <div><img src={logo} alt="asd" className="relative 2xl:left-44 left-56 w-40 " /></div>
+            <div><img src={logo} alt="asd" className="relative 2xl:left-44 left-56 w-44 " /></div>
             </div>
           </nav>
         </div>
