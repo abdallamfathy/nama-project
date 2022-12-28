@@ -26,7 +26,7 @@ const PartnersPage = () => {
           </span>
           <h1 className="text-2xl text-[#3A3535]">الرئيسية</h1>
         </div>
-        <div className="flex flex-row flex-wrap justify-center ">
+        <div className="flex flex-row flex-wrap justify-center 2xl:gap-44 gap-x-40 gap-24  ">
         <img src={mohaidlogo} alt="image" className="w-44 h-40" />
         <img src={mezlogo} alt="image"  className="w-48 h-40" />
         <img src={typologo} alt="image"  className="w-44 h-40"/>
