@@ -71,3 +71,26 @@ button:focus {
   color: #FF7315; 
   font-weight: 800 !important;
 }
+
+
+  .swiper-button-next {
+    @apply  bg-[url('./assets/sarrowl.png')] !important; }
+
+    .swiper-button-next {
+      background-image: url(./assets/sarrowr.png) !important;
+      background-repeat: no-repeat !important;
+      background-size: 100% auto !important;
+      background-position: center !important;
+    }
+    .swiper-button-next::after {
+      display: none;
+    }
+    .swiper-button-prev {
+      background-image: url(./assets/sarrowl.png) !important;
+      background-repeat: no-repeat !important;
+      background-size: 100% auto !important;
+      background-position: center !important;
+    }
+    .swiper-button-prev::after {
+      display: none;
+    }
