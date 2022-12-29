@@ -17,7 +17,7 @@ import Button from "./Button";
 
 const WhyUs = () => {
   return (
-    <div className="border-2 border-[#FF7315]">
+    <div className="border-2 border-[#FF7315] -mt-[1.152rem]">
 
     <div className=" mx-20 my-20">
       <div className="flex justify-center mb-10">
