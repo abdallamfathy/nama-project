@@ -11,7 +11,10 @@ const Checkout = () => {
   return (
 
     <>
-      <Navbar/>
+      <Navbar
+        textColor="text-[#3A3535] border-b border-[#ff731573]"
+        socialDisplay="hidden"
+      />
       <div className='m-20 '>
       <div className='flex text-right items-center gap-4 justify-end grow-0 flex-row'>
           <h2 className='text-3xl 2xl:text-[42px] font-bold text-primary'>بيانات الطالب</h2>

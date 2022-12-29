@@ -24,7 +24,8 @@ function App() {
           <Route path="/products/white" element={<ProductsWhite />} />
           <Route path="/products/normal" element={<ProductsNormal />} />
           <Route path="/products/blue" element={<ProductsBlue />} />
-          <Route path="/checkout" element={<Cart />} />
+          <Route path="/checkout" element={<Checkout />} />
+          <Route path="/cart" element={<Cart />} />
         </Routes>
       </Router>
     </div>
