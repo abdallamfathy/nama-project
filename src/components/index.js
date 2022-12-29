@@ -8,5 +8,6 @@ import Social from "./Social";
 import About from "./About";
 import Slider from "./Slider";
 // import CartProduct from "./CartProduct"
+import Order from "./Order"
 
-export  { Contact, Slider, Footer, Navbar, Main, Projects, Products, Social, About };
+export  { Contact, Slider, Footer, Navbar, Main, Projects, Products, Social, About , Order };
