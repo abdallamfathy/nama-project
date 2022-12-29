@@ -228,7 +228,7 @@ const Products = () => {
                 </div>
                 <div className="mx-2 flex flex-col justify-center items-center gap-2  mt-2 text-[10px] ">
                   <h2 className="bg-[#FF7315] px-1">{product.use}</h2>
-                  <button className="bg-white rounded-md text-[#3A3535] px-1">أضف الى عربة التسوق</button>
+                  <a href="/cart"><button className="bg-white rounded-md text-[#3A3535] px-1">أضف الى عربة التسوق</button></a>
                 </div>
               </div>
             </div>
