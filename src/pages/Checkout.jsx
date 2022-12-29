@@ -1,6 +1,5 @@
 import React from 'react'
 import { Footer, Navbar } from '../Components'
-import arrowL from '../assets/arrowL.png'
 import ReactToPrint from 'react-to-print';
 import { FaLessThan } from 'react-icons/fa';
 
