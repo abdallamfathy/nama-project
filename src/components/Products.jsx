@@ -61,10 +61,7 @@ const Products = () => {
   //id of product
   const [id, setId] = useState(0);
 
-  // const filterProducts = products.filter((product) => {
-  //   if (product.id !== id) {
-  //     return product;
-  //   }
+  
 
   return (
     <div id="products">
@@ -169,7 +166,7 @@ const Products = () => {
         <div className=" w-full">
           <div className="flex justify-between gap-[140px] absolute z-40">
             <img src={gurante} alt="gurante" className="object-contain w-16"/>
-            <img src={code} alt="code" className="object-contain w-16"/>
+            <img src={code} alt="code" className="object-contain w-16 rounded-tr-lg"/>
           </div>
         <Swiper
         modules={[
