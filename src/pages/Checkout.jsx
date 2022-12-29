@@ -2,6 +2,7 @@ import React from 'react'
 import { Footer, Navbar } from '../Components'
 import arrowL from '../assets/arrowL.png'
 import ReactToPrint from 'react-to-print';
+import { FaLessThan } from 'react-icons/fa';
 
 const Checkout = () => {
 
@@ -16,15 +17,19 @@ const Checkout = () => {
         socialDisplay="hidden"
       />
       <div className='m-20 '>
-      <div className='flex text-right items-center gap-4 justify-end grow-0 flex-row'>
-          <h2 className='text-3xl 2xl:text-[42px] font-bold text-primary'>بيانات الطالب</h2>
-          <img src={arrowL} alt="<" className='h-full ' />
-          <h2 className='text-3xl 2xl:text-[42px]'>عربة التسوق</h2>
-          <img src={arrowL} alt="<" className='h-full ' />
-        <h2 className='text-3xl 2xl:text-[42px]'>الرئيسية</h2>
-      </div>
+      <div className="flex justify-end py-20 items-baseline gap-4">
+          <h1 className="text-3xl font-bold text-[#FF7315]">بيانات الطالب</h1>
+          <span>
+            <FaLessThan />
+          </span>
+          <h1 className="text-2xl  text-[#3A3535]">عربة التسوق</h1>
+          <span>
+            <FaLessThan />
+          </span>
+          <h1 className="text-2xl text-[#3A3535]">الرئيسية</h1>
+        </div>
       <div className='flex justify-end my-10'>
-      <h2 className='text-3xl 2xl:text-[42px] font-bold text-primary'>بيانات الطالب</h2>
+      <h2 className='text-4xl font-bold text-[#FF7315]'>بيانات الطالب</h2>
       </div>
       <div className='flex justify-center gap-14 mt-24' ref={printy}>
                   
@@ -76,7 +81,7 @@ const Checkout = () => {
     </div>
                 <div className='flex justify-center items-center my-10'>
                 <ReactToPrint
-                trigger={() => <button className=' bg-[#6E1E13] w-72  p-2 text-white rounded-md' ref={printyButt}>اتمام الطلب</button>}
+                trigger={() => <button className=' bg-[#FF7315] w-72  p-2 text-white rounded-md' ref={printyButt}>اتمام الطلب</button>}
                 content={() => printy.current}
                 />
                   
