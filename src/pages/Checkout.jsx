@@ -1,5 +1,5 @@
 import React from 'react'
-// import { Footer, Navbar } from '../Components'
+import { Footer, Navbar } from '../components'
 import ReactToPrint from 'react-to-print';
 import { FaLessThan } from 'react-icons/fa';
 
