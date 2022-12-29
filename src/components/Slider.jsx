@@ -25,10 +25,9 @@ const Slider = () => {
         خصم يبدأ من <span className="text-[#FF7315]">%15</span> ويصل الى{" "}
         <span className="text-[#FF7315]">%30</span>
       </h1>
-      <a href={pdf} download="nama.pdf" className="text-[#FF7315] z-40 2xl:top-[560px] top-64 left-[500px] relative text-center  2xl:text-3xl text-2xl  ">
+      <a href={pdf} download="nama.pdf" className="text-[#FF7315] z-40 2xl:top-[560px] top-64 left-[500px] relative text-center  2xl:text-3xl text-2xl border-b border-[#FF7315] buttons  ">
       تحميل ملف نما طيبة
       </a>
-      <hr className=" 2xl:top-[565px] top-[260px] relative border-t z-40 left-[520px] border-[#FF7135]  w-40" />
       
       <div className="flex relative 2xl:top-[600px] left-72 top-[370px] z-40 w-72 gap-4 items-center">
       <h1 className="text-white      2xl:text-3xl text-xl ">
