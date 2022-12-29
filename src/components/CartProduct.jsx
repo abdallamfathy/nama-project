@@ -71,6 +71,15 @@ const CartProduct = () => {
         
       >
         <SwiperSlide>
+        <div className=" h-64 pt-1 w-full flex justify-center items-center  "> 
+        <img
+                className="-my-10 transition duration-[2000]  delay-300 hover:transition-all ease-out 2xl:hover:left-20  absolute 2xl:left-24  2xl:top-12   hover:w-44  w-28 h-36 hover:h-36  rotate-90 object-contain"
+                src={img9}
+                alt="productImage"
+              />        
+        </div>
+        </SwiperSlide>
+        <SwiperSlide>
         <div className=" h-52 w-full flex justify-center items-end  "> 
         <img
                 className="transition duration-[2000]  delay-300 hover:transition-all ease-out 2xl:hover:left-20  absolute    hover:w-44  w-28 h-36 hover:h-36 object-contain"
@@ -80,21 +89,12 @@ const CartProduct = () => {
 
         </div>
         </SwiperSlide>
-        <SwiperSlide>
-        <div className=" h-64 pt-1 w-full flex justify-center items-center  "> 
-        <img
-                className="-my-10 transition duration-[2000]  delay-300 hover:transition-all ease-out 2xl:hover:left-20  absolute 2xl:left-24  2xl:top-12   hover:w-44  w-28 h-36 hover:h-36  rotate-90 object-contain"
-                src={img9}
-                alt="productImage"
-              />        
-        </div>
-        </SwiperSlide>
         
       </Swiper>
-      <div className="bg-[#3A3535] text-xs -translate-y-12 z-40 py-1 w-16  text-center text-white ">
+        </div>
+      <div className="bg-[#3A3535] text-xs translate-y-[4.25rem] -translate-x-48 absolute z-40 py-1 w-16  text-center text-white ">
                 <h2>30010015</h2>
               </div>
-        </div>
     </div>
     </>
   )
