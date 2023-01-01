@@ -94,3 +94,18 @@ button:focus {
     .swiper-button-prev::after {
       display: none;
     }
+
+
+    .buttons:hover {
+      
+      background: linear-gradient(to right, transparent 50%, white 50%);
+      background-size: 200% 100%;
+      background-position: right bottom;
+      transition: all .5s ease-out;
+    }
+    
+    .buttons {
+      
+      background-position: left bottom;
+    }
+    

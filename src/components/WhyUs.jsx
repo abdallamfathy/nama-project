@@ -27,8 +27,8 @@ const WhyUs = () => {
         modules={[A11y, EffectFade, Autoplay, Pagination]}
         pagination={{ clickable: true }}
         effect={"fade"}
-        speed={1000}
-        autoplay={{ delay: 1500, disableOnInteraction: false }}
+        speed={2000}
+        autoplay={{ delay: 2000, disableOnInteraction: false }}
         className="mySwiper "
         style={{
           "--swiper-pagination-color": "#FF7315",
@@ -38,25 +38,26 @@ const WhyUs = () => {
         }}
       >
         <SwiperSlide>
-          <span className="relative top-16 left-[50px] text-center  p-4 text-white bg-[#3A3535] rounded-3xl shadow-2xl">
+            
+          <span className="relative top-16 left-[120px] text-center  p-4 text-white bg-[#3A3535] rounded-3xl shadow-2xl">
             مقاوم للملوحة والرطوبة
           </span>
-          <span className="relative -top-8 right-8 text-center flex items-center p-5 justify-center text-white bg-[#3A3535] rounded-3xl shadow-2xl">
+          <span className="relative -top-8 text-center flex items-center p-5 justify-center text-white bg-[#3A3535] rounded-3xl shadow-2xl">
             متوفر بجميع الأشكال
           </span>
-          <span className="relative top-4 text-center p-8 justify-center text-white bg-[#3A3535] rounded-3xl shadow-2xl">
+          <span className="relative top-4  left-16 text-center p-8 justify-center text-white bg-[#3A3535] rounded-3xl shadow-2xl">
             خشونة السطح
           </span>
           <span
-            className="relative top-[130px] right-56 text-center p-5 text-white bg-[#3A3535] 
+            className="relative top-[130px] right-32 text-center p-5 text-white bg-[#3A3535] 
             rounded-3xl shadow-2xl"
             >
             عازل طبيعى للحرارة والصوت
           </span>
-          <span className="relative right-[700px] top-44 text-center  p-4  text-white bg-[#3A3535] rounded-3xl shadow-2xl">
+          <span className="relative right-[550px] top-44 text-center  p-4  text-white bg-[#3A3535] rounded-3xl shadow-2xl">
             مقاوم للتصدع والتشقيق
           </span>
-          <div className="flex flex-col justify-cente  relative right-72  text-right w-64">
+          <div className="flex flex-col justify-cente  relative right-36  text-right w-64">
             <h1 className="text-[34px] font-semibold text-[#FF7315] ">
               خصائص بركانى نما طيبة
             </h1>

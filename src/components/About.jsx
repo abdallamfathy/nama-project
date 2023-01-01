@@ -24,11 +24,11 @@ const About = () => {
         className="mySwiper "
       >
         <SwiperSlide>
-          <div className="flex flex-row gap-x-20">
+          <div className="flex flex-row gap-x-20 mb-4">
             <img
               src={img3}
               alt="image"
-              className="w-[520px] h-[420px] rounded-xl brightness-50"
+              className="w-[520px] h-[380px] mb-4 rounded-xl brightness-50 "
             />
             <div className="flex flex-col justify-center items-end w-96">
               <h1 className="text-[34px] font-semibold text-[#FF7315] text-right">
@@ -48,11 +48,11 @@ const About = () => {
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="flex flex-row gap-x-20">
+          <div className="flex flex-row gap-x-20 mb-4">
             <img
               src={img3}
               alt="image"
-              className="w-[520px] h-[420px] rounded-xl brightness-50"
+              className="w-[520px] h-[380px] mb-4 rounded-xl brightness-50"
             />
             <div className="flex flex-col justify-center items-end w-96">
               <h1 className="text-[34px] font-semibold text-[#FF7315] text-right">
@@ -68,11 +68,11 @@ const About = () => {
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="flex flex-row gap-x-20">
+          <div className="flex flex-row gap-x-20  mb-4">
             <img
               src={img3}
               alt="image"
-              className="w-[520px] h-[420px] rounded-xl brightness-50"
+              className="w-[520px] h-[380px] rounded-xl brightness-50"
             />
             <div className="flex flex-col justify-center items-end w-96">
               <h1 className="text-[34px] font-semibold text-[#FF7315] text-right">
@@ -92,11 +92,11 @@ const About = () => {
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="flex flex-row gap-x-20">
+          <div className="flex flex-row gap-x-20  mb-4">
             <img
               src={img3}
               alt="image"
-              className="w-[520px] h-[420px] rounded-xl brightness-50"
+              className="w-[520px] h-[380px] rounded-xl brightness-50"
             />
             <div className="flex flex-col justify-center items-end w-96">
               <h1 className="text-[34px] font-semibold text-[#FF7315] text-right">

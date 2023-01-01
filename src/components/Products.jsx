@@ -107,7 +107,7 @@ const Products = () => {
         <SwiperSlide className="rounded-t-3xl">
         <div className=" h-32 w-full flex justify-center items-center"> 
         <img
-                className="transition duration-[2000]  delay-300 hover:transition-all ease-out 2xl:hover:left-20  absolute    hover:w-44  w-36 h-28 hover:h-44 object-contain  "
+                className="transition duration-[2000]  delay-300 hover:transition-all ease-out 2xl:hover:left-20  absolute    hover:w-40  w-36 h-28 hover:h-32 object-contain  "
                 src={product.image}
                 alt="productImage"
               />
@@ -117,7 +117,7 @@ const Products = () => {
         <SwiperSlide className="rounded-t-3xl">
         <div className=" h-32 pt-1 w-full flex justify-center items-center  "> 
         <img
-                className="-my-10 transition duration-[2000]  delay-300 hover:transition-all ease-out 2xl:hover:left-20  absolute 2xl:left-24  2xl:top-12   hover:w-44  w-36 h-28 hover:h-44  rotate-90 object-contain"
+                className="-my-10 transition duration-[2000]  delay-300 hover:transition-all ease-out 2xl:hover:left-20  absolute 2xl:left-24  2xl:top-12   hover:w-40  w-36 h-28 hover:h-32  rotate-90 object-contain"
                 src={product.image}
                 alt="productImage"
               />        
@@ -128,7 +128,7 @@ const Products = () => {
         </div>
         
               
-              <div className="text-right  2xl:text-[24px] text-sm h-28 w-full rounded-b-lg text-[#3A3535] flex flex-col  gap-2 py-2  ">
+              <div className="text-right  2xl:text-[24px] text-sm h-28 w-full rounded-b-lg text-[#3A3535] flex flex-col  gap-2 py-2 -translate-y-5 ">
                 
                 
                 <div className="mx-4 flex flex-col justify-center items-end gap-1   text-sm">
@@ -152,7 +152,7 @@ const Products = () => {
 
 
       <div className="mx-20 my-20 ">
-        <h1 className="text-4xl text-[#3A3535] font-bold text-center mb-10">
+        <h1 className="text-4xl text-[#3A3535] font-bold text-center mb-20">
           منتجاتنا
         </h1>
         <div className="flex flex-wrap flex-row justify-center gap-20 2xl:gap-x-24 gap-x-[58px]">
@@ -164,7 +164,7 @@ const Products = () => {
               className=" flex flex-col cursor-pointer justify-between items-center 2xl:w-[305px] 2xl:h-[342px] w-[270px] h-96 relative group  rounded-lg border border-gray-50 shadow-lg  "
             >
         <div className=" w-full">
-          <div className="flex justify-between gap-[140px] absolute z-40">
+          <div className="flex justify-between gap-[140px] absolute z-10">
             <img src={gurante} alt="gurante" className="object-contain w-16"/>
             <img src={code} alt="code" className="object-contain w-16 rounded-tr-lg"/>
           </div>
@@ -237,10 +237,9 @@ const Products = () => {
 
 
         <div className="flex-col items-center justify-center text-center  mt-20">
-        <a href={pdf} download="nama.pdf" className="text-[#FF7315] text-center  2xl:text-3xl text-2xl  ">
+        <a href={pdf} download="nama.pdf" className="text-[#FF7315]  text-center  2xl:text-3xl text-2xl border-b border-[#FF7315]   ">
       تحميل ملف نما طيبة
       </a>
-      <hr className=" border-t z-40  border-[#FF7135] relative left-[470px] w-40 mt-1" />
         <Buttons text={"عرض المزيد"} href={"/products"}/>
 
         </div>

@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Link, NavLink } from "react-router-dom";
-import logo from "../assets/logo.png";
+import logo from "../assets/logo24.png";
 import {
   FaFacebook,
   FaInstagram,
@@ -12,9 +12,9 @@ import { useParams } from "react-router-dom";
 import { productDetails, products } from "./Constants";
 import chat from "../assets/chat.png";
 import Chat from "./Chat";
-import downar from "../assets/downar.png";
+import downar from "../assets/downar24.png";
 import whatsapp from "../assets/whatsapp.png";
-import cart from '../assets/cart.png'
+import cart from '../assets/cart24.png'
 
 
 const Navbar = ({ textColor, socialDisplay }) => {
@@ -44,23 +44,23 @@ const Navbar = ({ textColor, socialDisplay }) => {
   }, [searchTerm]);
 
   return (
-    <div className="mt-16 z-50">
-      <div className="flex flex-col text-white 2xl:w-10 w-10 relative 2xl:left-12 left-24   h-1 -top-10 z-50 ">
+    <div className="z-50">
+      <div className="flex flex-col text-white 2xl:w-10 w-10 relative  left-24   h-1  z-50 ">
                 <div className="fixed left-16 top-8 "><img src={downar} alt="downar" /></div>
-                <FaGlobe className="w-[25px] h-[25px] 2xl:w-[33px] 2xl:h-[33px] fixed " />
-                <Link to="/cart" className='mt-1 w-6 h-6 ml-10 fixed'><img src={cart} alt="cart"/></Link>
+               <div className="fixed  top-6"> <FaGlobe className="w-[33.33px] h-[25px]  fixed " />
+                <Link to="/cart" className='mt-1 w-6 h-6 ml-10 fixed'><img src={cart} alt="cart"/></Link></div>
               <div className={`gap-y-8 flex flex-col ${socialDisplay} relative top-24`}>
                 <a href="https://www.facebook.com/profile.php?id=100086364507234" target="_blank">
-                  <FaFacebook className="w-[25px] h-[25px] 2xl:w-[33px] 2xl:h-[33px]" />
+                  <FaFacebook className="w-[33.33px] h-[25px] " />
                 </a>
                 <a href="https://www.instagram.com/nama_taiba/" target="_blank">
-                  <FaInstagram className="w-[25px] h-[25px] 2xl:w-[33px] 2xl:h-[33px]" />
+                  <FaInstagram className="w-[33.33px] h-[25px] " />
                 </a>
                 <a href="https://twitter.com/NamaTaiba" target="_blank">
-                  <FaTwitter className="w-[25px] h-[25px] 2xl:w-[33px] 2xl:h-[33px]" />
+                  <FaTwitter className="w-[33.33px] h-[25px] " />
                 </a>
                 <a href="https://www.snapchat.com/add/nama_taiba?share_id=EdYdd_Y10Pc&locale=en-US" target="_blank">
-                  <FaSnapchat  className="w-[25px] h-[25px] 2xl:w-[33px] 2xl:h-[33px]" />
+                  <FaSnapchat  className="w-[33.33px] h-[25px] " />
                 </a>
                 <div className="bg-gray- p-2 rounded-xl fixed w-56 h-52  left-[90px] top-96">
                 <a href="https://wa.me/09660555301707" target="_blank" >
@@ -74,7 +74,7 @@ const Navbar = ({ textColor, socialDisplay }) => {
                 </div> */}
               </div>
             </div>
-      <div className="fixed bg-black  w-full -mt-[68px]  z-40 bg-opacity-60 ">
+      <div className="fixed bg-black  w-full h-[91px] top-0  z-40 bg-opacity-60 ">
           <nav
             className={` text-white  flex justify-center items-center gap-6  `}
           >
@@ -87,14 +87,14 @@ const Navbar = ({ textColor, socialDisplay }) => {
                 <NavLink
                   key={item.name}
                   to={item.href}
-                  className={`font-medium  text-sm 2xl:text-md cursor-pointer  hover:text-[#FF7315] activeClassName="active"  `}
+                  className={`font-medium  text-2xl  cursor-pointer  hover:text-[#FF7315] activeClassName="active"  `}
                 >
                   {item.name}
                 </NavLink>
               ))}
             </div>
 
-            <div><img src={logo} alt="asd" className="relative 2xl:left-44 left-56 w-44 " /></div>
+            <div><img src={logo} alt="asd" className="relative  left-56 " /></div>
             </div>
           </nav>
         </div>
@@ -104,6 +104,70 @@ const Navbar = ({ textColor, socialDisplay }) => {
 };
 
 export default Navbar;
+// {/* <div className="mt-16 z-50">
+//       <div className="flex flex-col text-white 2xl:w-10 w-10 relative 2xl:left-12 left-24   h-1 -top-10 z-50 ">
+//                 <div className="fixed left-16 top-8 "><img src={downar} alt="downar" /></div>
+//                 <FaGlobe className="w-[25px] h-[25px] 2xl:w-[33px] 2xl:h-[33px] fixed " />
+//                 <Link to="/cart" className='mt-1 w-6 h-6 ml-10 fixed'><img src={cart} alt="cart"/></Link>
+//               <div className={`gap-y-8 flex flex-col ${socialDisplay} relative top-24`}>
+//                 <a href="https://www.facebook.com/profile.php?id=100086364507234" target="_blank">
+//                   <FaFacebook className="w-[25px] h-[25px] 2xl:w-[33px] 2xl:h-[33px]" />
+//                 </a>
+//                 <a href="https://www.instagram.com/nama_taiba/" target="_blank">
+//                   <FaInstagram className="w-[25px] h-[25px] 2xl:w-[33px] 2xl:h-[33px]" />
+//                 </a>
+//                 <a href="https://twitter.com/NamaTaiba" target="_blank">
+//                   <FaTwitter className="w-[25px] h-[25px] 2xl:w-[33px] 2xl:h-[33px]" />
+//                 </a>
+//                 <a href="https://www.snapchat.com/add/nama_taiba?share_id=EdYdd_Y10Pc&locale=en-US" target="_blank">
+//                   <FaSnapchat  className="w-[25px] h-[25px] 2xl:w-[33px] 2xl:h-[33px]" />
+//                 </a>
+//                 <div className="bg-gray- p-2 rounded-xl fixed w-56 h-52  left-[90px] top-96">
+//                 <a href="https://wa.me/09660555301707" target="_blank" >
+//                   <img src={whatsapp} alt="whatsapp" className="w-12" />
+//                 </a>
+//                 </div>
+//                 {/* <div className="bg-[#5D5959] p-1 pt-3 px-2  rounded-2xl fixed w-12 h-12  right-[90px] top-[455px]">
+//                 <button onClick={() => toggle()} >
+//                   <img src={chat} alt="chatImage" />
+//                 </button>
+//                 </div> */}
+//               </div>
+//             </div>
+//       <div className="fixed bg-black  w-full -mt-[68px]  z-40 bg-opacity-60 ">
+//           <nav
+//             className={` text-white  flex justify-center items-center gap-6  `}
+//           >
+            
+
+//             <div className="flex  justify-center items-center">
+              
+//             <div className="hidden lg:flex  gap-x-10 ml-16">
+//               {navigation.map((item) => (
+//                 <NavLink
+//                   key={item.name}
+//                   to={item.href}
+//                   className={`font-medium  text-sm 2xl:text-md cursor-pointer  hover:text-[#FF7315] activeClassName="active"  `}
+//                 >
+//                   {item.name}
+//                 </NavLink>
+//               ))}
+//             </div>
+
+//             <div><img src={logo} alt="asd" className="relative 2xl:left-44 left-56 w-44 " /></div>
+//             </div>
+//           </nav>
+//         </div>
+//         {  show && <div className="fixed left-24 top-24 z-50 bg-white rounded-2xl"><Chat/></div>} 
+//     </div> */}
+
+
+
+
+
+
+
+
 
 {/* <div className="flex flex-row  -mt-2 outline-none outline-0">
   <form className="mr-4">
