@@ -78,7 +78,7 @@ const AboutPage = () => {
             </div>
           </div>
         </div>
-        <div className="flex flex-col items-center justify-center my-8">
+        <div className="flex flex-col items-center justify-center my-8 mt-12">
         <h1 className="2xl:text-5xl text-4xl font-bold  relative 2xl:mb-10">شهادات واعتمادات</h1>
       </div>
         <p className=" text-center mb-10 2xl:text-3xl text-2xl ">مصنع نما طيبة حاصل على جميع الشهادات والاعتمادات من الجهات السعودية المختصة</p>

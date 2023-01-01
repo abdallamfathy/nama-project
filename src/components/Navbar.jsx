@@ -75,7 +75,7 @@ const Navbar = ({ textColor, socialDisplay }) => {
                 <div className="fixed left-16 top-8 2xl:top-12 "><img src={downar} alt="downar" /></div>
                <div className="fixed  top-6 2xl:top-9"> <FaGlobe className="2xl:w-[33.33px] 2xl:h-[33.33px] w-[25px] h-[25px]  fixed " />
                 <Link to="/cart" className='mt-1 w-6 2xl:w-14 2xl:h-12 h-6 ml-10 fixed'><img src={cart} alt="cart"/></Link></div>
-              <div className={`gap-y-8 flex flex-col ${socialDisplay} absolute top-24 2xl:top-48`}>
+              <div className={`gap-y-8 flex flex-col ${socialDisplay} absolute top-36 2xl:top-48`}>
                 <a href="https://www.facebook.com/profile.php?id=100086364507234" target="_blank">
                   <FaFacebook className="w-[25px] 2xl:w-[33.33px] h-[25px] 2xl:h-8 " />
                 </a>
