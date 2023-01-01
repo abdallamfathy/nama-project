@@ -20,7 +20,7 @@ import call from "../assets/call.png";
 
 const Slider = () => {
   return (
-    <div className="h-[103vh]  ">
+    <div className="h-[593px]  ">
       <h1 className="text-white z-40  top-[439px] relative text-center   text-5xl font-bold">
         خصم يبدأ من <span className="text-[#FF7315]">%15</span> ويصل الى{" "}
         <span className="text-[#FF7315]">%30</span>
