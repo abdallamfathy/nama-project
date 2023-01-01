@@ -64,21 +64,21 @@ const Slider = () => {
           "--swiper-pagination-bullet-size": "10px",
         }}
       >
-        <SwiperSlide>
+        <SwiperSlide className="swiper-slides">
           <img
             src={img1}
             alt="image"
             className=" brightness-50  object-cover"
           />
         </SwiperSlide>
-        <SwiperSlide>
+        <SwiperSlide className="swiper-slides">
           <img
             src={img2}
             alt="image"
             className="brightness-50   object-top "
           />
         </SwiperSlide>
-        <SwiperSlide>
+        <SwiperSlide className="swiper-slides">
           <img
             src={img3}
             alt="image"

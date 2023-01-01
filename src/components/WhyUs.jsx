@@ -29,7 +29,7 @@ const WhyUs = () => {
         pagination={{ clickable: true }}
         effect={"fade"}
         speed={2000}
-        // autoplay={{ delay: 2000, disableOnInteraction: false }}
+        autoplay={{ delay: 2000, disableOnInteraction: false }}
         className="mySwiper "
         style={{
           "--swiper-pagination-color": "#FF7315",

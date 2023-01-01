@@ -24,7 +24,7 @@ const About = () => {
         autoplay={{ delay: 1500, disableOnInteraction: false }}
         className="mySwiper "
       >
-        <SwiperSlide>
+        {/* <SwiperSlide>
           <div className="flex flex-row gap-x-96 mb-4">
             <img
               src={img3}
@@ -67,13 +67,10 @@ const About = () => {
               <Button className="mt-0" text="اقرأ المزيد" href={"/about"} />
             </div>
           </div>
-        </SwiperSlide>
+        </SwiperSlide> */}
         <SwiperSlide>
           <div className="flex flex-row gap-x-96  mb-4">
-            <img
-              src={img3}
-              alt="image"
-              className="2xl:w-[520px] 2xl:h-[380px] w-[462px] h-[498px] rounded-xl brightness-50"
+            <img src={img3} alt="s" className="2xl:w-[520px] 2xl:h-[380px] w-[462px] h-[498px] rounded-xl brightness-50"
             />
             <div className="flex flex-col justify-center items-end w-96">
               <h1 className="2xl:text-[34px] text-3xl font-semibold text-[#FF7315] text-right">
@@ -92,7 +89,7 @@ const About = () => {
             </div>
           </div>
         </SwiperSlide>
-        <SwiperSlide>
+        {/* <SwiperSlide>
           <div className="flex flex-row gap-x-96  mb-4">
             <img
               src={img3}
@@ -122,7 +119,7 @@ const About = () => {
               <Button className="mt-0" text="اقرأ المزيد" href={"/about"} />
             </div>
           </div>
-        </SwiperSlide>
+        </SwiperSlide> */}
       </Swiper>
       </div>
     </div>

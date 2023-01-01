@@ -2,20 +2,16 @@
 module.exports = {
   content: [
     "./src/**/*.{js,jsx,ts,tsx}",
-    'node_modules/flowbite-react/**/*.{js,jsx,ts,tsx}',
   ],
   theme: {
-    extend: {
-      borderWidth: {
-        DEFAULT: '1px',
-        '0': '0.5px',
-        
-      }
-    },
+    extend: {},
   },
-  plugins: [
-     require('flowbite/plugin')
-    ],
-    
-    important: '#app',    
+  plugins: [],
 }
+// 'node_modules/flowbite-react/**/*.{js,jsx,ts,tsx}'
+// require('flowbite/plugin')
+// borderWidth: {
+//   DEFAULT: '1px',
+//   '0': '0.5px',
+  
+// }

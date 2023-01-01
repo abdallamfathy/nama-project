@@ -89,7 +89,7 @@ const Checkout = () => {
                 <ReactToPrint
                 trigger={() => {return <button className=' bg-[#FF7315] w-72  p-2 text-white rounded-md' ref={printyButt}>اتمام الطلب</button>}}
                 content={() => printy.current}
-                pageStyle="print"
+                
                 />
                   
                   </div>

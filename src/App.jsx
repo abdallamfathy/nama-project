@@ -13,7 +13,7 @@ import Cart from './pages/Cart'
 
 function App() {
   return (
-    <div className="App " id="app">
+    <div className='App' id='app'>
       <Router>
         <Routes>
           <Route path="/" element={<Main />} />
