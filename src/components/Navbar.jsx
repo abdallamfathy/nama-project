@@ -44,25 +44,25 @@ const Navbar = ({ textColor, socialDisplay }) => {
   }, [searchTerm]);
 
   return (
-    <div className="z-50">
+    <div className="z-50 ">
       <div className="flex flex-col text-white 2xl:w-10 w-10 relative  left-24   h-1  z-50 ">
-                <div className="fixed left-16 top-8 "><img src={downar} alt="downar" /></div>
-               <div className="fixed  top-6"> <FaGlobe className="w-[33.33px] h-[25px]  fixed " />
-                <Link to="/cart" className='mt-1 w-6 h-6 ml-10 fixed'><img src={cart} alt="cart"/></Link></div>
-              <div className={`gap-y-8 flex flex-col ${socialDisplay} relative top-24`}>
+                <div className="fixed left-16 top-8 2xl:top-12 "><img src={downar} alt="downar" /></div>
+               <div className="fixed  top-6 2xl:top-9"> <FaGlobe className="2xl:w-[33.33px] 2xl:h-[33.33px] w-[25px] h-[25px]  fixed " />
+                <Link to="/cart" className='mt-1 w-6 2xl:w-14 2xl:h-12 h-6 ml-10 fixed'><img src={cart} alt="cart"/></Link></div>
+              <div className={`gap-y-8 flex flex-col ${socialDisplay} absolute top-24 2xl:top-48`}>
                 <a href="https://www.facebook.com/profile.php?id=100086364507234" target="_blank">
-                  <FaFacebook className="w-[33.33px] h-[25px] " />
+                  <FaFacebook className="w-[25px] 2xl:w-[33.33px] h-[25px] 2xl:h-8 " />
                 </a>
                 <a href="https://www.instagram.com/nama_taiba/" target="_blank">
-                  <FaInstagram className="w-[33.33px] h-[25px] " />
+                  <FaInstagram className="w-[25px] 2xl:w-[33.33px] h-[25px] 2xl:h-8 " />
                 </a>
                 <a href="https://twitter.com/NamaTaiba" target="_blank">
-                  <FaTwitter className="w-[33.33px] h-[25px] " />
+                  <FaTwitter className="w-[25px] 2xl:w-[33.33px] h-[25px] 2xl:h-8 " />
                 </a>
                 <a href="https://www.snapchat.com/add/nama_taiba?share_id=EdYdd_Y10Pc&locale=en-US" target="_blank">
-                  <FaSnapchat  className="w-[33.33px] h-[25px] " />
+                  <FaSnapchat  className="w-[25px] 2xl:w-[33.33px] h-[25px] 2xl:h-8 " />
                 </a>
-                <div className="bg-gray- p-2 rounded-xl fixed w-56 h-52  left-[90px] top-96">
+                <div className="bg-gray- p-2 rounded-xl fixed w-56 h-52  left-[90px] top-96 2xl:top-[579px]">
                 <a href="https://wa.me/09660555301707" target="_blank" >
                   <img src={whatsapp} alt="whatsapp" className="w-12" />
                 </a>
@@ -74,7 +74,7 @@ const Navbar = ({ textColor, socialDisplay }) => {
                 </div> */}
               </div>
             </div>
-      <div className="fixed bg-black  w-full h-[91px] top-0  z-40 bg-opacity-60 ">
+      <div className="fixed bg-black  w-full h-[91px] 2xl:h-[126px] top-0  z-40 bg-opacity-60 ">
           <nav
             className={` text-white  flex justify-center items-center gap-6  `}
           >
@@ -87,14 +87,14 @@ const Navbar = ({ textColor, socialDisplay }) => {
                 <NavLink
                   key={item.name}
                   to={item.href}
-                  className={`font-medium  text-2xl  cursor-pointer  hover:text-[#FF7315] activeClassName="active"  `}
+                  className={`font-medium  text-lg 2xl:text-2xl  cursor-pointer  hover:text-[#FF7315] activeClassName="active"  `}
                 >
                   {item.name}
                 </NavLink>
               ))}
             </div>
 
-            <div><img src={logo} alt="asd" className="relative  left-56 " /></div>
+            <div><img src={logo} alt="asd" className="relative  left-56 w-[177px] h-[71px] 2xl:w-[279px] 2xl:h-[112px]" /></div>
             </div>
           </nav>
         </div>
