@@ -47,20 +47,20 @@ const Navbar = ({ textColor, socialDisplay }) => {
     <div className="z-50">
       <div className="flex flex-col text-white 2xl:w-10 w-10 relative  left-24   h-1  z-50 ">
                 <div className="fixed left-16 top-8 "><img src={downar} alt="downar" /></div>
-               <div className="fixed  top-6"> <FaGlobe className="w-[25px] h-[25px]  fixed " />
+               <div className="fixed  top-6"> <FaGlobe className="w-[33.33px] h-[25px]  fixed " />
                 <Link to="/cart" className='mt-1 w-6 h-6 ml-10 fixed'><img src={cart} alt="cart"/></Link></div>
               <div className={`gap-y-8 flex flex-col ${socialDisplay} relative top-24`}>
                 <a href="https://www.facebook.com/profile.php?id=100086364507234" target="_blank">
-                  <FaFacebook className="w-[25px] h-[25px] " />
+                  <FaFacebook className="w-[33.33px] h-[25px] " />
                 </a>
                 <a href="https://www.instagram.com/nama_taiba/" target="_blank">
-                  <FaInstagram className="w-[25px] h-[25px] " />
+                  <FaInstagram className="w-[33.33px] h-[25px] " />
                 </a>
                 <a href="https://twitter.com/NamaTaiba" target="_blank">
-                  <FaTwitter className="w-[25px] h-[25px] " />
+                  <FaTwitter className="w-[33.33px] h-[25px] " />
                 </a>
                 <a href="https://www.snapchat.com/add/nama_taiba?share_id=EdYdd_Y10Pc&locale=en-US" target="_blank">
-                  <FaSnapchat  className="w-[25px] h-[25px] " />
+                  <FaSnapchat  className="w-[33.33px] h-[25px] " />
                 </a>
                 <div className="bg-gray- p-2 rounded-xl fixed w-56 h-52  left-[90px] top-96">
                 <a href="https://wa.me/09660555301707" target="_blank" >
@@ -87,14 +87,14 @@ const Navbar = ({ textColor, socialDisplay }) => {
                 <NavLink
                   key={item.name}
                   to={item.href}
-                  className={`font-medium  text-lg  cursor-pointer  hover:text-[#FF7315] activeClassName="active"  `}
+                  className={`font-medium  text-2xl  cursor-pointer  hover:text-[#FF7315] activeClassName="active"  `}
                 >
                   {item.name}
                 </NavLink>
               ))}
             </div>
 
-            <div><img src={logo} alt="asd" className="relative 2xl:left-44 left-56 w-44 " /></div>
+            <div><img src={logo} alt="asd" className="relative  left-56 " /></div>
             </div>
           </nav>
         </div>
