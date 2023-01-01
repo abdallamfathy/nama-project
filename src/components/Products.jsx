@@ -237,7 +237,7 @@ const Products = () => {
 
 
         <div className="flex-col items-center justify-center text-center  mt-20 2xl:mt-36">
-        <a href={pdf} download="nama.pdf" className="text-[#FF7315]  text-center  2xl:text-4xl text-3xl border-b border-[#FF7315]   ">
+        <a href={pdf} download="nama.pdf" className="text-[#FF7315]  text-center  2xl:text-4xl text-3xl border-b border-[#FF7315] buttons   ">
       تحميل ملف نما طيبة
       </a>
         <Buttons text={"عرض المزيد"} href={"/products"}/>
