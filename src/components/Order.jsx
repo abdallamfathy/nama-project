@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Order = () => {
   return (
@@ -29,7 +30,7 @@ const Order = () => {
                     <p>الاجمالى</p>
                 </div>
         <div className='flex justify-center mt-7'>
-            <a href="/checkout"><button className='p-1 px-8 bg-[#FF7315] rounded-lg text-white text-sm  hover:text-black'>ملئ بيانات الطالب</button></a>
+            <Link href="/checkout"><button className='p-1 px-8 bg-[#FF7315] rounded-lg text-white text-sm  hover:text-black'>ملئ بيانات الطالب</button></Link>
         </div>
         </div>
     </>
