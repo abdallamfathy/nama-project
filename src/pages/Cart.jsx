@@ -1,9 +1,13 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { FaLessThan } from 'react-icons/fa'
 import { Footer, Navbar, Order } from '../components'
 import CartProduct from '../components/CartProduct'
 
 const Cart = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <>
     <Navbar
@@ -11,7 +15,7 @@ const Cart = () => {
         socialDisplay="hidden"
       />
     <div className='mx-20'>
-    <div className="flex justify-end py-20 items-baseline gap-4">
+    <div className="flex justify-end pb-20 mt-36 items-baseline gap-4">
           <h1 className="text-3xl font-bold text-[#FF7315]">شركاء النجاح</h1>
           <span>
             <FaLessThan />

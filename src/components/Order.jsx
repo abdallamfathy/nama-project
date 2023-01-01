@@ -30,7 +30,7 @@ const Order = () => {
                     <p>الاجمالى</p>
                 </div>
         <div className='flex justify-center mt-7'>
-            <Link href="/checkout"><button className='p-1 px-8 bg-[#FF7315] rounded-lg text-white text-sm  hover:text-black'>ملئ بيانات الطالب</button></Link>
+            <Link to="/checkout"><button className='p-1 px-8 bg-[#FF7315] rounded-lg text-white text-sm  hover:text-black'>ملئ بيانات الطالب</button></Link>
         </div>
         </div>
     </>

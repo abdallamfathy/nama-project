@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { Footer, Navbar } from '../components'
 import ReactToPrint from 'react-to-print';
 import { FaLessThan } from 'react-icons/fa';
@@ -7,8 +7,12 @@ import { Order } from '../components';
 
 const Checkout = () => {
 
-  const componentRef = useRef(null);
+  const printy = useRef(null);
   const printyButt = useRef();
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
 
   return (
 
@@ -32,7 +36,8 @@ const Checkout = () => {
       <div className='flex justify-end my-10'>
       <h2 className='text-4xl font-bold text-[#FF7315]'>بيانات الطالب</h2>
       </div>
-      <div className='flex justify-center gap-14 mt-24' >
+      
+      <div ref={printy} className='flex justify-center gap-14 mt-24'  >
                   
               
 
@@ -80,11 +85,10 @@ const Checkout = () => {
             </div>
 
     </div>      
-                <Order forwardedRef={componentRef } />
-                <div className='flex justify-center items-center my-10'>
+    <div className='flex justify-center items-center my-10'>
                 <ReactToPrint
                 trigger={() => {return <button className=' bg-[#FF7315] w-72  p-2 text-white rounded-md' ref={printyButt}>اتمام الطلب</button>}}
-                content={() => <Order/>}
+                content={() => printy.current}
                 pageStyle="print"
                 />
                   
