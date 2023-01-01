@@ -2,11 +2,13 @@ import React from 'react'
 import { Footer, Navbar } from '../components'
 import ReactToPrint from 'react-to-print';
 import { FaLessThan } from 'react-icons/fa';
+import { useRef } from 'react';
+import { Order } from '../components';
 
 const Checkout = () => {
 
-  const printy = React.useRef();
-  const printyButt = React.useRef();
+  const componentRef = useRef(null);
+  const printyButt = useRef();
 
   return (
 
@@ -30,7 +32,7 @@ const Checkout = () => {
       <div className='flex justify-end my-10'>
       <h2 className='text-4xl font-bold text-[#FF7315]'>بيانات الطالب</h2>
       </div>
-      <div className='flex justify-center gap-14 mt-24' ref={printy}>
+      <div className='flex justify-center gap-14 mt-24' >
                   
               
 
@@ -77,11 +79,13 @@ const Checkout = () => {
                 </div>
             </div>
 
-    </div>
+    </div>      
+                <Order forwardedRef={componentRef } />
                 <div className='flex justify-center items-center my-10'>
                 <ReactToPrint
-                trigger={() => <button className=' bg-[#FF7315] w-72  p-2 text-white rounded-md' ref={printyButt}>اتمام الطلب</button>}
-                content={() => printy.current}
+                trigger={() => {return <button className=' bg-[#FF7315] w-72  p-2 text-white rounded-md' ref={printyButt}>اتمام الطلب</button>}}
+                content={() => <Order/>}
+                pageStyle="print"
                 />
                   
                   </div>
