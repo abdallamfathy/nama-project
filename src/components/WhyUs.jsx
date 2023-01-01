@@ -17,11 +17,11 @@ import Button from "./Button";
 
 const WhyUs = () => {
   return (
-    <div className="border-2 border-[#FF7315] -mt-[1.152rem]">
+    <div className="border-2 border-[#FF7315] -mt-[1.3rem] 2xl:-mt-[0.12rem]">
 
     <div className=" mx-20 my-20">
       <div className="flex justify-center mb-10">
-        <h1 className="font-bold 2xl:text-4xl text-3xl text-[#3A3535]">لماذا نحن</h1>
+        <h1 className="font-bold 2xl:text-5xl text-4xl text-[#3A3535]">لماذا نحن</h1>
       </div>
       <Swiper
         modules={[A11y, EffectFade, Autoplay, Pagination]}
@@ -39,7 +39,7 @@ const WhyUs = () => {
       >
         <SwiperSlide>
             
-          <span className="relative top-16 left-[120px] text-center  p-4 text-white bg-[#3A3535] rounded-3xl shadow-2xl">
+          <span className="relative top-16 left-[120px]  text-center  p-4 text-white bg-[#3A3535] rounded-3xl shadow-2xl">
             مقاوم للملوحة والرطوبة
           </span>
           <span className="relative -top-8 text-center flex items-center p-5 justify-center text-white bg-[#3A3535] rounded-3xl shadow-2xl">
@@ -54,14 +54,14 @@ const WhyUs = () => {
             >
             عازل طبيعى للحرارة والصوت
           </span>
-          <span className="relative right-[550px] top-44 text-center  p-4  text-white bg-[#3A3535] rounded-3xl shadow-2xl">
+          <span className="relative right-[550px] 2xl:right-[600px] top-44 text-center  p-4  text-white bg-[#3A3535] rounded-3xl shadow-2xl">
             مقاوم للتصدع والتشقيق
           </span>
           <div className="flex flex-col justify-cente  relative right-36  text-right w-64">
-            <h1 className="text-[34px] font-semibold text-[#FF7315] ">
+            <h1 className="2xl:text-[34px] text-[32px] font-semibold text-[#FF7315] ">
               خصائص بركانى نما طيبة
             </h1>
-            <p className=" -mb-10">
+            <p className=" -mb-10 text-xl 2xl:text-2xl">
               بلك نما طيبة المعزول هو مثالى للبناء من جميع النواحى فهو فعال من
               حيث التكلفة وسهولة الاستخدام ويوفر خلفية مثالية لقبول أعمال
               اللياثة

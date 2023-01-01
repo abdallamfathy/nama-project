@@ -7,7 +7,7 @@ const Contact = () => {
   return (
     <div className="Contact my-20 mx-20" id="contact">
       <div className="flex justify-center mb-14">
-        <h1 className="2xl:text-4xl text-3xl font-bold">اتصل بنا</h1>
+        <h1 className="2xl:text-5xl text-4xl font-bold">اتصل بنا</h1>
       </div>
       <div className="flex justify-end relative right-16 ">
         <div className="flex justify-end flex-col items-end gap-10">

@@ -117,7 +117,7 @@ const Products = () => {
         <SwiperSlide className="rounded-t-3xl">
         <div className=" h-32 pt-1 w-full flex justify-center items-center  "> 
         <img
-                className="-my-10 transition duration-[2000]  delay-300 hover:transition-all ease-out 2xl:hover:left-20  absolute 2xl:left-24  2xl:top-12   hover:w-40  w-36 h-28 hover:h-32  rotate-90 object-contain"
+                className="transition duration-[2000]  delay-300 hover:transition-all ease-out 2xl:hover:left-20  absolute 2xl:left-24  2xl:top-12   hover:w-40  w-36 h-28 hover:h-32  rotate-90 object-contain"
                 src={product.image}
                 alt="productImage"
               />        
@@ -151,11 +151,11 @@ const Products = () => {
 
 
 
-      <div className="mx-20 my-20 ">
-        <h1 className="text-4xl text-[#3A3535] font-bold text-center mb-20">
+      <div className="m-20 2xl:m-28  ">
+        <h1 className="2xl:text-5xl text-4xl  text-[#3A3535] font-bold text-center mb-20">
           منتجاتنا
         </h1>
-        <div className="flex flex-wrap flex-row justify-center gap-20 2xl:gap-x-24 gap-x-[58px]">
+        <div className="flex flex-wrap flex-row justify-center 2xl:gap-36 gap-20 2xl:gap-x-40  gap-x-[58px]">
           {products.map((product) => (
             <div
               onClick={() => {
@@ -214,7 +214,7 @@ const Products = () => {
               <div className="bg-[#3A3535] text-xs px-2 py-1 -translate-x-[6.16rem]  text-left text-white ">
                 <h2>{product.code}</h2>
               </div>
-              <div className="text-right text-white 2xl:text-[24px] text-sm h-32 w-full rounded-b-lg bg-[#3A3535] flex flex-col  gap-2 py-2  ">
+              <div className="text-right text-white 2xl:text-lg text-sm h-32 2xl:h-40 w-full rounded-b-lg bg-[#3A3535] flex flex-col  gap-2 py-2  ">
                 <div className="flex justify-between mx-2">
                 <div className="flex font-bold  gap-2 ">
                   <p>ر.س للحبة</p>
@@ -236,8 +236,8 @@ const Products = () => {
         </div>
 
 
-        <div className="flex-col items-center justify-center text-center  mt-20">
-        <a href={pdf} download="nama.pdf" className="text-[#FF7315]  text-center  2xl:text-3xl text-2xl border-b border-[#FF7315]   ">
+        <div className="flex-col items-center justify-center text-center  mt-20 2xl:mt-36">
+        <a href={pdf} download="nama.pdf" className="text-[#FF7315]  text-center  2xl:text-4xl text-3xl border-b border-[#FF7315]   ">
       تحميل ملف نما طيبة
       </a>
         <Buttons text={"عرض المزيد"} href={"/products"}/>

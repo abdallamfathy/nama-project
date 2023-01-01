@@ -9,11 +9,11 @@ import Button from "./Button";
 
 const Partners = () => {
   return (
-    <div className="my-20 mx-20 ">
+    <div className="m-20 2xl:m-28 ">
       <div className="flex justify-center my-8">
-        <h1 className="2xl:text-4xl text-3xl font-bold  relative ">شركاء النجاح</h1>
+        <h1 className="2xl:text-5xl text-4xl font-bold  relative mb-10 ">شركاء النجاح</h1>
       </div>
-      <div className="flex justify-center flex-wrap 2xl:gap-44 gap-x-40 gap-24  ">
+      <div className="flex justify-center flex-wrap 2xl:gap-44 2xl:gap-x-60 gap-x-40 gap-24  ">
         <img src={mohaidlogo} alt="image" className="w-44 h-40" />
         <img src={mezlogo} alt="image"  className="w-48 h-40" />
         <img src={typologo} alt="image"  className="w-44 h-40"/>

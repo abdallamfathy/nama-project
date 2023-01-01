@@ -14,7 +14,7 @@ const About = () => {
       <div className="shadow-xl">
   <div className="mx-20 my-28">
       <div className="flex justify-center mb-24">
-        <h1 className="font-bold text-4xl text-[#3A3535]">معلومات عن المصنع</h1>
+        <h1 className="font-bold 2xl:text-5xl text-4xl text-[#3A3535]">معلومات عن المصنع</h1>
       </div>
       <Swiper
         modules={[A11y, EffectFade, Autoplay]}
@@ -28,13 +28,13 @@ const About = () => {
             <img
               src={img3}
               alt="image"
-              className="w-[520px] h-[380px] mb-4 rounded-xl brightness-50 "
+              className="2xl:w-[520px] 2xl:h-[380px] w-[462px] h-[498px] mb-4 rounded-xl brightness-50 "
             />
             <div className="flex flex-col justify-center items-end w-96">
-              <h1 className="text-[34px] font-semibold text-[#FF7315] text-right">
+              <h1 className="2xl:text-[34px] text-3xl font-semibold text-[#FF7315] text-right">
                 نبذة عن المصنع
               </h1>
-              <p className="text-right -mb-10">
+              <p className="text-right  -mb-10">
                 يعد مصنع نما طيبة من المصانع الرائدة فى مجال البلوكات اأسمنتية (
                 بلوك - انتر لوك ) حيث يمتلك حطوط انتاج على أعلى مستوى من الكفائة
                 والجودة لضمان خروج منتج عالى الجودة لتلبية احتياجات عملائنا
@@ -52,10 +52,10 @@ const About = () => {
             <img
               src={img3}
               alt="image"
-              className="w-[520px] h-[380px] mb-4 rounded-xl brightness-50"
+              className="2xl:w-[520px] 2xl:h-[380px] w-[462px] h-[498px] mb-4 rounded-xl brightness-50"
             />
             <div className="flex flex-col justify-center items-end w-96">
-              <h1 className="text-[34px] font-semibold text-[#FF7315] text-right">
+              <h1 className="2xl:text-[34px] text-3xl font-semibold text-[#FF7315] text-right">
                 قيمنا
               </h1>
               <p className="text-right -mb-10">
@@ -72,10 +72,10 @@ const About = () => {
             <img
               src={img3}
               alt="image"
-              className="w-[520px] h-[380px] rounded-xl brightness-50"
+              className="2xl:w-[520px] 2xl:h-[380px] w-[462px] h-[498px] rounded-xl brightness-50"
             />
             <div className="flex flex-col justify-center items-end w-96">
-              <h1 className="text-[34px] font-semibold text-[#FF7315] text-right">
+              <h1 className="2xl:text-[34px] text-3xl font-semibold text-[#FF7315] text-right">
                 أهدافنا
               </h1>
               <p className="text-right -mb-10">
@@ -96,10 +96,10 @@ const About = () => {
             <img
               src={img3}
               alt="image"
-              className="w-[520px] h-[380px] rounded-xl brightness-50"
+              className="2xl:w-[520px] 2xl:h-[380px] w-[462px] h-[498px] rounded-xl brightness-50"
             />
             <div className="flex flex-col justify-center items-end w-96">
-              <h1 className="text-[34px] font-semibold text-[#FF7315] text-right">
+              <h1 className="2xl:text-[34px] text-3xl font-semibold text-[#FF7315] text-right">
                 سياستنا الخاصة
               </h1>
               <p className="text-right text-xl font-bold">رضا عملائنا</p>

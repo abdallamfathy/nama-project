@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Link, NavLink } from "react-router-dom";
-import logo from "../assets/logo24.png";
+import logo from "../assets/logo.png";
 import {
   FaFacebook,
   FaInstagram,
@@ -74,7 +74,7 @@ const Navbar = ({ textColor, socialDisplay }) => {
                 </div> */}
               </div>
             </div>
-      <div className="fixed bg-black  w-full h-[91px] 2xl:h-[126px] top-0  z-40 bg-opacity-60 ">
+      <div className="fixed bg-black  w-full h-[91px] 2xl:h-[126px] -top-0  z-40 bg-opacity-60 ">
           <nav
             className={` text-white  flex justify-center items-center gap-6  `}
           >
