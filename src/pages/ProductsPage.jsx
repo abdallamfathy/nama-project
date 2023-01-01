@@ -17,7 +17,7 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 import "swiper/css/effect-fade";
 import "../index.css";
-import { Footer, Navbar } from "../components";
+import { Footer, Navbar, Products } from "../components";
 import { FaLessThan } from "react-icons/fa";
 
 
@@ -72,13 +72,13 @@ const ProductsPage = () => {
         textColor="text-[#3A3535] border-b border-[#ff731573]"
         socialDisplay="hidden"
       />
-      <div className="mx-20">
-        <div className="flex justify-end py-20 items-baseline gap-4">
-          <h1 className="text-3xl font-bold text-[#FF7315]">منتجاتنا</h1>
+      <div className="2xl:mx-20 mx-12">
+        <div className="flex justify-end mt-36  items-baseline gap-4 ">
+          <h1 className="text-3xl 2xl:text-4xl font-bold text-[#FF7315]">منتجاتنا</h1>
           <span>
             <FaLessThan />
           </span>
-          <h1 className="text-2xl text-[#3A3535]">الرئيسية</h1>
+          <h1 className="text-2xl 2xl:text-3xl text-[#3A3535]">الرئيسية</h1>
         </div>
       {showModal && (
         <>
@@ -165,9 +165,9 @@ const ProductsPage = () => {
 
 
 
-      <div className="mx-20 my-20 ">
+      <div className="2xl:m-20 m-12 ">
         
-        <div className="flex flex-wrap flex-row justify-center gap-20 2xl:gap-x-24 gap-x-[58px]">
+        {/* <div className="flex flex-wrap flex-row justify-center gap-20 2xl:gap-x-24 gap-x-[58px]">
           {products.map((product) => (
             <div
               onClick={() => {
@@ -245,8 +245,8 @@ const ProductsPage = () => {
               </div>
             </div>
           ))}
-        </div>
-
+        </div> */}
+<Products/>
 
         {/* <div className="flex-col items-center justify-center text-center  mt-20">
         <a href={pdf} download="nama.pdf" className="text-[#FF7315] text-center  2xl:text-3xl text-2xl  ">

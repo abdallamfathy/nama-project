@@ -155,7 +155,7 @@ const Products = () => {
         <h1 className="2xl:text-5xl text-4xl  text-[#3A3535] font-bold text-center mb-20">
           منتجاتنا
         </h1>
-        <div className="flex flex-wrap flex-row justify-center 2xl:gap-36 gap-20 2xl:gap-x-40  gap-x-[58px]">
+        <div className="flex flex-wrap flex-row justify-center 2xl:gap-36 gap-20 2xl:gap-x-40  gap-x-[181px]">
           {products.map((product) => (
             <div
               onClick={() => {

@@ -13,8 +13,8 @@ const QualityPage = () => {
         textColor="text-[#3A3535] border-b border-[#ff731573]"
         socialDisplay="hidden"
       />
-      <div className="mx-20 ">
-        <div className="flex justify-end py-20 items-baseline gap-4">
+      <div className="2xl:mx-20 mx-12 ">
+        <div className="flex justify-end mt-36 mb-10 items-baseline gap-4">
           <h1 className="text-3xl font-bold text-[#FF7315]">الجودة</h1>
           <span>
             <FaLessThan />
@@ -22,10 +22,7 @@ const QualityPage = () => {
           <h1 className="text-2xl text-[#3A3535]">الرئيسية</h1>
         </div>
         <div className="flex flex-col">
-          <div className="flex flex-row justify-between flex-nowrap -6 ">
-            <div className="flex flex-col">
-              <img src={cert1} alt="image" className="object-contain" />
-            </div>
+          <div className="flex flex-row justify-end flex-nowrap -6 ">
             <div className="flex flex-col w-[1000px] items-end">
               <div className="text-right">
                 <h1 className="text-3xl text-[#FF7135] font-semibold mb-6">
@@ -45,10 +42,7 @@ const QualityPage = () => {
             </div>
           </div>
 
-          <div className="flex flex-row justify-between flex-nowrap -6 ">
-            <div className="flex flex-col">
-              <img src={cert1} alt="image" className="object-contain" />
-            </div>
+          <div className="flex flex-row justify-end flex-nowrap -6 ">
             <div className="flex flex-col w-[1000px] items-end">
               <div className="text-right">
                 <h1 className="text-3xl text-[#FF7135] font-semibold mb-6">
@@ -74,10 +68,7 @@ const QualityPage = () => {
             </div>
           </div>
 
-          <div className="flex flex-row justify-between flex-nowrap -6 ">
-            <div className="flex flex-col">
-              <img src={cert1} alt="image" className="object-contain" />
-            </div>
+          <div className="flex flex-row justify-end flex-nowrap mb-6 ">
             <div className="flex flex-col w-[1000px] items-end">
               <div className="text-right">
                 <h1 className="text-3xl text-[#FF7135] font-semibold mb-6">

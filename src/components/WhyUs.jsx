@@ -40,10 +40,10 @@ const WhyUs = () => {
       >
         <SwiperSlide>
             
-          <span className="relative  left-[120px]  text-sm text-center  p-3 py-4 text-white bg-[#3A3535] rounded-3xl shadow-2xl">
+          <span className="relative    text-sm text-center  p-3 py-4 text-white bg-[#3A3535] rounded-3xl shadow-2xl">
             مقاوم للملوحة والرطوبة
           </span>
-          <span className="relative -top-36 left-20 text-center text-sm flex items-center p-1 py-4 justify-center text-white bg-[#3A3535] rounded-3xl shadow-2xl">
+          <span className="relative -top-28 left-20 text-center text-sm flex items-center p-1 py-4 justify-center text-white bg-[#3A3535] rounded-3xl shadow-2xl">
             متوفر بجميع الأشكال
           </span>
           <span className="relative top-2  left-24 text-[16px] text-center p-3 py-4  justify-center text-white bg-[#3A3535] rounded-3xl shadow-2xl">
@@ -55,10 +55,10 @@ const WhyUs = () => {
             >
             عازل طبيعى للحرارة والصوت
           </span>
-          <span className="relative right-96 text-sm 2xl:right-[600px] top-36 text-center  p-3 py-4  text-white bg-[#3A3535] rounded-3xl shadow-2xl">
+          <span className="relative right-[430px] text-sm 2xl:right-[600px] top-36 text-center  p-3 py-4  text-white bg-[#3A3535] rounded-3xl shadow-2xl">
             مقاوم للتصدع والتشقيق
           </span>
-          <div className="flex flex-col justify-start  relative bottom-28 right-36  text-right w-96">
+          <div className="flex flex-col justify-start  relative bottom-28  text-right w-96">
             <h1 className="2xl:text-[34px] text-[32px] font-semibold text-[#FF7315] ">
               خصائص بركانى نما طيبة
             </h1>

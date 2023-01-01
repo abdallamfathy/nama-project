@@ -16,6 +16,7 @@ const About = () => {
       <div className="flex justify-center mb-24">
         <h1 className="font-bold 2xl:text-5xl text-4xl text-[#3A3535]">معلومات عن المصنع</h1>
       </div>
+      <div className="w-full">
       <Swiper
         modules={[A11y, EffectFade, Autoplay]}
         effect={"fade"}
@@ -24,7 +25,7 @@ const About = () => {
         className="mySwiper "
       >
         <SwiperSlide>
-          <div className="flex flex-row gap-x-20 mb-4">
+          <div className="flex flex-row gap-x-96 mb-4">
             <img
               src={img3}
               alt="image"
@@ -48,7 +49,7 @@ const About = () => {
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="flex flex-row gap-x-20 mb-4">
+          <div className="flex flex-row gap-x-96 mb-4">
             <img
               src={img3}
               alt="image"
@@ -68,7 +69,7 @@ const About = () => {
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="flex flex-row gap-x-20  mb-4">
+          <div className="flex flex-row gap-x-96  mb-4">
             <img
               src={img3}
               alt="image"
@@ -92,7 +93,7 @@ const About = () => {
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="flex flex-row gap-x-20  mb-4">
+          <div className="flex flex-row gap-x-96  mb-4">
             <img
               src={img3}
               alt="image"
@@ -123,6 +124,7 @@ const About = () => {
           </div>
         </SwiperSlide>
       </Swiper>
+      </div>
     </div>
     </div>
   );
