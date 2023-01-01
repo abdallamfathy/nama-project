@@ -9,7 +9,7 @@ import Button from "./Button";
 
 const Partners = () => {
   return (
-    <div className="m-20 2xl:m-28 ">
+    <div className="2xl:m-20 m-12">
       <div className="flex justify-center my-8">
         <h1 className="2xl:text-5xl text-4xl font-bold  relative mb-10 ">شركاء النجاح</h1>
       </div>

@@ -151,7 +151,7 @@ const Products = () => {
 
 
 
-      <div className="m-20 2xl:m-28  ">
+      <div className="2xl:m-20 m-12 ">
         <h1 className="2xl:text-5xl text-4xl  text-[#3A3535] font-bold text-center mb-20">
           منتجاتنا
         </h1>

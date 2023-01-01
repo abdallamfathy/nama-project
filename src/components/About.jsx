@@ -12,7 +12,7 @@ import Button from "./Button";
 const About = () => {
       return ( 
       <div className="shadow-xl">
-  <div className="mx-20 my-28">
+  <div className="2xl:mx-20 my-28 mx-12 ">
       <div className="flex justify-center mb-24">
         <h1 className="font-bold 2xl:text-5xl text-4xl text-[#3A3535]">معلومات عن المصنع</h1>
       </div>
