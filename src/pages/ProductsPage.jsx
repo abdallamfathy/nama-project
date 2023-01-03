@@ -177,8 +177,8 @@ const ProductsPage = () => {
             >
         <div className=" w-full">
           <div className="flex justify-between gap-[140px] 2xl:gap-[175px] absolute z-10">
-            {!product.gur &&  <img src={code} alt="code" className="object-contain w-16 rounded-tr-lg"/> }
             <img src={gurante} alt="gurante" className="object-contain w-16"/>
+            {!product.gur &&  <img src={code} alt="code" className="object-contain w-16 rounded-tr-lg"/> }
            
           </div>
         <Swiper

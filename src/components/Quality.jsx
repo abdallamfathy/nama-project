@@ -87,7 +87,8 @@ const Quality = () => {
           </SwiperSlide>
         </Swiper>
       </div>
-        <Button text={"عرض المزيد"} href={"/quality"} />
+    <div>        <Button text={"عرض المزيد"} href={"/quality"} />
+</div>
     </div>
   );
 };
