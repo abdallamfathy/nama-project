@@ -90,7 +90,9 @@ export const products = [
     type: "مضلع أبيض",
     use: "يستخدم فى المبانى الخارجية",
     image: brick8,
-    code: "30010013"
+    code: "30010013",
+    gur: true
+
   },
   {
     id: 9,
@@ -183,7 +185,9 @@ export const productsPage = [
     type: "مضلع أبيض",
     use: "يستخدم فى المبانى الخارجية",
     image: brick8,
-    code: "30010013"
+    code: "30010013",
+    gur: true
+
   },
   {
     id: 9,

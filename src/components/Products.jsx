@@ -155,7 +155,7 @@ const Products = () => {
         <h1 className="2xl:text-5xl text-4xl  text-[#3A3535] font-bold text-center mb-20">
           منتجاتنا
         </h1>
-        <div className="flex flex-wrap flex-row justify-center 2xl:gap-36 gap-20 2xl:gap-x-40  gap-x-[175px]">
+        <div className="flex flex-wrap flex-row justify-center  gap-20 2xl:gap-x-32  gap-x-[125px]">
           {products.map((product) => (
             <div
               
@@ -163,8 +163,8 @@ const Products = () => {
             >
         <div className=" w-full">
           <div className="flex justify-between gap-[140px] absolute z-10">
-            <img src={gurante} alt="gurante" className="object-contain w-16"/>
-            <img src={code} alt="code" className="object-contain w-16 rounded-tr-lg"/>
+          <img src={gurante} alt="gurante" className="object-contain w-16"/>
+            {!product.gur &&  <img src={code} alt="code" className="object-contain w-16 rounded-tr-lg"/> }
           </div>
         <Swiper
         modules={[

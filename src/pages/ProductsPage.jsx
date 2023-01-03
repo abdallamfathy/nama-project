@@ -169,7 +169,7 @@ const ProductsPage = () => {
         
 
 
-      <div className="flex flex-wrap flex-row justify-center 2xl:gap-36 gap-20 2xl:gap-x-36  gap-x-[145px]">
+      <div className="flex flex-wrap flex-row justify-center  gap-20 2xl:gap-x-32  gap-x-[95px]">
           {products.map((product) => (
             <div
               
