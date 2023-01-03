@@ -107,7 +107,7 @@ const Products = () => {
         <SwiperSlide className="rounded-t-3xl">
         <div className=" h-32 w-full flex justify-center items-center"> 
         <img
-                className="transition duration-[2000]  delay-300 hover:transition-all ease-out 2xl:hover:left-20  absolute    hover:w-40  w-36 h-28 hover:h-32 object-contain  "
+                className="transition duration-[2000] cursor-zoom-in  delay-300 hover:transition-all ease-out 2xl:hover:left-20  absolute    hover:w-40  w-36 h-28 hover:h-32 object-contain  "
                 src={product.image}
                 alt="productImage"
               />
@@ -228,7 +228,7 @@ const Products = () => {
                 </div>
                 <div className="mx-2 flex flex-col justify-center items-center gap-2  mt-2 text-[10px] ">
                   <h2 className="bg-[#FF7315] px-1">{product.use}</h2>
-                  <a href="/cart"><button className="bg-white rounded-md text-[#3A3535] px-1">أضف الى عربة التسوق</button></a>
+                  {/* <a href="/cart"><button className="bg-white rounded-md text-[#3A3535] px-1">أضف الى عربة التسوق</button></a> */}
                 </div>
               </div>
             </div>
