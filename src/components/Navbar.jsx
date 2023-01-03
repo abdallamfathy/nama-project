@@ -88,11 +88,7 @@ const Navbar = ({ textColor, socialDisplay }) => {
                 <a href="https://www.snapchat.com/add/nama_taiba?share_id=EdYdd_Y10Pc&locale=en-US" target="_blank">
                   <FaSnapchat  className="w-[25px] 2xl:w-[33.33px] h-[25px] 2xl:h-8 " />
                 </a>
-                <div className="bg-gray- p-2 rounded-xl fixed w-56 h-52  left-[90px] top-96 2xl:top-[579px]">
-                <a href="https://wa.me/09660555301707" target="_blank" >
-                  <img src={whatsapp} alt="whatsapp" className="w-12" />
-                </a>
-                </div>
+                
                 {/* <div className="bg-[#5D5959] p-1 pt-3 px-2  rounded-2xl fixed w-12 h-12  right-[90px] top-[455px]">
                 <button onClick={() => toggle()} >
                   <img src={chat} alt="chatImage" />
@@ -100,6 +96,11 @@ const Navbar = ({ textColor, socialDisplay }) => {
                 </div> */}
               </div>
             </div>
+            <div className="bg-gray- p-2 rounded-xl fixed w-56 h-52 z-50  left-[90px] top-96 2xl:top-[579px]">
+                <a href="https://wa.me/09660555301707" target="_blank" >
+                  <img src={whatsapp} alt="whatsapp" className="w-12" />
+                </a>
+                </div>
     </div>
   );
 };

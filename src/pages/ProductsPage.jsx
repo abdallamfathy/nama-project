@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { products } from "../components/Constants";
+import { productsPage as products } from "../components/Constants";
 import pdf from "../assets/file/nama.pdf";
 import code from "../assets/code.png"
 import gurante from "../assets/gurante.png"
