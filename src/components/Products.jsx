@@ -218,7 +218,7 @@ const Products = () => {
               <div className="bg-[#3A3535] text-xs px-2 py-1 -translate-x-[6.16rem]  text-left text-white ">
                 <h2>{product.code}</h2>
               </div>
-              <div className="text-right text-white 2xl:text-lg text-sm h-32 2xl:h-40 w-full rounded-b-lg bg-[#3A3535] flex flex-col  gap-2 py-2  ">
+              <div className="text-right text-white 2xl:text-lg text-sm h-32 2xl:h-40 w-full rounded-b-lg pb-5 bg-[#3A3535] flex flex-col  gap-2 py-2  ">
                 <div className="flex justify-between mx-2">
                 <div className="flex font-bold  gap-2 ">
                   <p>ر.س للحبة</p>
