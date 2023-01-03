@@ -121,7 +121,7 @@ const ProductsPage = () => {
         <SwiperSlide className="rounded-t-3xl">
         <div className=" h-32 w-full flex justify-center items-center"> 
         <img
-                className="transition duration-[2000]  delay-300 hover:transition-all ease-out    hover:w-40  w-36 h-28 hover:h-32 object-contain  "
+                className="transition duration-[2000]  delay-300 hover:transition-all ease-out    hover:w-44  w-36 h-28 hover:h-32 object-contain  "
                 src={product.image}
                 alt="productImage"
               />
@@ -131,7 +131,7 @@ const ProductsPage = () => {
         <SwiperSlide className="rounded-t-3xl">
         <div className=" h-32 pt-1 w-full flex justify-center items-center  "> 
         <img
-                className="-my-10 transition duration-[2000]  delay-300 hover:transition-all ease-out   hover:w-40  w-36 h-28 hover:h-32 rotate-90 object-contain"
+                className="-my-10 transition duration-[2000]  delay-300 hover:transition-all ease-out   hover:w-44  w-36 h-28 hover:h-32 rotate-90 object-contain"
                 src={product.image}
                 alt="productImage"
               />        
@@ -179,7 +179,7 @@ const ProductsPage = () => {
           <div className="flex justify-between gap-[140px] 2xl:gap-[175px] absolute z-10">
             <img src={gurante} alt="gurante" className="object-contain w-16"/>
             {!product.gur &&  <img src={code} alt="code" className="object-contain w-16 rounded-tr-lg"/> }
-           
+          
           </div>
         <Swiper
         modules={[
@@ -204,7 +204,7 @@ const ProductsPage = () => {
         <SwiperSlide>
         <div className=" h-64 w-full flex justify-center items-center  "> 
         <img
-                className="transition duration-[2000]  delay-300 hover:transition-all ease-out     hover:w-44  w-36 h-36 hover:h-44 object-contain"
+                className="transition duration-[2000]  delay-300 hover:transition-all ease-out     hover:w-48  w-36 h-36 hover:h-44 object-contain"
                 src={product.image}
                 alt="productImage"
                 onClick={() => {
@@ -217,7 +217,7 @@ const ProductsPage = () => {
         <SwiperSlide>
         <div className=" h-64 pt-1 w-full flex justify-center items-center  "> 
         <img
-                className="-my-10 transition duration-[2000]  delay-300 hover:transition-all ease-out     hover:w-44  w-36 h-36 hover:h-44  rotate-90 object-contain"
+                className="-my-10 transition duration-[2000]  delay-300 hover:transition-all ease-out     hover:w-48  w-36 h-36 hover:h-44  rotate-90 object-contain"
                 src={product.image}
                 alt="productImage"
                 onClick={() => {

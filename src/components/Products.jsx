@@ -107,7 +107,7 @@ const Products = () => {
         <SwiperSlide className="rounded-t-3xl">
         <div className=" h-32 w-full flex justify-center items-center"> 
         <img
-                className="transition duration-[2000] cursor-zoom-in  delay-300 hover:transition-all ease-out 2xl:hover:left-20  absolute    hover:w-40  w-36 h-28 hover:h-32 object-contain  "
+                className="transition duration-[2000] cursor-zoom-in  delay-300 hover:transition-all ease-out     hover:w-48  w-36 h-28 hover:h-32 object-contain  "
                 src={product.image}
                 alt="productImage"
               />
@@ -117,7 +117,7 @@ const Products = () => {
         <SwiperSlide className="rounded-t-3xl">
         <div className=" h-32 pt-1 w-full flex justify-center items-center  "> 
         <img
-                className="transition duration-[2000]  delay-300 hover:transition-all ease-out 2xl:hover:left-20  absolute 2xl:left-24  2xl:top-12   hover:w-40  w-36 h-28 hover:h-32  rotate-90 object-contain"
+                className="transition duration-[2000]  delay-300 hover:transition-all ease-out    hover:w-48  w-36 h-28 hover:h-32  rotate-90 object-contain"
                 src={product.image}
                 alt="productImage"
               />        
@@ -189,7 +189,7 @@ const Products = () => {
         <SwiperSlide>
         <div className=" h-64 w-full flex justify-center items-center  "> 
         <img
-                className="transition duration-[2000]  delay-300 hover:transition-all ease-out 2xl:hover:left-20  absolute    hover:w-44  w-36 h-36 hover:h-44 object-contain"
+                className="transition duration-[2000]  delay-300 hover:transition-all ease-out     hover:w-44  w-36 h-36 hover:h-44 object-contain"
                 src={product.image}
                 alt="productImage"
                 onClick={() => {
@@ -202,7 +202,7 @@ const Products = () => {
         <SwiperSlide>
         <div className=" h-64 pt-1 w-full flex justify-center items-center  "> 
         <img
-                className="-my-10 transition duration-[2000]  delay-300 hover:transition-all ease-out 2xl:hover:left-20  absolute 2xl:left-24  2xl:top-12   hover:w-44  w-36 h-36 hover:h-44  rotate-90 object-contain"
+                className="-my-10 transition duration-[2000]  delay-300 hover:transition-all ease-out    hover:w-48  w-36 h-36 hover:h-48  rotate-90 object-contain"
                 src={product.image}
                 alt="productImage"
                 onClick={() => {
