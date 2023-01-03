@@ -203,7 +203,8 @@ export const productsPage = [
     type: "مفرغ",
     use: "يستخدم فى العوازل والسباكة المدفونة",
     image: brick1,
-    code: "30010002"
+    code: "30010002",
+    gur: true
   },
   {
     id: 11,
@@ -213,7 +214,8 @@ export const productsPage = [
     type: "مفرغ",
     use: "يستخدم فى عوازل الثلاجات",
     image: brick2,
-    code: "30010004"
+    code: "30010004",
+    gur: true
   },
   {
     id: 12,
@@ -223,7 +225,8 @@ export const productsPage = [
     type: "مفرغ",
     use: "يستخدم فى تصميم المبانى الداخلية والأسوار",
     image: brick3,
-    code: "30010006"
+    code: "30010006",
+    gur: true,
   },
   {
     id: 13,
@@ -233,7 +236,8 @@ export const productsPage = [
     type: "معزول أبيض",
     use: "يستخدم فى الحوائط العازلة للحرارة",
     image: brick4,
-    code: "30010009"
+    code: "30010009",
+    gur: true,
   },
   {
     id: 14,
@@ -243,7 +247,8 @@ export const productsPage = [
     type: "معزول أزرق",
     use: "يستخدم فى المبانى الخارجية",
     image: brick5,
-    code: "30010016"
+    code: "30010016",
+    gur: true,
   },
   {
     id: 15,
@@ -253,7 +258,8 @@ export const productsPage = [
     type: "مسمط",
     use: "يستخدم فى الواجهات والأحمال الثقيلة",
     image: brick6,
-    code: "30010010"
+    code: "30010010",
+    gur: true,
   },
   {
     id: 16,
@@ -263,7 +269,8 @@ export const productsPage = [
     type: "مفرغ",
     use: "يستخدم فى الخزانات الأرضية",
     image: brick7,
-    code: "30010012"
+    code: "30010012",
+    gur: true,
   },
   {
     id: 17,
@@ -273,7 +280,8 @@ export const productsPage = [
     type: "مسمط",
     use: "يستخدم في الخزانات والبيارات",
     image: brick10,
-    code: "30010021"
+    code: "30010021",
+    gur: true,
   },
   {
     id: 18,
@@ -283,7 +291,8 @@ export const productsPage = [
     type: "مفرغ",
     use: "يستخدم فى القواعد",
     image: brick11,
-    code: "30010020"
+    code: "30010020",
+    gur: true
   },
   {
     id: 19,
@@ -303,7 +312,8 @@ export const productsPage = [
     type: "مضلع أزرق",
     use: "يستخدم فى القواعد",
     image: brick12,
-    code: "30010019"
+    code: "30010019",
+    
   },
   
 ];
