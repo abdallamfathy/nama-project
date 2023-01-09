@@ -13,7 +13,7 @@ const Main = () => {
   return (
     <div>
       <Navbar textColor="text-white" />
-      <Slider />
+      <div className="max-sm:hidden"><Slider /></div>
       <WhyUs />
       <About />
       <Certificates />

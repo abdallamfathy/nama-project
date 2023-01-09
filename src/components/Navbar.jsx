@@ -7,7 +7,10 @@ import {
   FaTwitter,
   FaGlobe,
   FaSnapchat,
+  FaWindowClose,
 } from "react-icons/fa";
+import {GiHamburgerMenu} from 'react-icons/gi'
+import { AiOutlineClose } from "react-icons/ai";
 import { useParams } from "react-router-dom";
 import { productDetails, products } from "./Constants";
 import chat from "../assets/chat.png";
@@ -46,9 +49,9 @@ const Navbar = ({ textColor, socialDisplay }) => {
   return (
     <div className="z-50 ">
       
-      <div className="fixed bg-black  w-full h-[91px] 2xl:h-[126px]   z-40 bg-opacity-60 ">
+      <div className="max-sm:hidden lg:fixed bg-black  w-full h-[91px] 2xl:h-[126px]   z-40 bg-opacity-60 ">
           <nav
-            className={` text-white  flex justify-center items-center gap-6 h-full `}
+            className={` text-white max-sm:hidden flex justify-center items-center gap-6 h-full `}
           >
             
 
@@ -70,8 +73,8 @@ const Navbar = ({ textColor, socialDisplay }) => {
             </div>
           </nav>
         </div>
-        {  show && <div className="fixed left-24 top-24 z-50 bg-white rounded-2xl"><Chat/></div>} 
-        <div className="flex flex-col text-white 2xl:w-10 w-10 relative  left-24   h-  z-50 ">
+        {/* {  show && <div className="fixed left-24 top-24 z-50 bg-white rounded-2xl"><Chat/></div>}  */}
+        <div className="max-sm:hidden flex flex-col text-white 2xl:w-10 w-10 relative  left-24   h-  z-50 ">
                 <div className="fixed left-16 top-8 2xl:top-12 "><img src={downar} alt="downar" /></div>
                <div className="fixed  top-6 2xl:top-9"> <FaGlobe className="2xl:w-[33.33px] 2xl:h-[33.33px] w-[25px] h-[25px]  fixed " />
                 <Link to="/cart" className='mt-1 w-6 2xl:w-14 2xl:h-12 h-6 ml-10 fixed'><img src={cart} alt="cart"/></Link></div>
@@ -99,6 +102,38 @@ const Navbar = ({ textColor, socialDisplay }) => {
                 </button>
                 </div> */}
               </div>
+            </div>
+
+            <div className="md:hidden">
+            <div className="bg-[#252525] h-11  z-50 sticky w-full ">
+            <div className="flex justify-between h-full  mx-2  items-center">
+              <div><img src={logo} alt="logo" className="w-[89px] h-[35px]" /></div>
+              {!show && <div><GiHamburgerMenu onClick={() => toggle()} className="text-white w-[27px] h-[18px] z-50"/></div>}
+              { show && <div><AiOutlineClose onClick={() => toggle()} className="text-white  w-[27px] h-[18px] z-50"/></div>}
+            </div>
+                </div>
+            {show && 
+              <>
+              {/* //make navbar for mobile here  */}
+              
+              <div className="fixed top-9 right-28 w-32  h-64 rounded-l-xl bg-black text-white z-30">
+                <div className="flex  flex-col justify-center items-center  h-full">
+                  <div className="flex flex-col gap-2 ">
+                    {navigation.map((item) => (
+                      <NavLink
+                        key={item.name}
+                        to={item.href}
+                        className={`font-medium  text-lg  border-b border-white text-center pb-2  cursor-pointer  hover:text-[#FF7315] activeClassName="active"  `}
+                      >
+                        {item.name}
+                      </NavLink>
+                    ))}
+                  </div>
+                </div>
+              </div>
+
+              </>
+            }
             </div>
     </div>
   );
