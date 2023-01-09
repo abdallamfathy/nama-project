@@ -99,6 +99,38 @@ const Navbar = ({ textColor, socialDisplay }) => {
                 </div> */}
               </div>
             </div>
+
+            <div className="md:hidden">
+            <div className="bg-[#252525] h-11  z-50 sticky w-full ">
+            <div className="flex justify-between h-full  mx-2  items-center">
+              <div><img src={logo} alt="logo" className="w-[89px] h-[35px]" /></div>
+              {!show && <div><GiHamburgerMenu onClick={() => toggle()} className="text-white w-[27px] h-[18px] z-50"/></div>}
+              { show && <div><AiOutlineClose onClick={() => toggle()} className="text-white  w-[27px] h-[18px] z-50"/></div>}
+            </div>
+                </div>
+            {show && 
+              <>
+              {/* //make navbar for mobile here  */}
+              
+              <div className="fixed top-9 right-28 w-32  h-64 rounded-l-xl bg-black text-white z-30">
+                <div className="flex  flex-col justify-center items-center  h-full">
+                  <div className="flex flex-col gap-2 ">
+                    {navigation.map((item) => (
+                      <NavLink
+                        key={item.name}
+                        to={item.href}
+                        className={`font-medium  text-lg  border-b border-white text-center pb-2  cursor-pointer  hover:text-[#FF7315] activeClassName="active"  `}
+                      >
+                        {item.name}
+                      </NavLink>
+                    ))}
+                  </div>
+                </div>
+              </div>
+
+              </>
+            }
+            </div>
     </div>
   );
 };
