@@ -6,7 +6,7 @@ import "swiper/css/effect-fade";
 import "../index.css";
 import img1 from "../assets/img1.png";
 import img2 from "../assets/img2.png";
-import img3 from "../assets/img3.png";
+import img4 from "../assets/img4.png";
 import Button from "./Button";
 
 const About = () => {
@@ -70,7 +70,7 @@ const About = () => {
         </SwiperSlide> */}
         <SwiperSlide>
           <div className="flex flex-row gap-x-96  mb-4">
-            <img src={img3} alt="s" className="2xl:w-[520px] 2xl:h-[380px] w-[462px] h-[498px] rounded-xl brightness-50"
+            <img src={img4} alt="s" className="2xl:w-[520px] 2xl:h-[380px] w-[462px] h-[498px] rounded-xl brightness-50 mb-10"
             />
             <div className="flex flex-col justify-center items-end w-96">
               <h1 className="2xl:text-[34px] text-3xl font-semibold text-[#FF7315] text-right">

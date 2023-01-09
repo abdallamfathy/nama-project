@@ -107,7 +107,7 @@ const Products = () => {
         <SwiperSlide className="rounded-t-3xl">
         <div className=" h-32 w-full flex justify-center items-center"> 
         <img
-                className="transition duration-[2000]  delay-300 hover:transition-all ease-out 2xl:hover:left-20  absolute    hover:w-40  w-36 h-28 hover:h-32 object-contain  "
+                className="transition duration-[2000] cursor-zoom-in  delay-300 hover:transition-all ease-out     hover:w-48  w-36 h-28 hover:h-32 object-contain  "
                 src={product.image}
                 alt="productImage"
               />
@@ -117,7 +117,7 @@ const Products = () => {
         <SwiperSlide className="rounded-t-3xl">
         <div className=" h-32 pt-1 w-full flex justify-center items-center  "> 
         <img
-                className="transition duration-[2000]  delay-300 hover:transition-all ease-out 2xl:hover:left-20  absolute 2xl:left-24  2xl:top-12   hover:w-40  w-36 h-28 hover:h-32  rotate-90 object-contain"
+                className="transition duration-[2000]  delay-300 hover:transition-all ease-out    hover:w-48  w-36 h-28 hover:h-32  rotate-90 object-contain"
                 src={product.image}
                 alt="productImage"
               />        
@@ -155,18 +155,16 @@ const Products = () => {
         <h1 className="2xl:text-5xl text-4xl  text-[#3A3535] font-bold text-center mb-20">
           منتجاتنا
         </h1>
-        <div className="flex flex-wrap flex-row justify-center 2xl:gap-36 gap-20 2xl:gap-x-40  gap-x-[175px]">
+        <div className="flex flex-wrap flex-row justify-center  gap-20 2xl:gap-x-32  gap-x-[125px]">
           {products.map((product) => (
             <div
-              onClick={() => {
-                closeModal, setShowModal(true) , setId(product.id), console.log(id);;
-              }}
+              
               className=" flex flex-col cursor-pointer justify-between items-center 2xl:w-[305px] 2xl:h-[342px] w-[270px] h-96 relative group  rounded-lg border border-gray-50 shadow-lg  "
             >
         <div className=" w-full">
           <div className="flex justify-between gap-[140px] absolute z-10">
-            <img src={gurante} alt="gurante" className="object-contain w-16"/>
-            <img src={code} alt="code" className="object-contain w-16 rounded-tr-lg"/>
+          <img src={gurante} alt="gurante" className="object-contain w-16"/>
+            {!product.gur &&  <img src={code} alt="code" className="object-contain w-16 rounded-tr-lg"/> }
           </div>
         <Swiper
         modules={[
@@ -191,9 +189,12 @@ const Products = () => {
         <SwiperSlide>
         <div className=" h-64 w-full flex justify-center items-center  "> 
         <img
-                className="transition duration-[2000]  delay-300 hover:transition-all ease-out 2xl:hover:left-20  absolute    hover:w-44  w-36 h-36 hover:h-44 object-contain"
+                className="transition duration-[2000]  delay-300 hover:transition-all ease-out     hover:w-44  w-36 h-36 hover:h-44 object-contain"
                 src={product.image}
                 alt="productImage"
+                onClick={() => {
+                  closeModal, setShowModal(true) , setId(product.id), console.log(id);;
+                }}
               />
 
         </div>
@@ -201,9 +202,12 @@ const Products = () => {
         <SwiperSlide>
         <div className=" h-64 pt-1 w-full flex justify-center items-center  "> 
         <img
-                className="-my-10 transition duration-[2000]  delay-300 hover:transition-all ease-out 2xl:hover:left-20  absolute 2xl:left-24  2xl:top-12   hover:w-44  w-36 h-36 hover:h-44  rotate-90 object-contain"
+                className="-my-10 transition duration-[2000]  delay-300 hover:transition-all ease-out    hover:w-48  w-36 h-36 hover:h-48  rotate-90 object-contain"
                 src={product.image}
                 alt="productImage"
+                onClick={() => {
+                  closeModal, setShowModal(true) , setId(product.id), console.log(id);;
+                }}
               />        
         </div>
         </SwiperSlide>
@@ -214,7 +218,7 @@ const Products = () => {
               <div className="bg-[#3A3535] text-xs px-2 py-1 -translate-x-[6.16rem]  text-left text-white ">
                 <h2>{product.code}</h2>
               </div>
-              <div className="text-right text-white 2xl:text-lg text-sm h-32 2xl:h-40 w-full rounded-b-lg bg-[#3A3535] flex flex-col  gap-2 py-2  ">
+              <div className="text-right text-white 2xl:text-lg text-sm h-32 2xl:h-40 w-full rounded-b-lg pb-5 bg-[#3A3535] flex flex-col  gap-2 py-2  ">
                 <div className="flex justify-between mx-2">
                 <div className="flex font-bold  gap-2 ">
                   <p>ر.س للحبة</p>
@@ -228,7 +232,7 @@ const Products = () => {
                 </div>
                 <div className="mx-2 flex flex-col justify-center items-center gap-2  mt-2 text-[10px] ">
                   <h2 className="bg-[#FF7315] px-1">{product.use}</h2>
-                  <a href="/cart"><button className="bg-white rounded-md text-[#3A3535] px-1">أضف الى عربة التسوق</button></a>
+                  {/* <a href="/cart"><button className="bg-white rounded-md text-[#3A3535] px-1">أضف الى عربة التسوق</button></a> */}
                 </div>
               </div>
             </div>

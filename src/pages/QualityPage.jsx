@@ -23,7 +23,7 @@ const QualityPage = () => {
         </div>
         <div className="flex flex-col">
           <div className="flex flex-row justify-end flex-nowrap -6 ">
-            <div className="flex flex-col w-[1000px] items-end">
+            <div className="flex flex-col w-[1000px] items-end gap-10">
               <div className="text-right">
                 <h1 className="text-3xl text-[#FF7135] font-semibold mb-6">
                   مصادر انتاجنا
@@ -32,18 +32,13 @@ const QualityPage = () => {
 
                 </p>
               </div>
-              <div className="text-right mt-20">
+              <div className="text-right ">
                 <h1 className="text-3xl text-[#FF7135] font-semibold mb-6">
                   سهولة التلييس
                 </h1>
                 <p className="">يمتاز البك البركانى بسطحه الخشن وهذا يساعد على تماسك اللياسة مع توفير أو الغاء عملية الطرطشة كما أن طبقة اللياسة تصبح أقل سماكة مما يوفر فى الأسمنت.
                 </p>
               </div>
-            </div>
-          </div>
-
-          <div className="flex flex-row justify-end flex-nowrap -6 ">
-            <div className="flex flex-col w-[1000px] items-end">
               <div className="text-right">
                 <h1 className="text-3xl text-[#FF7135] font-semibold mb-6">
                   يقبل تركيب المسامير{" "}
@@ -51,14 +46,60 @@ const QualityPage = () => {
                 <p className="">يتحمل البلك البركاني عملية تركيب المسامير فى الجدران بكفاءة عالية خاصة عند تركيب المفصلات للأبواب والمسامير ولتثبيت الرخام والحجر
                 </p>
               </div>
-              <div className="text-right mt-28">
+              <div className="text-right ">
                 <h1 className="text-3xl text-[#FF7135] font-semibold mb-6">
                   القوة والمتانة{" "}
                 </h1>
                 <p className="">نتيجة ارتفاع قوة الضغط المستخدمة فى التصنيع فان مقاومته للضغط عالية جدا
                 </p>
               </div>
-              <div className="text-right mt-16">
+              <div className="text-right ">
+                <h1 className="text-3xl text-[#FF7135] font-semibold mb-6">
+                  خفيف الوزن
+                </h1>
+                <p className="">يعتبر أخف وزن بكثير من البلك الإسمنتي والبلك الطيني الحامل من نفس المقاس
+                </p>
+              </div>
+              <div className="text-right">
+                <h1 className="text-3xl text-[#FF7135] font-semibold mb-6">
+                  سهولة التمديدات
+                </h1>
+                <p className="">يمكن قص البلك البركاني بدون أن ينكسر وتجرى التمديدات على الفجوة الخارجية مع المحتفظة على قوة البلك وعزله الحرارى                </p>
+              </div>
+              <div className="text-right">
+                <h1 className="text-3xl text-[#FF7135] font-semibold mb-6">
+                  مقاوم للملوحة
+                </h1>
+                <p className="">يصنع البلك من مادة البوزلان التي تستخدم كمادة أولية فى صناعة الأسمن البوزلانى المقاوم للملوحة مما يقلل من عملية التآكل
+                </p>
+              </div>
+              <div className="text-right ">
+                <h1 className="text-3xl text-[#FF7135] font-semibold mb-6">
+                  مقاوم للحريق
+                </h1>
+                <p className="">يعتبر من أفضل أنواع البلك على الاطلاق فى مقاومة النار واللهب المباشر حيث أن المادة الأولية هى مادة خاملة غير قابلة للاحتراق                </p>
+              </div>
+
+            </div>
+          </div>
+
+          {/* <div className="flex flex-row justify-end flex-nowrap ">
+            <div className="flex flex-col w-[1000px]  gap-10 items-end">
+              <div className="text-right">
+                <h1 className="text-3xl text-[#FF7135] font-semibold mb-6">
+                  يقبل تركيب المسامير{" "}
+                </h1>
+                <p className="">يتحمل البلك البركاني عملية تركيب المسامير فى الجدران بكفاءة عالية خاصة عند تركيب المفصلات للأبواب والمسامير ولتثبيت الرخام والحجر
+                </p>
+              </div>
+              <div className="text-right ">
+                <h1 className="text-3xl text-[#FF7135] font-semibold mb-6">
+                  القوة والمتانة{" "}
+                </h1>
+                <p className="">نتيجة ارتفاع قوة الضغط المستخدمة فى التصنيع فان مقاومته للضغط عالية جدا
+                </p>
+              </div>
+              <div className="text-right ">
                 <h1 className="text-3xl text-[#FF7135] font-semibold mb-6">
                   خفيف الوزن
                 </h1>
@@ -66,13 +107,13 @@ const QualityPage = () => {
                 </p>
               </div>
             </div>
-          </div>
+          </div> */}
 
-          <div className="flex flex-row justify-end flex-nowrap mb-6 ">
-            <div className="flex flex-col w-[1000px] items-end">
+          {/* <div className="flex flex-row justify-end flex-nowrap my-6  ">
+            <div className="flex flex-col w-[1000px] gap-10 items-end">
               <div className="text-right">
                 <h1 className="text-3xl text-[#FF7135] font-semibold mb-6">
-                  سهولة التمديدات{" "}
+                  سهولة التمديدات
                 </h1>
                 <p className="">يمكن قص البلك البركاني بدون أن ينكسر وتجرى التمديدات على الفجوة الخارجية مع المحتفظة على قوة البلك وعزله الحرارى                </p>
               </div>
@@ -90,7 +131,7 @@ const QualityPage = () => {
                 <p className="">يعتبر من أفضل أنواع البلك على الاطلاق فى مقاومة النار واللهب المباشر حيث أن المادة الأولية هى مادة خاملة غير قابلة للاحتراق                </p>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
       <Footer />

@@ -77,7 +77,7 @@ const Navbar = ({ textColor, socialDisplay }) => {
         <div className="max-sm:hidden flex flex-col text-white 2xl:w-10 w-10 relative  left-24   h-  z-50 ">
                 <div className="fixed left-16 top-8 2xl:top-12 "><img src={downar} alt="downar" /></div>
                <div className="fixed  top-6 2xl:top-9"> <FaGlobe className="2xl:w-[33.33px] 2xl:h-[33.33px] w-[25px] h-[25px]  fixed " />
-                <Link to="/cart" className='mt-1 w-6 2xl:w-14 2xl:h-12 h-6 ml-10 fixed'><img src={cart} alt="cart"/></Link></div>
+                <Link to="/cart" className='mt-1 w-6 2xl:w-14 2xl:h-12 h-6 ml-10 fixed hidden'><img src={cart} alt="cart"/></Link></div>
               <div className={`gap-y-8 flex flex-col ${socialDisplay} absolute top-36 2xl:top-48`}>
                 <a href="https://www.facebook.com/profile.php?id=100086364507234" target="_blank">
                   <FaFacebook className="w-[25px] 2xl:w-[33.33px] h-[25px] 2xl:h-8 " />
@@ -91,49 +91,13 @@ const Navbar = ({ textColor, socialDisplay }) => {
                 <a href="https://www.snapchat.com/add/nama_taiba?share_id=EdYdd_Y10Pc&locale=en-US" target="_blank">
                   <FaSnapchat  className="w-[25px] 2xl:w-[33.33px] h-[25px] 2xl:h-8 " />
                 </a>
-                <div className="bg-gray- p-2 rounded-xl fixed w-56 h-52  left-[90px] top-96 2xl:top-[579px]">
-                <a href="https://wa.me/09660555301707" target="_blank" >
-                  <img src={whatsapp} alt="whatsapp" className="w-12" />
-                </a>
-                </div>
+                
                 {/* <div className="bg-[#5D5959] p-1 pt-3 px-2  rounded-2xl fixed w-12 h-12  right-[90px] top-[455px]">
                 <button onClick={() => toggle()} >
                   <img src={chat} alt="chatImage" />
                 </button>
                 </div> */}
               </div>
-            </div>
-
-            <div className="md:hidden">
-            <div className="bg-[#252525] h-11  z-50 sticky w-full ">
-            <div className="flex justify-between h-full  mx-2  items-center">
-              <div><img src={logo} alt="logo" className="w-[89px] h-[35px]" /></div>
-              {!show && <div><GiHamburgerMenu onClick={() => toggle()} className="text-white w-[27px] h-[18px] z-50"/></div>}
-              { show && <div><AiOutlineClose onClick={() => toggle()} className="text-white  w-[27px] h-[18px] z-50"/></div>}
-            </div>
-                </div>
-            {show && 
-              <>
-              {/* //make navbar for mobile here  */}
-              
-              <div className="fixed top-9 right-28 w-32  h-64 rounded-l-xl bg-black text-white z-30">
-                <div className="flex  flex-col justify-center items-center  h-full">
-                  <div className="flex flex-col gap-2 ">
-                    {navigation.map((item) => (
-                      <NavLink
-                        key={item.name}
-                        to={item.href}
-                        className={`font-medium  text-lg  border-b border-white text-center pb-2  cursor-pointer  hover:text-[#FF7315] activeClassName="active"  `}
-                      >
-                        {item.name}
-                      </NavLink>
-                    ))}
-                  </div>
-                </div>
-              </div>
-
-              </>
-            }
             </div>
     </div>
   );

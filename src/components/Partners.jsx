@@ -21,7 +21,7 @@ const Partners = () => {
         <img src={bonlogo} alt="image"  className="w-48 h-40"/>
 
       </div>
-      <Button text={"عرض المزيد"} href={"/partners"} />
+      {/* <Button text={"عرض المزيد"} href={"/partners"} /> */}
     </div>
   );
 };
