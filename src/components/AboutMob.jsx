@@ -40,7 +40,7 @@ const AboutMob = () => {
         }}
       >
         <SwiperSlide className="swiper-slides">
-        <div className="bg-aboutMob h-[456px] w-full">
+        <div className="aboutMob h-[456px] w-full">
         <div className='bg-black h-full w-full bg-opacity-50 '>
         <div className="flex justify-center pt-5  ">
         <h1 className="font-bold text-white text-2xl">معلومات عن المصنع</h1>
@@ -54,7 +54,7 @@ const AboutMob = () => {
         </div>
         </SwiperSlide>
         <SwiperSlide className="swiper-slides">
-        <div className="bg-aboutMob h-[456px] w-full">
+        <div className="aboutMob h-[456px] w-full">
         <div className='bg-black h-full w-full bg-opacity-50 '>
         <div className="flex justify-center pt-5  ">
         <h1 className="font-bold text-white text-2xl">معلومات عن المصنع</h1>
@@ -68,7 +68,7 @@ const AboutMob = () => {
         </div>
         </SwiperSlide>
         <SwiperSlide className="swiper-slides">
-        <div className="bg-aboutMob h-[456px] w-full">
+        <div className="aboutMob h-[456px] w-full">
         <div className='bg-black h-full w-full bg-opacity-50 '>
         <div className="flex justify-center pt-5  ">
         <h1 className="font-bold text-white text-2xl">معلومات عن المصنع</h1>
@@ -82,7 +82,7 @@ const AboutMob = () => {
         </div>
         </SwiperSlide>
         <SwiperSlide className="swiper-slides">
-        <div className="bg-aboutMob h-[456px] w-full">
+        <div className="aboutMob h-[456px] w-full">
         <div className='bg-black h-full w-full bg-opacity-50 '>
         <div className="flex justify-center pt-5  ">
         <h1 className="font-bold text-white text-2xl">معلومات عن المصنع</h1>

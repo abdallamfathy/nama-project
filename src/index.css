@@ -133,3 +133,6 @@ button:focus {
       background-position: left bottom;
     }
     
+    .aboutMob{
+      background-image: url(./assets/img4.png) !important;
+    }
