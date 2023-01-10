@@ -22,8 +22,7 @@ const Slider = () => {
   return (
     <div className="h-[103vh]  ">
       <h1 className="text-white z-40  top-[439px] 2xl:top-[604px] relative text-center   text-5xl 2xl:text-6xl font-bold">
-        خصم يبدأ من <span className="text-[#FF7315]">%15</span> ويصل الى{" "}
-        <span className="text-[#FF7315]">%30</span>
+        خصم   <span className="text-[#FF7315]">%15</span> على منتجاتنا
       </h1>
       <h1 className="text-center">
       <a href={pdf} download="nama.pdf" className="text-[#FF7315] z-40  top-[309px] 2xl:top-[474px] relative text-2xl     2xl:text-[32px] border-b border-[#FF7315] buttons  ">
