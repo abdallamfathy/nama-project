@@ -30,6 +30,13 @@ const Navbar = ({ textColor, socialDisplay }) => {
     { name: "منتجاتنا", href: "/products", current: false },
     { name: "الرئيسية", href: "/", current: true },
   ];
+  const navigationMob = [
+    { name: "الرئيسية", href: "/", current: true },
+    { name: "منتجاتنا", href: "/products", current: false },
+    { name: "من نحن", href: "/about", current: false },
+    { name: "الجودة", href: "/quality", current: false },
+    { name: "شركاء النجاح", href: "/partners", current: false },
+  ];
   const [searchTerm, setSearchTerm] = useState("");
   const [search, setSearch] = useState(false);
   const [show, setShow] = useState(false);
@@ -69,6 +76,7 @@ const Navbar = ({ textColor, socialDisplay }) => {
               ))}
             </div>
 
+
             <div><img src={logo} alt="asd" className="relative  left-56 " /></div>
             </div>
           </nav>
@@ -76,7 +84,7 @@ const Navbar = ({ textColor, socialDisplay }) => {
         {/* {  show && <div className="fixed left-24 top-24 z-50 bg-white rounded-2xl"><Chat/></div>}  */}
         <div className="max-sm:hidden flex flex-col text-white 2xl:w-10 w-10 relative  left-24   h-  z-50 ">
                 <div className="fixed left-16 top-8 2xl:top-12 "><img src={downar} alt="downar" /></div>
-               <div className="fixed  top-6 2xl:top-9"> <FaGlobe className="2xl:w-[33.33px] 2xl:h-[33.33px] w-[25px] h-[25px]  fixed " />
+              <div className="fixed  top-6 2xl:top-9"> <FaGlobe className="2xl:w-[33.33px] 2xl:h-[33.33px] w-[25px] h-[25px]  fixed " />
                 <Link to="/cart" className='mt-1 w-6 2xl:w-14 2xl:h-12 h-6 ml-10 fixed hidden'><img src={cart} alt="cart"/></Link></div>
               <div className={`gap-y-8 flex flex-col ${socialDisplay} absolute top-36 2xl:top-48`}>
                 <a href="https://www.facebook.com/profile.php?id=100086364507234" target="_blank">
@@ -101,21 +109,21 @@ const Navbar = ({ textColor, socialDisplay }) => {
             </div>
 
             <div className="md:hidden">
-            <div className="bg-[#252525] h-11  z-50 sticky w-full ">
-            <div className="flex justify-between h-full  mx-2  items-center">
-              <div><img src={logo} alt="logo" className="w-[89px] h-[35px]" /></div>
-              {!show && <div><GiHamburgerMenu onClick={() => toggle()} className="text-white w-[27px] h-[18px] z-50"/></div>}
-              { show && <div><AiOutlineClose onClick={() => toggle()} className="text-white  w-[27px] h-[18px] z-50"/></div>}
+            <div className="bg-[#252525] h-20  z-50  w-full ">
+            <div className="flex justify-between h-full  mx-4  items-center">
+              <div><img src={logo} alt="logo" className="w-32 h-16" /></div>
+              {!show && <div><GiHamburgerMenu onClick={() => toggle()} className="text-white w-[27px] h-10 z-50"/></div>}
+              { show && <div><AiOutlineClose onClick={() => toggle()} className="text-white  w-[27px] h-10 z-50"/></div>}
             </div>
                 </div>
             {show && 
               <>
               {/* //make navbar for mobile here  */}
               
-              <div className="fixed top-9 right-28 w-32  h-64 rounded-l-xl bg-black text-white z-30">
+              <div className="absolute top-16 right-0 w-32 transition-all ease-out duration-300 h-64 rounded-l-xl bg-black text-white z-50">
                 <div className="flex  flex-col justify-center items-center  h-full">
                   <div className="flex flex-col gap-2 ">
-                    {navigation.map((item) => (
+                    {navigationMob.map((item) => (
                       <NavLink
                         key={item.name}
                         to={item.href}
