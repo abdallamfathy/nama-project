@@ -6,9 +6,10 @@ import Projects from "./Projects";
 import Products from "./Products";
 import Social from "./Social";
 import About from "./About";
+import AboutMob from "./AboutMob";
 import Slider from "./Slider";
 // import CartProduct from "./CartProduct"
 import Order from "./Order"
 
 
-export  { Contact, Slider, Footer, Navbar, Main, Projects, Products, Social, About , Order  };
+export  { Contact, Slider, Footer, Navbar, Main, Projects, Products, Social, About , Order , AboutMob  };
