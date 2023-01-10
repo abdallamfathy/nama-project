@@ -26,23 +26,16 @@ const WhyUs = () => {
       <div className="md:h-96 h-[479px] w-full">
       <Swiper
         modules={[A11y, EffectFade, Autoplay, Pagination]}
-        pagination={{ clickable: true }}
         effect={"fade"}
         // speed={2000}
         // autoplay={{ delay: 2000, disableOnInteraction: false }}
         className="mySwiper "
-        style={{
-          "--swiper-pagination-color": "#FF7315",
-          "--swiper-pagination-bullet-inactive-color": "",
-          "--swiper-pagination-bullet-inactive-opacity": "1",
-          "--swiper-pagination-bullet-size": "8px",
-        }}
       >
         <SwiperSlide>
             
           <div className="max-sm:flex max-sm:flex-col max-sm:gap-6">
-          <div className="flex flex-col justify-start  relative md:bottom-28  text-right w-96 max-sm:w-full max-sm:mb-14">
-            <h1 className="2xl:text-[34px] text-[32px] font-semibold text-[#FF7315] max-sm:text-2xl ">
+          <div className="flex flex-col justify-start  relative md:bottom-28  text-right w-96 max-sm:w-full max-sm:mb-10">
+            <h1 className="2xl:text-[34px] text-[32px] font-semibold text-[#FF7315] max-sm:text-2xl max-sm:mb-3 ">
               خصائص بركانى نما طيبة
             </h1>
             <div className=" md:-mb-10 text-xl 2xl:text-2xl">
@@ -51,7 +44,7 @@ const WhyUs = () => {
               اللياثة
             </div>
           </div>
-          <div>
+          <div className="max-sm:mt-2">
           <p className="relative    text-sm text-center  p-3 py-4 text-white bg-[#3A3535] rounded-3xl shadow-lg max-sm:w-64 max-sm:top-2">
             مقاوم للملوحة والرطوبة
           </p>

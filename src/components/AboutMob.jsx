@@ -27,11 +27,7 @@ const AboutMob = () => {
           EffectFade,
           Autoplay,
         ]}
-        pagination={{
-          dynamicBullets: false,
-          clickable: true,
-          background: "red",
-        }}
+       
         effect={"fade"}
         speed={2500}
         autoplay={{ delay: 1500, disableOnInteraction: false }}

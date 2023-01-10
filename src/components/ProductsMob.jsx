@@ -20,7 +20,7 @@ import "swiper/css/effect-fade";
 import "../index.css";
 
 
-const Products = () => {
+const ProductsMob = () => {
   const name = products.map((product) => product.name);
   const size = products.map((product) => product.size);
   const color = products.map((product) => product.color);
@@ -285,4 +285,4 @@ const Products = () => {
   );
 };
 
-export default Products;
+export default ProductsMob;
