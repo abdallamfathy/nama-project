@@ -27,8 +27,8 @@ const WhyUs = () => {
       <Swiper
         modules={[A11y, EffectFade, Autoplay, Pagination]}
         effect={"fade"}
-        // speed={2000}
-        // autoplay={{ delay: 2000, disableOnInteraction: false }}
+        speed={2000}
+        autoplay={{ delay: 2000, disableOnInteraction: false }}
         className="mySwiper "
       >
         <SwiperSlide>
