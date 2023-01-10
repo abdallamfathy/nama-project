@@ -64,10 +64,17 @@ button:focus {
   .swiper-pagination-bullet-active {
     background-color: #FF7315 !important;
   } */
-  .swiper-pagination {
+  .alo .swiper-pagination {
     
-     left: 530px !important; 
-     bottom: 70px !important;
+    left: 530px !important; 
+    bottom: 70px !important;
+    
+} 
+  .prod .swiper-pagination {
+    
+    left: 6px !important; 
+    top: 400px !important;
+    z-index: 10;
     
 } 
 

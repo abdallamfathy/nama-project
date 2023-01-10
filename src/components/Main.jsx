@@ -1,5 +1,5 @@
 import React from "react";
-import { Products, Footer, Contact, AboutMob } from ".";
+import { Products, Footer, Contact, AboutMob, ProductsMob } from ".";
 import Certificates from "./Certificates";
 import Navbar from "./Navbar";
 import Partners from "./Partners";
@@ -18,7 +18,8 @@ const Main = () => {
       <div className="max-sm:hidden"><About /></div>
       <div className="md:hidden"><AboutMob /></div>
       <Certificates />
-      <Products />
+      <div className="max-sm:hidden"><Products /></div>
+      <div className="md:hidden"><ProductsMob /></div>
       <Quality />
       <Partners />
       <Contact />
