@@ -52,22 +52,22 @@ const WhyUs = () => {
             </div>
           </div>
           <div>
-          <p className="relative    text-sm text-center  p-3 py-4 text-white bg-[#3A3535] rounded-3xl shadow-2xl max-sm:w-64 max-sm:top-2">
+          <p className="relative    text-sm text-center  p-3 py-4 text-white bg-[#3A3535] rounded-3xl shadow-lg max-sm:w-64 max-sm:top-2">
             مقاوم للملوحة والرطوبة
           </p>
-          <p className="relative -top-28 left-20 text-center text-sm md:flex items-center p-1   py-4 justify-center text-white bg-[#3A3535] rounded-3xl shadow-2xl max-sm:w-44 max-sm:left-44">
+          <p className="relative -top-28 left-20 text-center text-sm md:flex items-center p-1   py-4 justify-center text-white bg-[#3A3535] rounded-3xl shadow-lg max-sm:w-44 max-sm:left-44">
             متوفر بجميع الأشكال
           </p>
-          <p className="relative top-2  left-24 text-[16px] text-center p-3 py-4  text-white bg-[#3A3535] rounded-3xl shadow-2xl max-sm:text-sm max-sm:w-44 max-sm:-top-8">
+          <p className="relative top-2  left-24 text-[16px] text-center p-3 py-4  text-white bg-[#3A3535] rounded-3xl shadow-lg max-sm:text-sm max-sm:w-44 max-sm:-top-8">
             خشونة السطح
           </p>
           <p
             className="relative top-28  text-[16px] text-center p-3 py-4 text-white bg-[#3A3535] 
-            rounded-3xl shadow-2xl max-sm:text-sm max-sm:w-64 max-sm:-top-5 max-sm:left-28"
+            rounded-3xl shadow-lg max-sm:text-sm max-sm:w-64 max-sm:-top-5 max-sm:left-28"
             >
             عازل طبيعى للحرارة والصوت
           </p>
-          <p className="relative right-[430px] text-sm 2xl:right-[600px] top-36 text-center  p-3 py-4  text-white bg-[#3A3535] rounded-3xl shadow-2xl max-sm:w-64 max-sm:right-0 max-sm:-top-3">
+          <p className="relative right-[430px] text-sm 2xl:right-[600px] top-36 text-center  p-3 py-4  text-white bg-[#3A3535] rounded-3xl shadow-lg max-sm:w-64 max-sm:right-0 max-sm:-top-3">
             مقاوم للتصدع والتشقيق
           </p>
           </div>
@@ -76,21 +76,21 @@ const WhyUs = () => {
         </SwiperSlide>
         <SwiperSlide>
           <div className="flex flex-row justify-center items-center gap-8">
-            <span className=" relative bottom-14 left-4 text-center  p-1   text-white bg-[#3A3535] rounded-3xl shadow-2xl">
+            <span className=" relative bottom-14 left-4 text-center  p-1   text-white bg-[#3A3535] rounded-3xl shadow-lg">
               <h1 className="text-xl font-semibold">خفيف الوزن</h1>
               <p className="font-light text-sm mt-2 leading-6 p-1 w-52">
                 يعتبر أخف وزن بكثير من البلك الأسمنتى والبلك الطينى الحامل من
                 نفس المقاس
               </p>
             </span>
-            <span className=" relative top-20 right-56 text-center  p-1   text-white bg-[#3A3535] rounded-3xl shadow-2xl max-sm:right-0 max-sm:top-28">
+            <span className=" relative top-20 right-56 text-center  p-1   text-white bg-[#3A3535] rounded-3xl shadow-lg max-sm:right-0 max-sm:top-28">
               <h1 className="text-xl font-semibold">القوة والمتانة</h1>
               <p className="font-light text-sm mt-2 leading-6 p-1 w-48 max-sm:leading-9">
                 نتيجة ارتفاع قوة الضغط المستخدمة فى التصنيع فان مقاومته للضغط
                 عالية جدا
               </p>
             </span>
-            <span className=" relative right-44 text-center  p-2   text-white bg-[#3A3535] rounded-3xl shadow-2xl max-sm:right-[230px] max-sm:bottom-28">
+            <span className=" relative right-44 text-center  p-2   text-white bg-[#3A3535] rounded-3xl shadow-lg max-sm:right-[230px] max-sm:bottom-28">
               <h1 className="text-xl font-semibold">يقبل تركيب المسامير </h1>
               <p className="font-light text-sm mt-2 leading-10 md:leading-6 md:w-44 w-[176px]">
                 يتحمل البلك البركانى عملية تركيب المسامير فى الجدران بكفائة
@@ -98,7 +98,7 @@ const WhyUs = () => {
                 والحجر
               </p>
             </span>
-            <span className="relative right-36 bottom-20  text-center  p-2   text-white bg-[#3A3535] rounded-3xl shadow-2xl max-sm:right-64 max-sm:bottom-[85px]">
+            <span className="relative right-36 bottom-20  text-center  p-2   text-white bg-[#3A3535] rounded-3xl shadow-lg max-sm:right-64 max-sm:bottom-[85px]">
               <h1 className="text-xl font-semibold">سهولة التلييس </h1>
               <p className="font-light text-sm mt-2 leading-6 w-44 px-2 max-sm:w-[147px] max-sm:leading-8 ">
                 يمتاز البك البركانى بسطحه الخشن وهذا يساعد على تماسك اللياسة مع
@@ -111,20 +111,20 @@ const WhyUs = () => {
         <SwiperSlide>
           <div className="flex flex-row justify-center items-center gap-4">
 
-            <span className=" relative top-20 right-20 text-center  p-1   text-white bg-[#3A3535] rounded-3xl shadow-2xl max-sm:left-[196px] max-sm:top-40 ">
+            <span className=" relative top-20 right-20 text-center  p-1   text-white bg-[#3A3535] rounded-3xl shadow-lg max-sm:left-[196px] max-sm:top-40 ">
               <h1 className="text-xl font-semibold">مقاوم للحريق</h1>
               <p className="font-light text-sm mt-2 leading-6 p-1 w-48 max-sm:w-72">
                 يعتبر من أفضل أنواع البلك على الاطلاق فى مقاومة النار واللهب
                 المباشر حيث أن المادة الأولية هى مادة خاملة غير قابلة للاحتراق
               </p>
             </span>
-            <span className=" relative right-10 bottom-20 text-center  p-2   text-white bg-[#3A3535] rounded-3xl shadow-2xl max-sm:right-[150px]">
+            <span className=" relative right-10 bottom-20 text-center  p-2   text-white bg-[#3A3535] rounded-3xl shadow-lg max-sm:right-[150px]">
               <h1 className="text-xl font-semibold">يقبل تركيب المسامير </h1>
               <p className="font-light text-sm mt-2 leading-6 w-44 max-sm:leading-10">
               يتحمل البلك البركاني عملية تركيب المسامير فى الجدران بكفاءة عالية خاصة عند تركيب المفصلات للأبواب والمسامير ولتثبيت الرخام والحجر              
               </p>
             </span>
-            <span className="relative    text-center  p-2   text-white bg-[#3A3535] rounded-3xl shadow-2xl max-sm:right-[158px] max-sm:bottom-[70px]">
+            <span className="relative    text-center  p-2   text-white bg-[#3A3535] rounded-3xl shadow-lg max-sm:right-[158px] max-sm:bottom-[70px]">
               <h1 className="text-xl font-semibold">سهولة التمديدات </h1>
               <p className="font-light text-sm mt-2 leading-6 w-44 px-2 max-sm:leading-8 max-sm:w-36">
                 يمكن قص البلك البركانى بدون أن ينكسر وتجرى التمديدات على الفجوة
