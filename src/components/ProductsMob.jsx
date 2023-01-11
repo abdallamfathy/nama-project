@@ -174,9 +174,9 @@ const ProductsMob = () => {
             Autoplay,
           ]}
           pagination={{
-            dynamicBullets: false,
+            dynamicBullets: true,
             clickable: true,
-            
+            dynamicMainBullets: 4
           }}
           effect={"fade"}
           // navigation
@@ -188,7 +188,7 @@ const ProductsMob = () => {
             "--swiper-pagination-bullet-inactive-opacity": "1",
             "--swiper-pagination-bullet-size": "10px",
           }}
-        className="prod">
+        className="">
           {products.map((product) => (
               <SwiperSlide>
               <div
