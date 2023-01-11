@@ -83,7 +83,9 @@ button:focus {
   font-weight: 800 !important;
 }
 
-
+p , h2 {
+  direction: rtl !important;
+}
 
   .swiper-button-next {
     @apply  bg-[url('./assets/sarrowl.png')] !important; }
