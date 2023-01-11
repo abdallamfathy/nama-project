@@ -11,7 +11,7 @@ import Chat from "./Chat";
 
 const Main = () => {
   return (
-    <div className="overflow-hidde">
+    <div className="overflow-hidden">
       <Navbar textColor="text-white" />
       <div className="max-sm:hidden"><Slider /></div>
       <WhyUs />
