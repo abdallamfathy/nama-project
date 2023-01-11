@@ -18,20 +18,20 @@ const PartnersPage = () => {
         textColor="text-[#3A3535] border-b border-[#ff731573]"
         socialDisplay="hidden"
       />
-      <div className="2xl:mx-20 mx-12">
-        <div className="flex justify-end mt-36 pb-10 items-baseline gap-4">
-          <h1 className="text-3xl font-bold text-[#FF7315]">شركاء النجاح</h1>
+      <div className="2xl:mx-20 mx-12 max-sm:m-5">
+        <div className="flex justify-end mt-36 pb-10 items-baseline gap-4 max-sm:my-5">
+          <h1 className="text-3xl font-bold text-[#FF7315] max-sm:text-2xl">شركاء النجاح</h1>
           <span>
             <FaLessThan />
           </span>
-          <h1 className="text-2xl text-[#3A3535]">الرئيسية</h1>
+          <h1 className="text-2xl text-[#3A3535] max-sm:text-xl">الرئيسية</h1>
         </div>
-        <div className="flex justify-center flex-wrap 2xl:gap-44 2xl:gap-x-60 gap-x-40 gap-24  ">
-        <img src={mohaidlogo} alt="image" className="w-44 h-40" />
-        <img src={mezlogo} alt="image"  className="w-48 h-40" />
-        <img src={typologo} alt="image"  className="w-44 h-40"/>
-        <img src={arablogo} alt="image"  className="w-44 h-40"/>
-        <img src={bonlogo} alt="image"  className="w-48 h-40"/>
+        <div className="flex justify-center flex-wrap 2xl:gap-44 2xl:gap-x-60 gap-x-40 gap-24 max-sm:gap-12 ">
+        <img src={mohaidlogo} alt="image" className="w-44 h-40 max-sm:w-40 max-sm:h-32" />
+        <img src={mezlogo} alt="image"  className="w-48 h-40 max-sm:w-40 max-sm:h-32" />
+        <img src={typologo} alt="image"  className="w-44 h-40 max-sm:w-40 max-sm:h-32"/>
+        <img src={bonlogo} alt="image"  className="w-48 h-40 max-sm:w-40 max-sm:h-32"/>
+        <img src={arablogo} alt="image"  className="w-44 h-40 max-sm:w-40 max-sm:h-32"/>
       </div>
       </div>
       <Footer />
