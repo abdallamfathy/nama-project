@@ -196,9 +196,9 @@ const ProductsMob = () => {
                       className=" flex flex-col cursor-pointer justify-between items-center 2xl:w-[305px] 2xl:h-[342px] w-[270px] h-96 relative group  rounded-lg border border-gray-50 shadow-lg mb-20 "
                     >
                 <div className=" w-full">
-                  <div className="flex justify-between gap-[140px] absolute z-10">
-                  <img src={gurante} alt="gurante" className="object-contain w-16"/>
-                    {!product.gur &&  <img src={code} alt="code" className="object-contain w-16 rounded-tr-lg"/> }
+                <div className="flex justify-between gap-[140px] absolute z-10 mt-3">
+                  <img src={gurante} alt="gurante" className="object-contain w-16  "/>
+                    {!product.gur &&  <img src={code} alt="code" className="object-contain w-14 rounded-tr-lg ml-2"/> }
                   </div>
                 <Swiper
                 modules={[
