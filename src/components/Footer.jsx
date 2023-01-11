@@ -14,7 +14,7 @@ import { FaSnapchat } from "react-icons/fa";
 const Footer = () => {
   return (
     <div className="bg-[#222222]">
-      <div className=" mt-6  mx-20 grid  grid-cols-5 justify-end text-white max-sm:m-5 max-sm:flex max-sm:flex-col">
+      <div className=" mt-6  mx-20 grid  grid-cols-5 justify-end text-white max-sm:mx-5 max-sm:flex max-sm:flex-col">
         
         
 
