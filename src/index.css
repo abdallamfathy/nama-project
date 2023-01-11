@@ -84,6 +84,7 @@ button:focus {
 }
 
 
+
   .swiper-button-next {
     @apply  bg-[url('./assets/sarrowl.png')] !important; }
 
