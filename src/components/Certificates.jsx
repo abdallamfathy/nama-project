@@ -22,7 +22,6 @@ const Certificates = () => {
         <img src={citylogo} alt="image"  className="w-52 h-44 max-sm:w-36 max-sm:h-24"/>
         <img src={energylogo} alt="image"  className="w-52 h-44 max-sm:w-36 max-sm:h-24"/>
         <img src={envlogo} alt="image" className="w-52 h-44 max-sm:w-36 max-sm:h-24" />
-
       </div>
     </div>
   );

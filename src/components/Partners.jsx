@@ -19,7 +19,6 @@ const Partners = () => {
         <img src={typologo} alt="image"  className="w-44 h-40 max-sm:w-36 max-sm:h-32"/>
         <img src={bonlogo} alt="image"  className="w-48 h-40 max-sm:w-40 max-sm:h-20"/>
         <img src={arablogo} alt="image"  className="w-44 h-40 max-sm:w-40 max-sm:h-36"/>
-
       </div>
       {/* <Button text={"عرض المزيد"} href={"/partners"} /> */}
     </div>
