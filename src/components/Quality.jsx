@@ -49,9 +49,8 @@ const Quality = () => {
           className="mySwiper"
         >
           {qualityImages.map((quality) => (
-          <SwiperSlide>
+          <SwiperSlide key={quality.id} >
             <img
-              key={quality.id}
               src={quality.image}
               alt="image"
               className="w-[351px] h-[497px] shadow-lg my-2 mb-4"

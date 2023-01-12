@@ -192,7 +192,7 @@ const ProductsMob = () => {
           {products.map((product) => (
               <SwiperSlide>
               <div
-                      
+                      key={product.id} 
                       className=" flex flex-col cursor-pointer justify-between items-center 2xl:w-[305px] 2xl:h-[342px] w-[270px] h-96 relative group  rounded-lg border border-gray-50 shadow-lg mb-20 "
                     >
                 <div className=" w-full">

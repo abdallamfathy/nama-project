@@ -153,7 +153,7 @@ const Products = () => {
         <div className="flex flex-wrap flex-row justify-center  gap-20 2xl:gap-x-32  gap-x-[125px]">
           {products.map((product) => (
             <div
-              
+              key={product.id}
               className=" flex flex-col cursor-pointer justify-between items-center 2xl:w-[305px] 2xl:h-[342px] w-[270px] h-96 relative group  rounded-lg border border-gray-50 shadow-lg  "
             >
         <div className=" w-full">
@@ -178,7 +178,7 @@ const Products = () => {
       >
         <SwiperSlide>
         <div className=" h-64 w-full flex justify-center items-center  "> 
-        <img
+        <img    
                 className="transition duration-[2000]  delay-300 hover:transition-all ease-out     hover:w-44  w-36 h-36 hover:h-44 object-contain"
                 src={product.image}
                 alt="productImage"
@@ -191,7 +191,7 @@ const Products = () => {
         </SwiperSlide>
         <SwiperSlide>
         <div className=" h-64 pt-1 w-full flex justify-center items-center  "> 
-        <img
+        <img  
                 className="-my-10 transition duration-[2000]  delay-300 hover:transition-all ease-out    hover:w-48  w-36 h-36 hover:h-48  rotate-90 object-contain"
                 src={product.image}
                 alt="productImage"
