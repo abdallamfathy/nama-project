@@ -167,7 +167,7 @@ const Discounts = () => {
       <div className="flex flex-wrap flex-row justify-center  gap-32 2xl:gap-x-32  gap-x-[95px] max-sm:hidden">
           {products.map((product) => (
             <div
-              
+              key={product.id} 
               className=" flex flex-col cursor-pointer justify-between items-center 2xl:w-[305px] 2xl:h-[342px] w-[270px] h-96 relative group  rounded-lg border z-10 border-gray-50 shadow-lg  "
             >
         <div className=" w-full">
@@ -278,7 +278,7 @@ const Discounts = () => {
           }}
         className="">
           {products.map((product) => (
-              <SwiperSlide>
+              <SwiperSlide key={product.id} >
               <div
                       
                       className=" flex flex-col cursor-pointer justify-between items-center 2xl:w-[305px] 2xl:h-[342px] w-[270px] h-96 relative group  rounded-lg border border-gray-50 shadow-lg mb-20 "
