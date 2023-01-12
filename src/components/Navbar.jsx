@@ -123,14 +123,14 @@ const Navbar = ({ textColor, socialDisplay }) => {
               <>
               {/* //make navbar for mobile here  */}
               
-              <div className="absolute top-16 right-0 w-32 transition-all ease-out duration-300 h-64 rounded-l-xl bg-black text-white z-50">
+              <div className="absolute top-16 right-7 w-32 transition-all ease-out duration-300 h-72 rounded-l-xl bg-black text-white z-50">
                 <div className="flex  flex-col justify-center items-center  h-full">
                   <div className="flex flex-col gap-2 ">
                     {navigationMob.map((item) => (
                       <NavLink
                         key={item.name}
                         to={item.href}
-                        className={`font-medium  text-lg  border-b border-white text-center pb-2  cursor-pointer  hover:text-[#FF7315] activeClassName="active"  `}
+                        className={`font-medium  text-lg  border-b border-white last:border-0 text-center pb-2  cursor-pointer  hover:text-[#FF7315] activeClassName="active"  `}
                       >
                         {item.name}
                       </NavLink>
