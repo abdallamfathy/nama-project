@@ -142,7 +142,7 @@ const Navbar = ({ textColor, socialDisplay }) => {
               </>
             }
             </div>
-            <div className="bg-gray- p-2 rounded-xl fixed  h-52 z-50  left-[90px] top-96 2xl:top-[579px]">
+            <div className="bg-gray- p-2 rounded-xl fixed  h-52 z-50  left-[90px] top-96 2xl:top-[579px] max-sm:hidden">
                 <a href="https://wa.me/09660555301707" target="_blank" >
                   <img src={whatsapp} alt="whatsapp" className="w-12" />
                 </a>

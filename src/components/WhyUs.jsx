@@ -32,8 +32,38 @@ const WhyUs = () => {
         className="mySwiper "
       >
         <SwiperSlide>
-            
-          <div className="max-sm:flex max-sm:flex-col max-sm:gap-6">
+        <SwiperSlide className="max-sm:hidden">
+
+<span className="relative    text-sm text-center  p-3 py-4 text-white bg-[#3A3535] rounded-3xl shadow-2xl">
+  مقاوم للملوحة والرطوبة
+</span>
+<span className="relative -top-28 left-20 text-center text-sm flex items-center p-1 py-4 justify-center text-white bg-[#3A3535] rounded-3xl shadow-2xl">
+  متوفر بجميع الأشكال
+</span>
+<span className="relative top-2  left-24 text-[16px] text-center p-3 py-4  justify-center text-white bg-[#3A3535] rounded-3xl shadow-2xl">
+  خشونة السطح
+</span>
+<span
+  className="relative top-28  text-[16px] text-center p-3 py-4 text-white bg-[#3A3535] 
+  rounded-3xl shadow-2xl"
+  >
+  عازل طبيعى للحرارة والصوت
+</span>
+<span className="relative right-[430px] text-sm 2xl:right-[600px] top-36 text-center  p-3 py-4  text-white bg-[#3A3535] rounded-3xl shadow-2xl">
+  مقاوم للتصدع والتشقيق
+</span>
+<div className="flex flex-col justify-start  relative bottom-28  text-right w-96">
+  <h1 className="2xl:text-[34px] text-[32px] font-semibold text-[#FF7315] ">
+    خصائص بركانى نما طيبة
+  </h1>
+  <p className=" -mb-10 text-xl 2xl:text-2xl">
+    بلك نما طيبة المعزول هو مثالى للبناء من جميع النواحى فهو فعال من
+    حيث التكلفة وسهولة الاستخدام ويوفر خلفية مثالية لقبول أعمال
+    اللياثة
+  </p>
+</div>
+</SwiperSlide>
+          <div className="max-sm:flex max-sm:flex-col max-sm:gap-6 md:hidden">
           <div className="flex flex-col justify-start  relative md:bottom-28  text-right w-96 max-sm:w-full max-sm:mb-10">
             <h1 className="2xl:text-[34px] text-[32px] font-semibold text-[#FF7315] max-sm:text-2xl max-sm:mb-3 ">
               خصائص بركانى نما طيبة
