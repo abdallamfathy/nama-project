@@ -11,6 +11,15 @@ import brick10 from "../assets/brick10.png";
 import brick11 from "../assets/brick11.png";
 import brick12 from "../assets/brick12.png";
 
+import cert1 from "../assets/cert/cert1.jpeg"
+import cert2 from "../assets/cert/cert2.jpeg"
+import cert3 from "../assets/cert/cert3.jpeg"
+import cert4 from "../assets/cert/cert4.jpeg"
+import cert5 from "../assets/cert/cert5.jpeg"
+import cert6 from "../assets/cert/cert6.jpeg"
+import cert7 from "../assets/cert/cert7.jpeg"
+import cert8 from "../assets/cert/cert8.jpeg"
+
 export const products = [
   {
     id: 1,
@@ -636,4 +645,39 @@ export const productDetails = [
     href: "/products/white",
     image: brick7,
   },
+];
+
+export const quality = [
+  {
+    id: 1,
+    image: cert1,
+  },
+  {
+    id: 2,
+    image: cert2,
+  },
+  {
+    id: 3,
+    image: cert3,
+  },
+  {
+    id: 4,
+    image: cert4,
+  },
+  {
+    id: 5,
+    image: cert5,
+  },
+  {
+    id: 6,
+    image: cert6,
+  },
+  {
+    id: 7,
+    image: cert7,
+  },
+  {
+    id: 8,
+    image: cert8,
+  }
 ];

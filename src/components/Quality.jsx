@@ -2,10 +2,13 @@ import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import SwiperCore, { Navigation, Pagination, Scrollbar, A11y } from "swiper";
 import "swiper/css";
-import quality from "../assets/quality.png";
 import Button from "./Button";
+import {  quality } from './Constants'
 
 const Quality = () => {
+
+  const qualityImages = quality;
+
   return (
     <div className="2xl:my-20 my-12 max-sm:m-5">
       <div className="flex flex-col  justify-center  mx-20 2xl:mx-28 max-sm:mx-5">
@@ -22,69 +25,16 @@ const Quality = () => {
           scrollbar={{ draggable: true }}
           className="mySwiper"
         >
-          <SwiperSlide>
+          {qualityImages.map((quality) => (
+
+          <SwiperSlide key={quality.id}>
             <img
-              src={quality}
+              src={quality.image}
               alt="image"
               className="w-[351px] h-[497px] shadow-lg my-2 mb-4"
             />
           </SwiperSlide>
-          <SwiperSlide >
-            <img
-              src={quality}
-              alt="image"
-              className="w-[351px] h-[497px] shadow-lg my-2 mb-4"
-            />
-          </SwiperSlide>
-          <SwiperSlide >
-            <img
-              src={quality}
-              alt="image"
-              className="w-[351px] h-[497px] shadow-lg my-2 mb-4"
-            />
-          </SwiperSlide>
-          <SwiperSlide >
-            <img
-              src={quality}
-              alt="image"
-              className="w-[351px] h-[497px] shadow-lg my-2 mb-4"
-            />
-          </SwiperSlide>
-          <SwiperSlide >
-            <img
-              src={quality}
-              alt="image"
-              className="w-[351px] h-[497px] shadow-lg my-2 mb-4"
-            />
-          </SwiperSlide>
-          <SwiperSlide >
-            <img
-              src={quality}
-              alt="image"
-              className="w-[351px] h-[497px] shadow-lg my-2 mb-4"
-            />
-          </SwiperSlide>
-          <SwiperSlide >
-            <img
-              src={quality}
-              alt="image"
-              className="w-[351px] h-[497px] shadow-lg my-2 mb-4"
-            />
-          </SwiperSlide>
-          <SwiperSlide >
-            <img
-              src={quality}
-              alt="image"
-              className="w-[351px] h-[497px] shadow-lg my-2 mb-4"
-            />
-          </SwiperSlide>
-          <SwiperSlide >
-            <img
-              src={quality}
-              alt="image"
-              className="w-[351px] h-[497px] shadow-lg my-2 mb-4"
-            />
-          </SwiperSlide>
+          ))}
         </Swiper>
       </div>
 
@@ -98,69 +48,16 @@ const Quality = () => {
           scrollbar={{ draggable: true }}
           className="mySwiper"
         >
+          {qualityImages.map((quality) => (
           <SwiperSlide>
             <img
-              src={quality}
+              key={quality.id}
+              src={quality.image}
               alt="image"
               className="w-[351px] h-[497px] shadow-lg my-2 mb-4"
             />
           </SwiperSlide>
-          <SwiperSlide >
-            <img
-              src={quality}
-              alt="image"
-              className="w-[351px] h-[497px] shadow-lg my-2 mb-4"
-            />
-          </SwiperSlide>
-          <SwiperSlide >
-            <img
-              src={quality}
-              alt="image"
-              className="w-[351px] h-[497px] shadow-lg my-2 mb-4"
-            />
-          </SwiperSlide>
-          <SwiperSlide >
-            <img
-              src={quality}
-              alt="image"
-              className="w-[351px] h-[497px] shadow-lg my-2 mb-4"
-            />
-          </SwiperSlide>
-          <SwiperSlide >
-            <img
-              src={quality}
-              alt="image"
-              className="w-[351px] h-[497px] shadow-lg my-2 mb-4"
-            />
-          </SwiperSlide>
-          <SwiperSlide >
-            <img
-              src={quality}
-              alt="image"
-              className="w-[351px] h-[497px] shadow-lg my-2 mb-4"
-            />
-          </SwiperSlide>
-          <SwiperSlide >
-            <img
-              src={quality}
-              alt="image"
-              className="w-[351px] h-[497px] shadow-lg my-2 mb-4"
-            />
-          </SwiperSlide>
-          <SwiperSlide >
-            <img
-              src={quality}
-              alt="image"
-              className="w-[351px] h-[497px] shadow-lg my-2 mb-4"
-            />
-          </SwiperSlide>
-          <SwiperSlide >
-            <img
-              src={quality}
-              alt="image"
-              className="w-[351px] h-[497px] shadow-lg my-2 mb-4"
-            />
-          </SwiperSlide>
+          ))}
         </Swiper>
       </div>
     <div className="max-sm:-mt-10">  <Button text={"عرض المزيد"} href={"/quality"} />
