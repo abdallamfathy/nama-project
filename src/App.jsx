@@ -10,6 +10,7 @@ import ProductsNormal from './pages/ProductsNormal'
 import ProductsBlue from './pages/ProductsBlue'
 import Checkout from './pages/Checkout'
 import Cart from './pages/Cart'
+import Discounts from './pages/Discounts'
 
 function App() {
   return (
@@ -23,7 +24,7 @@ function App() {
           <Route path="/quality" element={<QualityPage />} />
           <Route path="/products/white" element={<ProductsWhite />} />
           <Route path="/products/normal" element={<ProductsNormal />} />
-          <Route path="/products/blue" element={<ProductsBlue />} />
+          <Route path="/product/discount" element={<Discounts />} />
           <Route path="/checkout" element={<Checkout />} />
           <Route path="/cart" element={<Cart />} />
         </Routes>

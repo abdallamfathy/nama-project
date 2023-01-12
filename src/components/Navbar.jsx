@@ -24,6 +24,7 @@ const Navbar = ({ textColor, socialDisplay }) => {
   const params = useParams();
 
   const navigation = [
+    { name: "العروض", href: "/product/discount", current: false },
     { name: "شركاء النجاح", href: "/partners", current: false },
     { name: "الجودة", href: "/quality", current: false },
     { name: "من نحن", href: "/about", current: false },
@@ -36,6 +37,8 @@ const Navbar = ({ textColor, socialDisplay }) => {
     { name: "من نحن", href: "/about", current: false },
     { name: "الجودة", href: "/quality", current: false },
     { name: "شركاء النجاح", href: "/partners", current: false },
+    { name: "العروض", href: "/product/discount", current: false },
+
   ];
   const [searchTerm, setSearchTerm] = useState("");
   const [search, setSearch] = useState(false);
