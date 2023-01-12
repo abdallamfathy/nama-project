@@ -414,7 +414,7 @@ export const productsDiscount = [
   },
   {
     id: 9,
-    name: "بلوك حرف U",
+    name: " بلوك حرف U",
     size: "مقاس 20×20×40",
     price: "3550",
     sale: "3100",
