@@ -51,19 +51,20 @@ button:focus {
     height: 100%;
     object-fit: cover;
   }
-/* .swiper-pagination-bullet{
+.hero .swiper-pagination-bullet{
       background: white !important;
       width: 1rem !important;
       height: 1rem  !important;
       border-radius: .5rem !important;
       opacity: 1 !important;
       position: relative;
-      right: 10px !important;
+      left: 650px !important;
+      bottom: 70px !important;
   }
   
-  .swiper-pagination-bullet-active {
+  .hero .swiper-pagination-bullet-active {
     background-color: #FF7315 !important;
-  } */
+  }
   .alo .swiper-pagination {
     
     left: 530px !important; 

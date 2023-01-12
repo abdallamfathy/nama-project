@@ -29,7 +29,7 @@ const Slider = () => {
       تحميل ملف نما طيبة
       </a>
       </h1>
-     <div className="flex flex-row  relative top-[430px] 2xl:top-[596px] right-44 gap-2 justify-center items-center">
+     <div className="flex flex-row  relative top-[430px] 2xl:top-[596px] right-36 gap-2 justify-center items-center">
        
      <h1 className="text-white z-40  text-center 2xl:text-2xl  text-[18px] ">
       0555301707 - 0500361234
@@ -55,7 +55,7 @@ const Slider = () => {
         effect={"fade"}
         speed={2500}
         autoplay={{ delay: 1500, disableOnInteraction: false }}
-        className="mySwiper -mt-32 "
+        className="mySwiper -mt-32 hero"
         style={{
           "--swiper-pagination-color": "#FF7315",
           "--swiper-pagination-bullet-inactive-color": "#fff",
