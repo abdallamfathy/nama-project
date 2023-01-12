@@ -107,11 +107,6 @@ const Discounts = () => {
           EffectFade,
           Autoplay,
         ]}
-        pagination={{
-          dynamicBullets: false,
-          clickable: true,
-          background: "red",
-        }}
         effect={"fade"}
         navigation
         // speed={2500}

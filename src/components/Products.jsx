@@ -93,11 +93,6 @@ const Products = () => {
           EffectFade,
           Autoplay,
         ]}
-        pagination={{
-          dynamicBullets: false,
-          clickable: true,
-          background: "red",
-        }}
         effect={"fade"}
         navigation
         // speed={2500}
@@ -175,11 +170,6 @@ const Products = () => {
           EffectFade,
           Autoplay,
         ]}
-        pagination={{
-          dynamicBullets: false,
-          clickable: true,
-          background: "red",
-        }}
         effect={"fade"}
         navigation
         // speed={2500}
